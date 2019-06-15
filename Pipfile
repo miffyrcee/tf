@@ -8,5 +8,8 @@ tensorflow = "*"
 tf-nightly = "*"
 numpy = "*"
 pandas = "*"
+matplotlib = "*"
+tensorflow-hub = "*"
+ipython = "*"
 
 [dev-packages]
