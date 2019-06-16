@@ -1,15 +1,17 @@
 [[source]]
+name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-name = "pypi"
-
-[packages]
-tensorflow = "*"
-tf-nightly = "*"
-numpy = "*"
-pandas = "*"
-matplotlib = "*"
-tensorflow-hub = "*"
-ipython = "*"
 
 [dev-packages]
+
+[packages]
+tensorflow = "==1.13.1"
+matplotlib = "*"
+ipython = "*"
+tensorflow-hub = "*"
+numpy = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.7"
