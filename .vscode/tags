@@ -1,0 +1,1207 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AFTER_BAR	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    AFTER_BAR = '\\033[?25h\\n'$/;"	kind:variable	line:31
+AFTER_BAR	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    AFTER_BAR = '\\n'$/;"	kind:variable	line:28
+APP_ENGINE	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^APP_ENGINE = ('APPENGINE_RUNTIME' in os.environ and$/;"	kind:variable	line:12
+Abort	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	kind:namespace	line:43
+Abort	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	kind:namespace	line:13
+Abort	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class Abort(RuntimeError):$/;"	kind:class	line:224
+Abort	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .exceptions import Abort, UsageError$/;"	kind:namespace	line:10
+Argument	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	kind:namespace	line:17
+Argument	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .core import MultiCommand, Option, Argument$/;"	kind:namespace	line:7
+Argument	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Argument(Parameter):$/;"	kind:class	line:1793
+Argument	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .core import Command, Group, Argument, Option$/;"	kind:namespace	line:311
+Argument	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^class Argument(object):$/;"	kind:class	line:164
+BEFORE_BAR	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    BEFORE_BAR = '\\r'$/;"	kind:variable	line:27
+BEFORE_BAR	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    BEFORE_BAR = '\\r\\033[?25l'$/;"	kind:variable	line:30
+BOOL	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+BOOL	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .types import convert_type, IntRange, BOOL$/;"	kind:namespace	line:9
+BOOL	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^BOOL = BoolParamType()$/;"	kind:variable	line:665
+BadArgumentUsage	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	kind:namespace	line:43
+BadArgumentUsage	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class BadArgumentUsage(UsageError):$/;"	kind:class	line:197
+BadArgumentUsage	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^     BadArgumentUsage$/;"	kind:namespace	line:22
+BadOptionUsage	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	kind:namespace	line:43
+BadOptionUsage	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class BadOptionUsage(UsageError):$/;"	kind:class	line:182
+BadOptionUsage	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^     BadArgumentUsage$/;"	kind:namespace	line:22
+BadParameter	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	kind:namespace	line:43
+BadParameter	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	kind:namespace	line:13
+BadParameter	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class BadParameter(UsageError):$/;"	kind:class	line:73
+BadParameter	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^from .exceptions import BadParameter$/;"	kind:namespace	line:7
+BaseCommand	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	kind:namespace	line:17
+BaseCommand	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^class BaseCommand(object):$/;"	kind:class	line:576
+BoolParamType	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class BoolParamType(ParamType):$/;"	kind:class	line:344
+CYGWIN	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^CYGWIN = sys.platform.startswith('cygwin')$/;"	kind:variable	line:10
+CYGWIN	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	kind:namespace	line:21
+Choice	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+Choice	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .types import Choice$/;"	kind:namespace	line:8
+Choice	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .types import convert_type, Choice, Path$/;"	kind:namespace	line:11
+Choice	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class Choice(ParamType):$/;"	kind:class	line:129
+CliRunner	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^class CliRunner(object):$/;"	kind:class	line:118
+CliRunner	../tests/test_tf.py	/^from click.testing import CliRunner$/;"	kind:namespace	line:8
+ClickException	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	kind:namespace	line:43
+ClickException	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^from .exceptions import ClickException$/;"	kind:namespace	line:23
+ClickException	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	kind:namespace	line:13
+ClickException	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class ClickException(Exception):$/;"	kind:class	line:11
+Command	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	kind:namespace	line:17
+Command	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Command(BaseCommand):$/;"	kind:class	line:767
+Command	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .core import Command, Group, Argument, Option$/;"	kind:namespace	line:311
+CommandCollection	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	kind:namespace	line:17
+CommandCollection	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^class CommandCollection(MultiCommand):$/;"	kind:class	line:1258
+CommandLineToArgvW	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^CommandLineToArgvW = WINFUNCTYPE($/;"	kind:variable	line:39
+CompositeParamType	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class CompositeParamType(ParamType):$/;"	kind:class	line:72
+ConsoleStream	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class ConsoleStream(object):$/;"	kind:class	line:168
+Context	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	kind:namespace	line:17
+Context	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Context(object):$/;"	kind:class	line:133
+Conv2D	../test.py	/^from tensorflow.keras.layers import Conv2D, Dense, Flatten$/;"	kind:namespace	line:6
+DEFAULT_COLUMNS	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    DEFAULT_COLUMNS = 79$/;"	kind:variable	line:587
+DEFAULT_COLUMNS	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^DEFAULT_COLUMNS = 80$/;"	kind:variable	line:15
+DEFAULT_COLUMNS	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	kind:namespace	line:8
+DEPRECATED_HELP_NOTICE	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^DEPRECATED_HELP_NOTICE = ' (DEPRECATED)'$/;"	kind:variable	line:29
+DEPRECATED_INVOKE_NOTICE	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^                           'The command %(name)s is deprecated.'$/;"	kind:variable	line:31
+DateTime	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+DateTime	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class DateTime(ParamType):$/;"	kind:class	line:186
+Dense	../test.py	/^from tensorflow.keras.layers import Conv2D, Dense, Flatten$/;"	kind:namespace	line:6
+EOF	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^EOF = b'\\x1a'$/;"	kind:variable	line:60
+EPOCHS	../test.py	/^EPOCHS = 5$/;"	kind:variable	line:72
+ERROR_NOT_ENOUGH_MEMORY	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^ERROR_NOT_ENOUGH_MEMORY = 8$/;"	kind:variable	line:53
+ERROR_OPERATION_ABORTED	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^ERROR_OPERATION_ABORTED = 995$/;"	kind:variable	line:54
+ERROR_SUCCESS	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^ERROR_SUCCESS = 0$/;"	kind:variable	line:52
+EchoingStdin	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^class EchoingStdin(object):$/;"	kind:class	line:25
+Editor	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^class Editor(object):$/;"	kind:class	line:395
+Editor	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    from ._termui_impl import Editor$/;"	kind:namespace	line:510
+Exit	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	kind:namespace	line:13
+Exit	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class Exit(RuntimeError):$/;"	kind:class	line:228
+FAKE_QUANT_OPS	../retrain.py	/^FAKE_QUANT_OPS = ('FakeQuantWithMinMaxVars',$/;"	kind:variable	line:139
+FLAGS	../retrain.py	/^FLAGS = None$/;"	kind:variable	line:133
+FLOAT	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+FLOAT	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^FLOAT = FloatParamType()$/;"	kind:variable	line:661
+FORCED_WIDTH	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^FORCED_WIDTH = None$/;"	kind:variable	line:8
+File	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+File	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class File(ParamType):$/;"	kind:class	line:377
+FileError	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	kind:namespace	line:43
+FileError	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class FileError(ClickException):$/;"	kind:class	line:209
+FileError	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^            from .exceptions import FileError$/;"	kind:namespace	line:118
+Flatten	../test.py	/^from tensorflow.keras.layers import Conv2D, Dense, Flatten$/;"	kind:namespace	line:6
+FloatParamType	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class FloatParamType(ParamType):$/;"	kind:class	line:291
+FloatRange	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+FloatRange	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class FloatRange(FloatParamType):$/;"	kind:class	line:305
+FuncParamType	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class FuncParamType(ParamType):$/;"	kind:class	line:80
+GetCommandLineW	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^GetCommandLineW = WINFUNCTYPE(LPWSTR)($/;"	kind:variable	line:37
+GetLastError	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^GetLastError = kernel32.GetLastError$/;"	kind:variable	line:36
+GetStdHandle	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^GetStdHandle = kernel32.GetStdHandle$/;"	kind:variable	line:33
+Group	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	kind:namespace	line:17
+Group	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Group(MultiCommand):$/;"	kind:class	line:1205
+Group	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .core import Command, Group, Argument, Option$/;"	kind:namespace	line:311
+HelpFormatter	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^from .formatting import HelpFormatter, wrap_text$/;"	kind:namespace	line:46
+HelpFormatter	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .formatting import HelpFormatter, join_options$/;"	kind:namespace	line:15
+HelpFormatter	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^class HelpFormatter(object):$/;"	kind:class	line:89
+INT	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+INT	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^INT = IntParamType()$/;"	kind:variable	line:657
+IntParamType	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class IntParamType(ParamType):$/;"	kind:class	line:239
+IntRange	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+IntRange	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .types import convert_type, IntRange, BOOL$/;"	kind:namespace	line:9
+IntRange	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class IntRange(IntParamType):$/;"	kind:class	line:252
+KeepOpenFile	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^class KeepOpenFile(object):$/;"	kind:class	line:146
+LPCWSTR	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^from ctypes.wintypes import LPWSTR, LPCWSTR$/;"	kind:namespace	line:27
+LPWSTR	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^from ctypes.wintypes import LPWSTR, LPCWSTR$/;"	kind:namespace	line:27
+LazyFile	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^from .utils import safecall, LazyFile$/;"	kind:namespace	line:8
+LazyFile	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^class LazyFile(object):$/;"	kind:class	line:70
+MAX_BYTES_WRITTEN	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^MAX_BYTES_WRITTEN = 32767$/;"	kind:variable	line:61
+MAX_NUM_IMAGES_PER_CLASS	../retrain.py	/^MAX_NUM_IMAGES_PER_CLASS = 2**27 - 1  # ~134M$/;"	kind:variable	line:135
+MissingParameter	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	kind:namespace	line:43
+MissingParameter	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	kind:namespace	line:13
+MissingParameter	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class MissingParameter(BadParameter):$/;"	kind:class	line:109
+Model	../test.py	/^from tensorflow.keras import Model$/;"	kind:namespace	line:5
+MultiCommand	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	kind:namespace	line:17
+MultiCommand	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .core import MultiCommand, Option, Argument$/;"	kind:namespace	line:7
+MultiCommand	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^class MultiCommand(Command):$/;"	kind:class	line:959
+MultiHeadAttention	../attention.py	/^class MultiHeadAttention(tf.keras.layers.Layer):$/;"	kind:class	line:44
+MyModel	../test.py	/^class MyModel(Model):$/;"	kind:class	line:22
+NoSuchOption	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	kind:namespace	line:43
+NoSuchOption	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class NoSuchOption(UsageError):$/;"	kind:class	line:156
+NoSuchOption	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^     BadArgumentUsage$/;"	kind:namespace	line:22
+Option	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	kind:namespace	line:17
+Option	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .core import MultiCommand, Option, Argument$/;"	kind:namespace	line:7
+Option	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Option(Parameter):$/;"	kind:class	line:1500
+Option	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .core import Command, Group, Argument, Option$/;"	kind:namespace	line:311
+Option	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^class Option(object):$/;"	kind:class	line:116
+OptionParser	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^from .parser import OptionParser$/;"	kind:namespace	line:49
+OptionParser	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .parser import OptionParser, split_opt$/;"	kind:namespace	line:16
+OptionParser	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^class OptionParser(object):$/;"	kind:class	line:192
+POINTER	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	kind:namespace	line:20
+PY2	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	kind:namespace	line:21
+PY2	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^from ._compat import PY2$/;"	kind:namespace	line:5
+PY2	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^from ._compat import _NonClosingTextIOWrapper, text_type, PY2$/;"	kind:namespace	line:18
+PY2	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._compat import PY2, isidentifier, iteritems, string_types$/;"	kind:namespace	line:19
+PY2	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^from ._compat import PY2, filename_to_ui, get_text_stderr$/;"	kind:namespace	line:1
+PY2	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^from ._compat import iteritems, PY2, string_types$/;"	kind:namespace	line:8
+PY2	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	kind:namespace	line:6
+PY2	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+PacifyFlushWrapper	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^     echo, get_os_args$/;"	kind:namespace	line:11
+PacifyFlushWrapper	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^class PacifyFlushWrapper(object):$/;"	kind:class	line:419
+ParamType	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+ParamType	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class ParamType(object):$/;"	kind:class	line:11
+Parameter	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	kind:namespace	line:17
+Parameter	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Parameter(object):$/;"	kind:class	line:1289
+ParsingState	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^class ParsingState(object):$/;"	kind:class	line:183
+Path	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+Path	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .types import convert_type, Choice, Path$/;"	kind:namespace	line:11
+Path	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class Path(ParamType):$/;"	kind:class	line:458
+ProgressBar	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^class ProgressBar(object):$/;"	kind:class	line:54
+ProgressBar	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    from ._termui_impl import ProgressBar$/;"	kind:namespace	line:344
+PyBUF_SIMPLE	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^PyBUF_SIMPLE = 0$/;"	kind:variable	line:49
+PyBUF_WRITABLE	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^PyBUF_WRITABLE = 1$/;"	kind:variable	line:50
+PyBuffer_Release	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    PyBuffer_Release = pythonapi.PyBuffer_Release$/;"	kind:variable	line:24
+PyObject_GetBuffer	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    PyObject_GetBuffer = pythonapi.PyObject_GetBuffer$/;"	kind:variable	line:23
+Py_buffer	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class Py_buffer(ctypes.Structure):$/;"	kind:class	line:64
+ReadConsoleW	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^ReadConsoleW = kernel32.ReadConsoleW$/;"	kind:variable	line:34
+Result	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^class Result(object):$/;"	kind:class	line:73
+STDERR_FILENO	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDERR_FILENO = 2$/;"	kind:variable	line:58
+STDERR_HANDLE	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDERR_HANDLE = GetStdHandle(-12)$/;"	kind:variable	line:46
+STDIN_FILENO	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDIN_FILENO = 0$/;"	kind:variable	line:56
+STDIN_HANDLE	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDIN_HANDLE = GetStdHandle(-10)$/;"	kind:variable	line:44
+STDOUT_FILENO	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDOUT_FILENO = 1$/;"	kind:variable	line:57
+STDOUT_HANDLE	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDOUT_HANDLE = GetStdHandle(-11)$/;"	kind:variable	line:45
+STRING	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+STRING	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^STRING = StringParamType()$/;"	kind:variable	line:653
+SUBCOMMANDS_METAVAR	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^SUBCOMMANDS_METAVAR = 'COMMAND1 [ARGS]... [COMMAND2 [ARGS]...]...'$/;"	kind:variable	line:27
+SUBCOMMAND_METAVAR	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^SUBCOMMAND_METAVAR = 'COMMAND [ARGS]...'$/;"	kind:variable	line:26
+StringIO	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    from cStringIO import StringIO$/;"	kind:namespace	line:19
+StringParamType	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class StringParamType(ParamType):$/;"	kind:class	line:107
+TestTf	../tests/test_tf.py	/^class TestTf(unittest.TestCase):$/;"	kind:class	line:14
+TextWrapper	../.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^class TextWrapper(textwrap.TextWrapper):$/;"	kind:class	line:5
+TextWrapper	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    from ._textwrap import TextWrapper$/;"	kind:namespace	line:45
+Tuple	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+Tuple	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class Tuple(CompositeParamType):$/;"	kind:class	line:563
+UNPROCESSED	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+UNPROCESSED	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^UNPROCESSED = UnprocessedParamType()$/;"	kind:variable	line:649
+UUID	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	kind:namespace	line:29
+UUID	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^UUID = UUIDParameterType()$/;"	kind:variable	line:668
+UUIDParameterType	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class UUIDParameterType(ParamType):$/;"	kind:class	line:361
+UnprocessedParamType	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^class UnprocessedParamType(ParamType):$/;"	kind:class	line:97
+UsageError	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	kind:namespace	line:43
+UsageError	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	kind:namespace	line:13
+UsageError	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class UsageError(ClickException):$/;"	kind:class	line:43
+UsageError	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^     BadArgumentUsage$/;"	kind:namespace	line:22
+UsageError	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .exceptions import Abort, UsageError$/;"	kind:namespace	line:10
+WIN	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^WIN = sys.platform.startswith('win') and not APP_ENGINE$/;"	kind:variable	line:14
+WIN	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	kind:namespace	line:21
+WIN	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	kind:namespace	line:8
+WIN	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+WINFUNCTYPE	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	kind:namespace	line:20
+WeakKeyDictionary	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^from weakref import WeakKeyDictionary$/;"	kind:namespace	line:6
+WindowsChunkedWriter	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class WindowsChunkedWriter(object):$/;"	kind:class	line:204
+WriteConsoleW	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^WriteConsoleW = kernel32.WriteConsoleW$/;"	kind:variable	line:35
+_AtomicFile	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^class _AtomicFile(object):$/;"	kind:class	line:528
+_FixupStream	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^class _FixupStream(object):$/;"	kind:class	line:89
+_NonClosingTextIOWrapper	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^class _NonClosingTextIOWrapper(io.TextIOWrapper):$/;"	kind:class	line:53
+_NonClosingTextIOWrapper	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^from ._compat import _NonClosingTextIOWrapper, text_type, PY2$/;"	kind:namespace	line:18
+_WindowsConsoleRawIOBase	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class _WindowsConsoleRawIOBase(io.RawIOBase):$/;"	kind:class	line:99
+_WindowsConsoleReader	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class _WindowsConsoleReader(_WindowsConsoleRawIOBase):$/;"	kind:class	line:109
+_WindowsConsoleWriter	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class _WindowsConsoleWriter(_WindowsConsoleRawIOBase):$/;"	kind:class	line:139
+__all__	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^__all__ = [$/;"	kind:variable	line:52
+__call__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __call__(self, *args, **kwargs):$/;"	kind:member	line:762
+__call__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __call__(self, value, param=None, ctx=None):$/;"	kind:member	line:37
+__del__	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __del__(self):$/;"	kind:member	line:78
+__email__	../tf/__init__.py	/^__email__ = 'miffyrcee@outlook.com'$/;"	kind:variable	line:6
+__enter__	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __enter__(self):$/;"	kind:member	line:555
+__enter__	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def __enter__(self):$/;"	kind:member	line:97
+__enter__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __enter__(self):$/;"	kind:member	line:343
+__enter__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __enter__(self):$/;"	kind:member	line:135
+__enter__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __enter__(self):$/;"	kind:member	line:154
+__exit__	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	kind:member	line:558
+__exit__	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	kind:member	line:102
+__exit__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	kind:member	line:348
+__exit__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	kind:member	line:138
+__exit__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	kind:member	line:157
+__future__	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^    import __future__$/;"	kind:namespace	line:16
+__getattr__	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __getattr__(self, name):$/;"	kind:member	line:104
+__getattr__	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __getattr__(self, name):$/;"	kind:member	line:552
+__getattr__	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __getattr__(self, name):$/;"	kind:member	line:191
+__getattr__	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __getattr__(self, name):$/;"	kind:member	line:215
+__getattr__	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __getattr__(self, x):$/;"	kind:member	line:31
+__getattr__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __getattr__(self, attr):$/;"	kind:member	line:439
+__getattr__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __getattr__(self, name):$/;"	kind:member	line:151
+__getattr__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __getattr__(self, name):$/;"	kind:member	line:97
+__init__	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __init__(self, f, tmp_filename, real_filename):$/;"	kind:member	line:530
+__init__	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __init__(self, stream, encoding, errors,$/;"	kind:member	line:55
+__init__	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __init__(self, stream, force_readable=False, force_writable=False):$/;"	kind:member	line:99
+__init__	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def __init__(self, editor=None, env=None, require_save=True,$/;"	kind:member	line:397
+__init__	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def __init__(self, iterable, length=None, fill_char='#', empty_char=' ',$/;"	kind:member	line:56
+__init__	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __init__(self, handle):$/;"	kind:member	line:101
+__init__	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __init__(self, text_stream, byte_stream):$/;"	kind:member	line:170
+__init__	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __init__(self, wrapped):$/;"	kind:member	line:210
+__init__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, command, parent=None, info_name=None, obj=None,$/;"	kind:member	line:213
+__init__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, name, context_settings=None):$/;"	kind:member	line:604
+__init__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, name, context_settings=None, callback=None,$/;"	kind:member	line:794
+__init__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, name=None, commands=None, **attrs):$/;"	kind:member	line:1212
+__init__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, name=None, invoke_without_command=False,$/;"	kind:member	line:985
+__init__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, name=None, sources=None, **attrs):$/;"	kind:member	line:1265
+__init__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, param_decls, required=None, **attrs):$/;"	kind:member	line:1802
+__init__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, param_decls=None, show_default=False,$/;"	kind:member	line:1540
+__init__	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, param_decls=None, type=None, required=False,$/;"	kind:member	line:1333
+__init__	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, code=0):$/;"	kind:member	line:234
+__init__	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, filename, hint=None):$/;"	kind:member	line:212
+__init__	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, message):$/;"	kind:member	line:17
+__init__	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, message, ctx=None):$/;"	kind:member	line:205
+__init__	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, message, ctx=None):$/;"	kind:member	line:53
+__init__	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, message, ctx=None, param=None,$/;"	kind:member	line:91
+__init__	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, message=None, ctx=None, param=None,$/;"	kind:member	line:121
+__init__	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, option_name, message, ctx=None):$/;"	kind:member	line:192
+__init__	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, option_name, message=None, possibilities=None,$/;"	kind:member	line:163
+__init__	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def __init__(self, indent_increment=2, width=None, max_width=None):$/;"	kind:member	line:101
+__init__	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def __init__(self, ctx=None):$/;"	kind:member	line:206
+__init__	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def __init__(self, dest, nargs=1, obj=None):$/;"	kind:member	line:166
+__init__	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def __init__(self, opts, dest, action=None, nargs=1, const=None, obj=None):$/;"	kind:member	line:118
+__init__	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def __init__(self, rargs):$/;"	kind:member	line:185
+__init__	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __init__(self, charset=None, env=None, echo_stdin=False,$/;"	kind:member	line:139
+__init__	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __init__(self, input, output):$/;"	kind:member	line:27
+__init__	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __init__(self, runner, stdout_bytes, stderr_bytes, exit_code,$/;"	kind:member	line:76
+__init__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, choices, case_sensitive=True):$/;"	kind:member	line:144
+__init__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, exists=False, file_okay=True, dir_okay=True,$/;"	kind:member	line:490
+__init__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, formats=None):$/;"	kind:member	line:208
+__init__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, func):$/;"	kind:member	line:82
+__init__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, min=None, max=None, clamp=False):$/;"	kind:member	line:262
+__init__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, min=None, max=None, clamp=False):$/;"	kind:member	line:315
+__init__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, mode='r', encoding=None, errors='strict', lazy=None,$/;"	kind:member	line:406
+__init__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, types):$/;"	kind:member	line:577
+__init__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __init__(self, file):$/;"	kind:member	line:148
+__init__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __init__(self, filename, mode='r', encoding=None, errors='strict',$/;"	kind:member	line:77
+__init__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __init__(self, wrapped):$/;"	kind:member	line:428
+__init__	../attention.py	/^    def __init__(self, d_model, num_heads):$/;"	kind:member	line:45
+__init__	../test.py	/^    def __init__(self):$/;"	kind:member	line:23
+__init__.py	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	1;"	kind:file	line:1
+__init__.py	../tests/__init__.py	1;"	kind:file	line:1
+__init__.py	../tf/__init__.py	1;"	kind:file	line:1
+__iter__	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def __iter__(self):$/;"	kind:member	line:105
+__iter__	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __iter__(self):$/;"	kind:member	line:47
+__iter__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __iter__(self):$/;"	kind:member	line:141
+__iter__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __iter__(self):$/;"	kind:member	line:163
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __repr__(self):$/;"	kind:member	line:561
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __repr__(self):$/;"	kind:member	line:197
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __repr__(self):$/;"	kind:member	line:111
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __repr__(self):$/;"	kind:member	line:50
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	kind:member	line:103
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	kind:member	line:125
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	kind:member	line:182
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	kind:member	line:235
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	kind:member	line:248
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	kind:member	line:287
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	kind:member	line:301
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	kind:member	line:340
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	kind:member	line:357
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	kind:member	line:373
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __repr__(self):$/;"	kind:member	line:100
+__repr__	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __repr__(self):$/;"	kind:member	line:160
+__str__	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^        def __str__(self):$/;"	kind:function	line:34
+__str__	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __str__(self):$/;"	kind:member	line:28
+__version__	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^__version__ = '7.0'$/;"	kind:variable	line:97
+__version__	../tf/__init__.py	/^__version__ = '0.1.0'$/;"	kind:variable	line:7
+_ansi_colors	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^_ansi_colors = {$/;"	kind:variable	line:19
+_ansi_re	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^_ansi_re = re.compile(r'\\033\\[((?:\\d|;)*)([a-zA-Z])')$/;"	kind:variable	line:18
+_ansi_reset_all	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^_ansi_reset_all = '\\033[0m'$/;"	kind:variable	line:38
+_bashcomplete	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^def _bashcomplete(cmd, prog_name, complete_var=None):$/;"	kind:function	line:48
+_bashcomplete.py	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	1;"	kind:file	line:1
+_build_prompt	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def _build_prompt(text, suffix, show_default=False, default=None, show_choices=True, type=None):$/;"	kind:function	line:46
+_can_replace	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _can_replace = True$/;"	kind:variable	line:522
+_can_replace	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _can_replace = not WIN$/;"	kind:variable	line:525
+_check_for_unicode_literals	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^def _check_for_unicode_literals():$/;"	kind:function	line:32
+_check_for_unicode_literals	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._unicodefun import _check_for_unicode_literals, _verify_python3_env$/;"	kind:namespace	line:20
+_check_for_unicode_literals	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from ._unicodefun import _check_for_unicode_literals$/;"	kind:namespace	line:7
+_check_multicommand	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^def _check_multicommand(base_command, cmd_name, cmd, register=False):$/;"	kind:function	line:61
+_compat.py	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	1;"	kind:file	line:1
+_convert	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def _convert(value, level):$/;"	kind:function	line:1413
+_default_text_stderr	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^_default_text_stderr = _make_cached_stream_func($/;"	kind:variable	line:689
+_default_text_stderr	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+_default_text_stdin	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^_default_text_stdin = _make_cached_stream_func($/;"	kind:variable	line:685
+_default_text_stdout	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^_default_text_stdout = _make_cached_stream_func($/;"	kind:variable	line:687
+_default_text_stdout	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	kind:namespace	line:21
+_default_text_stdout	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+_echo	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def _echo(self, rv):$/;"	kind:member	line:34
+_error_opt_args	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^def _error_opt_args(nargs, opt):$/;"	kind:function	line:76
+_fetch	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _fetch(c):$/;"	kind:function	line:40
+_fields_	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    _fields_ = [$/;"	kind:variable	line:65
+_find_binary_reader	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _find_binary_reader(stream):$/;"	kind:member	line:294
+_find_binary_reader	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    from ._compat import _find_binary_reader$/;"	kind:namespace	line:22
+_find_binary_writer	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _find_binary_writer(stream):$/;"	kind:member	line:309
+_find_binary_writer	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    from ._compat import _find_binary_writer$/;"	kind:namespace	line:12
+_find_unicode_literals_frame	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^def _find_unicode_literals_frame():$/;"	kind:function	line:15
+_flush_par	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def _flush_par():$/;"	kind:function	line:57
+_force_correct_text_reader	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _force_correct_text_reader(text_reader, encoding, errors,$/;"	kind:member	line:347
+_force_correct_text_writer	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _force_correct_text_writer(text_writer, encoding, errors,$/;"	kind:member	line:377
+_get_argv_encoding	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _get_argv_encoding():$/;"	kind:function	line:591
+_get_argv_encoding	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _get_argv_encoding():$/;"	kind:function	line:647
+_get_argv_encoding	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	kind:namespace	line:6
+_get_error_message	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def _get_error_message(errno):$/;"	kind:member	line:145
+_get_text_stderr	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^def _get_text_stderr(buffer_stream):$/;"	kind:function	line:252
+_get_text_stdin	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^def _get_text_stdin(buffer_stream):$/;"	kind:function	line:238
+_get_text_stdout	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^def _get_text_stdout(buffer_stream):$/;"	kind:function	line:245
+_get_windows_argv	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def _get_windows_argv():$/;"	kind:function	line:265
+_get_windows_argv	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^         _hash_py_argv, _initial_argv_hash$/;"	kind:namespace	line:15
+_get_windows_console_stream	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _get_windows_console_stream = lambda *x: None$/;"	kind:variable	line:650
+_get_windows_console_stream	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    from ._winconsole import _get_windows_console_stream, _wrap_std_stream$/;"	kind:namespace	line:589
+_get_windows_console_stream	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^def _get_windows_console_stream(f, encoding, errors):$/;"	kind:function	line:290
+_getchar	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^_getchar = None$/;"	kind:variable	line:546
+_getchar	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^        def _getchar(echo):$/;"	kind:function	line:227
+_handle_long_word	../.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^    def _handle_long_word(self, reversed_chunks, cur_line, cur_len, width):$/;"	kind:member	line:7
+_hash_py_argv	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def _hash_py_argv():$/;"	kind:function	line:260
+_hash_py_argv	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^         _hash_py_argv, _initial_argv_hash$/;"	kind:namespace	line:15
+_identifier_re	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _identifier_re = re.compile(r'^[a-zA-Z_][a-zA-Z0-9_]*$')$/;"	kind:variable	line:168
+_initial_argv_hash	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    _initial_argv_hash = _hash_py_argv()$/;"	kind:variable	line:263
+_initial_argv_hash	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^         _hash_py_argv, _initial_argv_hash$/;"	kind:namespace	line:15
+_invalid_ident_char_re	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^_invalid_ident_char_re = re.compile(r'[^a-zA-Z0-9_]')$/;"	kind:variable	line:72
+_is_binary_reader	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _is_binary_reader(stream, default=False):$/;"	kind:member	line:274
+_is_binary_writer	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _is_binary_writer(stream, default=False):$/;"	kind:member	line:282
+_is_compatible_text_stream	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _is_compatible_text_stream(stream, encoding, errors):$/;"	kind:member	line:332
+_join_param_hints	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^def _join_param_hints(param_hint):$/;"	kind:function	line:5
+_length_hint	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def _length_hint(obj):$/;"	kind:function	line:34
+_local	../.eggs/Click-7.0-py3.7.egg/click/globals.py	/^_local = local()$/;"	kind:variable	line:4
+_make_cached_stream_func	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def _make_cached_stream_func(src_func, wrapper_func):$/;"	kind:function	line:665
+_make_command	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def _make_command(f, name, attrs, cls):$/;"	kind:function	line:69
+_make_text_stream	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def _make_text_stream(stream, encoding, errors,$/;"	kind:function	line:25
+_match_long_opt	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _match_long_opt(self, opt, explicit_value, state):$/;"	kind:member	line:321
+_match_short_opt	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _match_short_opt(self, arg, state):$/;"	kind:member	line:353
+_maybe_show_deprecated_notice	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^def _maybe_show_deprecated_notice(cmd):$/;"	kind:function	line:34
+_missing	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^_missing = object()$/;"	kind:variable	line:23
+_nullpager	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def _nullpager(stream, generator, color):$/;"	kind:function	line:387
+_param_memo	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def _param_memo(f, param):$/;"	kind:function	line:130
+_parse_decls	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def _parse_decls(self, decls, expose_value):$/;"	kind:member	line:1614
+_parse_decls	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def _parse_decls(self, decls, expose_value):$/;"	kind:member	line:1831
+_pipepager	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def _pipepager(generator, cmd, color):$/;"	kind:function	line:321
+_posixify	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def _posixify(name):$/;"	kind:function	line:21
+_process_args_for_args	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _process_args_for_args(self, state):$/;"	kind:member	line:275
+_process_args_for_options	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _process_args_for_options(self, state):$/;"	kind:member	line:285
+_process_opts	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _process_opts(self, arg, state):$/;"	kind:member	line:400
+_process_result	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def _process_result(value):$/;"	kind:function	line:1099
+_replace	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _replace = os.rename$/;"	kind:variable	line:524
+_replace	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _replace = os.replace$/;"	kind:variable	line:521
+_safe_write	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^            def _safe_write(s):$/;"	kind:function	line:628
+_stream_factories	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^_stream_factories = {$/;"	kind:variable	line:283
+_stream_is_misconfigured	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _stream_is_misconfigured(stream):$/;"	kind:member	line:324
+_tempfilepager	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def _tempfilepager(generator, cmd, color):$/;"	kind:function	line:370
+_termui_impl.py	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	1;"	kind:file	line:1
+_textwrap.py	../.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	1;"	kind:file	line:1
+_translate_ch_to_exc	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def _translate_ch_to_exc(ch):$/;"	kind:function	line:531
+_try_to_convert_date	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def _try_to_convert_date(self, value, format):$/;"	kind:member	line:218
+_unicodefun.py	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	1;"	kind:file	line:1
+_unpack_args	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^def _unpack_args(args, nargs_spec):$/;"	kind:function	line:25
+_unquote_file	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def _unquote_file(url):$/;"	kind:function	line:475
+_verify_python3_env	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^def _verify_python3_env():$/;"	kind:function	line:50
+_verify_python3_env	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._unicodefun import _check_for_unicode_literals, _verify_python3_env$/;"	kind:namespace	line:20
+_winconsole.py	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	1;"	kind:file	line:1
+_wrap_std_stream	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _wrap_std_stream = lambda *x: None$/;"	kind:variable	line:651
+_wrap_std_stream	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    from ._winconsole import _get_windows_console_stream, _wrap_std_stream$/;"	kind:namespace	line:589
+_wrap_std_stream	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^def _wrap_std_stream(name):$/;"	kind:function	line:231
+_wrapped_std_streams	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^_wrapped_std_streams = set()$/;"	kind:variable	line:228
+_write_opts	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def _write_opts(opts):$/;"	kind:function	line:1692
+abc	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^    from collections import abc$/;"	kind:namespace	line:11
+abc	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^    import collections as abc$/;"	kind:namespace	line:13
+abort	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def abort(self):$/;"	kind:member	line:498
+absolute_import	../main.py	/^from __future__ import (absolute_import, division, print_function,$/;"	kind:namespace	line:1
+absolute_import	../retrain.py	/^from __future__ import absolute_import, division, print_function$/;"	kind:namespace	line:118
+absolute_import	../test.py	/^from __future__ import (absolute_import, division, print_function,$/;"	kind:namespace	line:1
+action	../retrain.py	/^                        action='store_true')$/;"	kind:variable	line:1282
+action	../retrain.py	/^                        action='store_true')$/;"	kind:variable	line:1298
+add_argument	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def add_argument(self, dest, nargs=1, obj=None):$/;"	kind:member	line:249
+add_command	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def add_command(self, cmd, name=None):$/;"	kind:member	line:1217
+add_evaluation_step	../retrain.py	/^def add_evaluation_step(result_tensor, ground_truth_tensor):$/;"	kind:function	line:822
+add_final_retrain_ops	../retrain.py	/^def add_final_retrain_ops(class_count, final_tensor_name, bottleneck_tensor,$/;"	kind:function	line:735
+add_input_distortions	../retrain.py	/^def add_input_distortions(flip_left_right, random_crop, random_scale,$/;"	kind:function	line:630
+add_jpeg_decoding	../retrain.py	/^def add_jpeg_decoding(module_spec):$/;"	kind:function	line:945
+add_option	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def add_option(self, opts, dest, action=None, nargs=1, const=None,$/;"	kind:member	line:228
+add_source	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def add_source(self, multi_cmd):$/;"	kind:member	line:1270
+add_subcommand_completions	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def add_subcommand_completions(ctx, incomplete, completions_out):$/;"	kind:function	line:207
+add_to_parser	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def add_to_parser(self, parser, ctx):$/;"	kind:member	line:1387
+add_to_parser	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def add_to_parser(self, parser, ctx):$/;"	kind:member	line:1658
+add_to_parser	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def add_to_parser(self, parser, ctx):$/;"	kind:member	line:1850
+allow_extra_args	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    allow_extra_args = False$/;"	kind:variable	line:598
+allow_extra_args	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    allow_extra_args = True$/;"	kind:variable	line:982
+allow_interspersed_args	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    allow_interspersed_args = False$/;"	kind:variable	line:983
+allow_interspersed_args	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    allow_interspersed_args = True$/;"	kind:variable	line:600
+argparse	../retrain.py	/^import argparse$/;"	kind:namespace	line:120
+argument	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	kind:namespace	line:25
+argument	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def argument(*param_decls, **attrs):$/;"	kind:function	line:139
+arity	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def arity(self):$/;"	kind:member	line:585
+arity	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def arity(self):$/;"	kind:member	line:76
+attention.py	../attention.py	1;"	kind:file	line:1
+augment_usage_errors	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^def augment_usage_errors(ctx, param=None):$/;"	kind:function	line:100
+author	../docs/conf.py	/^author = u"tf"$/;"	kind:variable	line:52
+author	../setup.py	/^    author="tf",$/;"	kind:variable	line:21
+author_email	../setup.py	/^    author_email='miffyrcee@outlook.com',$/;"	kind:variable	line:22
+auto_wrap_for_ansi	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def auto_wrap_for_ansi(stream, color=None):$/;"	kind:function	line:611
+auto_wrap_for_ansi	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^auto_wrap_for_ansi = None$/;"	kind:variable	line:565
+auto_wrap_for_ansi	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+bashcomplete	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def bashcomplete(cli, prog_name, complete_var, complete_instr):$/;"	kind:function	line:286
+bashcomplete	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    from ._bashcomplete import bashcomplete$/;"	kind:namespace	line:56
+batch	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^def batch(iterable, batch_size):$/;"	kind:function	line:80
+binary_streams	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^binary_streams = {$/;"	kind:variable	line:693
+binary_streams	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+build_eval_session	../retrain.py	/^def build_eval_session(module_spec, class_count):$/;"	kind:function	line:887
+byref	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	kind:namespace	line:20
+bytes	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    bytes = str$/;"	kind:variable	line:158
+c	../tf/tf.py	/^c = (scipy.sum(map(lambda x: pow(x, 2), scipy.fft(range(10)))))$/;"	kind:variable	line:6
+c_char	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	kind:namespace	line:20
+c_char_p	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	kind:namespace	line:20
+c_int	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	kind:namespace	line:20
+c_ssize_p	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^c_ssize_p = POINTER(c_ssize_t)$/;"	kind:variable	line:30
+c_ssize_t	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	kind:namespace	line:20
+c_ulong	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	kind:namespace	line:20
+c_void_p	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	kind:namespace	line:20
+cache_bottlenecks	../retrain.py	/^def cache_bottlenecks(sess, image_lists, image_dir, bottleneck_dir,$/;"	kind:function	line:444
+call	../attention.py	/^    def call(self, v, k, q, mask):$/;"	kind:member	line:67
+call	../test.py	/^    def call(self, x):$/;"	kind:member	line:30
+call_on_close	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def call_on_close(self, f):$/;"	kind:member	line:425
+callback	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^        def callback(ctx, param, value):$/;"	kind:function	line:196
+callback	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^        def callback(ctx, param, value):$/;"	kind:function	line:250
+callback	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^        def callback(ctx, param, value):$/;"	kind:function	line:297
+choices	../retrain.py	/^                        choices=['DEBUG', 'INFO', 'WARN', 'ERROR', 'FATAL'],$/;"	kind:variable	line:1336
+classifiers	../setup.py	/^    classifiers=[$/;"	kind:variable	line:23
+clear	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+clear	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def clear():$/;"	kind:function	line:354
+cli	../tests/test_tf.py	/^from tf import cli$/;"	kind:namespace	line:11
+cli.py	../tf/cli.py	1;"	kind:file	line:1
+click	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^click = sys.modules[__name__.rsplit('.', 1)[0]]$/;"	kind:variable	line:12
+click	../tf/cli.py	/^import click$/;"	kind:namespace	line:5
+clickpkg	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^clickpkg = sys.modules[__name__.rsplit('.', 1)[0]]$/;"	kind:variable	line:15
+close	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def close(self, delete=False):$/;"	kind:member	line:540
+close	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def close(self):$/;"	kind:member	line:437
+close	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def close(self):$/;"	kind:member	line:123
+close_intelligently	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def close_intelligently(self):$/;"	kind:member	line:128
+codecs	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^import codecs$/;"	kind:namespace	line:5
+codecs	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^import codecs$/;"	kind:namespace	line:3
+coerce_path_result	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def coerce_path_result(self, rv):$/;"	kind:member	line:512
+collect_usage_pieces	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def collect_usage_pieces(self, ctx):$/;"	kind:member	line:1010
+collect_usage_pieces	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def collect_usage_pieces(self, ctx):$/;"	kind:member	line:835
+collections	../retrain.py	/^import collections$/;"	kind:namespace	line:121
+colorama	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        import colorama$/;"	kind:namespace	line:605
+colorama	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^colorama = None$/;"	kind:variable	line:566
+command	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	kind:namespace	line:25
+command	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def command(self, *args, **kwargs):$/;"	kind:member	line:1227
+command	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .decorators import command, group$/;"	kind:namespace	line:1856
+command	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def command(name=None, cls=None, **attrs):$/;"	kind:function	line:92
+command_path	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def command_path(self):$/;"	kind:member	line:444
+conf.py	../docs/conf.py	1;"	kind:file	line:1
+confirm	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+confirm	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .termui import prompt, confirm, style$/;"	kind:namespace	line:14
+confirm	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def confirm(text, default=False, abort=False, prompt_suffix=': ',$/;"	kind:function	line:141
+confirmation_option	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	kind:namespace	line:25
+confirmation_option	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def confirmation_option(*param_decls, **attrs):$/;"	kind:function	line:178
+consume_value	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def consume_value(self, ctx, opts):$/;"	kind:member	line:1390
+contextlib	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^import contextlib$/;"	kind:namespace	line:18
+contextlib	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import contextlib$/;"	kind:namespace	line:5
+contextmanager	../.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^from contextlib import contextmanager$/;"	kind:namespace	line:2
+contextmanager	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from contextlib import contextmanager$/;"	kind:namespace	line:5
+contextmanager	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^from contextlib import contextmanager$/;"	kind:namespace	line:1
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:100
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:110
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:154
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:224
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:242
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:267
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:294
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:320
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:347
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:364
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:423
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:51
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:520
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:588
+convert	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	kind:member	line:86
+convert_type	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .types import convert_type, IntRange, BOOL$/;"	kind:namespace	line:9
+convert_type	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .types import convert_type, Choice, Path$/;"	kind:namespace	line:11
+convert_type	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^def convert_type(ty, default=None):$/;"	kind:function	line:595
+copy	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^import copy$/;"	kind:namespace	line:1
+copyright	../docs/conf.py	/^copyright = u"2019, tf"$/;"	kind:variable	line:51
+core.py	../.eggs/Click-7.0-py3.7.egg/click/core.py	1;"	kind:file	line:1
+create_bottleneck_file	../retrain.py	/^def create_bottleneck_file(bottleneck_path, image_lists, label_name, index,$/;"	kind:function	line:357
+create_image_lists	../retrain.py	/^def create_image_lists(image_dir, testing_percentage, validation_percentage):$/;"	kind:function	line:143
+create_module_graph	../retrain.py	/^def create_module_graph(module_spec):$/;"	kind:function	line:297
+ctypes	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import ctypes$/;"	kind:namespace	line:16
+datasets	../attention.py	/^from tensorflow.keras import datasets, layers, models$/;"	kind:namespace	line:2
+datetime	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^from datetime import datetime$/;"	kind:namespace	line:3
+datetime	../retrain.py	/^from datetime import datetime$/;"	kind:namespace	line:127
+decorator	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def decorator(f):$/;"	kind:function	line:1044
+decorator	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def decorator(f):$/;"	kind:function	line:1233
+decorator	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def decorator(f):$/;"	kind:function	line:1245
+decorator	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	kind:function	line:114
+decorator	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	kind:function	line:149
+decorator	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	kind:function	line:166
+decorator	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	kind:function	line:195
+decorator	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	kind:function	line:220
+decorator	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	kind:function	line:246
+decorator	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	kind:function	line:296
+decorator	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	kind:function	line:53
+decorators.py	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	1;"	kind:file	line:1
+dedent	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def dedent(self):$/;"	kind:member	line:121
+default	../retrain.py	/^                        default='',$/;"	kind:variable	line:1207
+default	../retrain.py	/^                        default='',$/;"	kind:variable	line:1331
+default	../retrain.py	/^                        default='INFO',$/;"	kind:variable	line:1335
+default	../retrain.py	/^                        default='\/tmp\/_retrain_checkpoint',$/;"	kind:variable	line:1340
+default	../retrain.py	/^                        default='\/tmp\/bottleneck',$/;"	kind:variable	line:1285
+default	../retrain.py	/^                        default='\/tmp\/intermediate_graph\/',$/;"	kind:variable	line:1215
+default	../retrain.py	/^                        default='\/tmp\/output_graph.pb',$/;"	kind:variable	line:1211
+default	../retrain.py	/^                        default='\/tmp\/output_labels.txt',$/;"	kind:variable	line:1226
+default	../retrain.py	/^                        default='\/tmp\/retrain_logs',$/;"	kind:variable	line:1230
+default	../retrain.py	/^                        default='final_result',$/;"	kind:variable	line:1289
+default	../retrain.py	/^                        default=-1,$/;"	kind:variable	line:1259
+default	../retrain.py	/^                        default=0,$/;"	kind:variable	line:1219
+default	../retrain.py	/^                        default=0,$/;"	kind:variable	line:1301
+default	../retrain.py	/^                        default=0,$/;"	kind:variable	line:1308
+default	../retrain.py	/^                        default=0,$/;"	kind:variable	line:1315
+default	../retrain.py	/^                        default=0.01,$/;"	kind:variable	line:1238
+default	../retrain.py	/^                        default=10,$/;"	kind:variable	line:1242
+default	../retrain.py	/^                        default=10,$/;"	kind:variable	line:1251
+default	../retrain.py	/^                        default=100,$/;"	kind:variable	line:1255
+default	../retrain.py	/^                        default=100,$/;"	kind:variable	line:1268
+default	../retrain.py	/^                        default=4000,$/;"	kind:variable	line:1234
+default	../retrain.py	/^                        default=False,$/;"	kind:variable	line:1278
+default	../retrain.py	/^                        default=False,$/;"	kind:variable	line:1294
+default	../retrain.py	/^        default=($/;"	kind:variable	line:1323
+default	../retrain.py	/^        default=10,$/;"	kind:variable	line:1247
+deque	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^from collections import deque$/;"	kind:namespace	line:20
+description	../setup.py	/^    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",$/;"	kind:variable	line:36
+disable_unicode_literals_warning	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^disable_unicode_literals_warning = False$/;"	kind:variable	line:94
+division	../main.py	/^from __future__ import (absolute_import, division, print_function,$/;"	kind:namespace	line:1
+division	../retrain.py	/^from __future__ import absolute_import, division, print_function$/;"	kind:namespace	line:118
+division	../test.py	/^from __future__ import (absolute_import, division, print_function,$/;"	kind:namespace	line:1
+do_complete	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def do_complete(cli, prog_name, include_descriptions):$/;"	kind:function	line:268
+echo	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	kind:namespace	line:33
+echo	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .utils import echo$/;"	kind:namespace	line:5
+echo	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^from .utils import echo$/;"	kind:namespace	line:22
+echo	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^     echo, get_os_args$/;"	kind:namespace	line:11
+echo	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .utils import echo$/;"	kind:namespace	line:8
+echo	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^from .utils import echo$/;"	kind:namespace	line:2
+echo	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .utils import echo$/;"	kind:namespace	line:9
+echo	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def echo(message=None, file=None, nl=True, err=False, color=None):$/;"	kind:function	line:167
+echo_native_types	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^echo_native_types = string_types + (bytes, bytearray)$/;"	kind:variable	line:18
+echo_via_pager	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+echo_via_pager	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def echo_via_pager(text_or_generator, color=None):$/;"	kind:function	line:232
+edit	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+edit	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def edit(self, text):$/;"	kind:member	line:435
+edit	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def edit(text=None, editor=None, env=None, require_save=True,$/;"	kind:function	line:481
+edit_file	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def edit_file(self, filename):$/;"	kind:member	line:418
+ensure_dir_exists	../retrain.py	/^def ensure_dir_exists(dir_name):$/;"	kind:function	line:347
+ensure_object	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def ensure_object(self, object_type):$/;"	kind:member	line:471
+entry_points	../setup.py	/^    entry_points={$/;"	kind:variable	line:37
+envvar_list_splitter	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    envvar_list_splitter = None$/;"	kind:variable	line:35
+envvar_list_splitter	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    envvar_list_splitter = os.path.pathsep$/;"	kind:variable	line:404
+envvar_list_splitter	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    envvar_list_splitter = os.path.pathsep$/;"	kind:variable	line:488
+errno	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^import errno$/;"	kind:namespace	line:1
+errno	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^            import errno$/;"	kind:namespace	line:435
+eta	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def eta(self):$/;"	kind:member	line:133
+exceptions.py	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	1;"	kind:file	line:1
+exclude_patterns	../docs/conf.py	/^exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']$/;"	kind:variable	line:73
+exit	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def exit(self, code=0):$/;"	kind:member	line:502
+exit_code	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    exit_code = 1$/;"	kind:variable	line:15
+exit_code	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    exit_code = 2$/;"	kind:variable	line:51
+export_model	../retrain.py	/^def export_model(module_spec, class_count, saved_model_dir):$/;"	kind:function	line:970
+extensions	../docs/conf.py	/^extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode']$/;"	kind:variable	line:35
+extra_indent	../.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^    def extra_indent(self, indent):$/;"	kind:member	line:20
+f	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^        from ._termui_impl import getchar as f$/;"	kind:namespace	line:571
+f	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    from ._termui_impl import raw_terminal as f$/;"	kind:namespace	line:576
+fail	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def fail(self, message):$/;"	kind:member	line:490
+fail	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def fail(self, message, param=None, ctx=None):$/;"	kind:member	line:67
+fast_exit	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^def fast_exit(code):$/;"	kind:function	line:39
+fcntl	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        import fcntl$/;"	kind:namespace	line:206
+fcntl	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^            import fcntl$/;"	kind:namespace	line:208
+filename_to_ui	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def filename_to_ui(value):$/;"	kind:member	line:257
+filename_to_ui	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def filename_to_ui(value):$/;"	kind:member	line:449
+filename_to_ui	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^from ._compat import PY2, filename_to_ui, get_text_stderr$/;"	kind:namespace	line:1
+filename_to_ui	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	kind:namespace	line:6
+filename_to_ui	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+find_object	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def find_object(self, object_type):$/;"	kind:member	line:463
+find_packages	../setup.py	/^from setuptools import setup, find_packages$/;"	kind:namespace	line:6
+find_root	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def find_root(self):$/;"	kind:member	line:456
+finish	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def finish(self):$/;"	kind:member	line:267
+flush	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def flush(self):$/;"	kind:member	line:431
+format_bar	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def format_bar(self):$/;"	kind:member	line:163
+format_commands	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_commands(self, ctx, formatter):$/;"	kind:member	line:1056
+format_epilog	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_epilog(self, ctx, formatter):$/;"	kind:member	line:927
+format_eta	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def format_eta(self):$/;"	kind:member	line:138
+format_filename	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	kind:namespace	line:33
+format_filename	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def format_filename(filename, shorten=False):$/;"	kind:function	line:351
+format_help	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_help(self, ctx, formatter):$/;"	kind:member	line:886
+format_help_text	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_help_text(self, ctx, formatter):$/;"	kind:member	line:901
+format_message	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def format_message(self):$/;"	kind:member	line:126
+format_message	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def format_message(self):$/;"	kind:member	line:171
+format_message	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def format_message(self):$/;"	kind:member	line:220
+format_message	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def format_message(self):$/;"	kind:member	line:25
+format_message	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def format_message(self):$/;"	kind:member	line:97
+format_options	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_options(self, ctx, formatter):$/;"	kind:member	line:1015
+format_options	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_options(self, ctx, formatter):$/;"	kind:member	line:915
+format_pct	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def format_pct(self):$/;"	kind:member	line:160
+format_pos	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def format_pos(self):$/;"	kind:member	line:154
+format_progress_line	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def format_progress_line(self):$/;"	kind:member	line:178
+format_usage	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_usage(self, ctx, formatter):$/;"	kind:member	line:830
+formatting.py	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	1;"	kind:file	line:1
+forward	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def forward(*args, **kwargs):$/;"	kind:member	line:557
+full_process_value	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def full_process_value(self, ctx, value):$/;"	kind:member	line:1437
+full_process_value	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def full_process_value(self, ctx, value):$/;"	kind:member	line:1786
+func	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def func():$/;"	kind:function	line:667
+function	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^            def function(__value, *args, **kwargs):$/;"	kind:function	line:1049
+g.py	../g.py	1;"	kind:file	line:1
+generator	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def generator(self):$/;"	kind:member	line:272
+get_app_dir	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	kind:namespace	line:33
+get_app_dir	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def get_app_dir(app_name, roaming=True, force_posix=False):$/;"	kind:function	line:368
+get_best_encoding	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def get_best_encoding(stream):$/;"	kind:function	line:45
+get_best_encoding	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	kind:namespace	line:21
+get_binary_stderr	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_binary_stderr():$/;"	kind:member	line:230
+get_binary_stderr	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_binary_stderr():$/;"	kind:member	line:421
+get_binary_stdin	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_binary_stdin():$/;"	kind:member	line:223
+get_binary_stdin	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_binary_stdin():$/;"	kind:member	line:407
+get_binary_stdout	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_binary_stdout():$/;"	kind:member	line:226
+get_binary_stdout	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_binary_stdout():$/;"	kind:member	line:414
+get_binary_stream	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	kind:namespace	line:33
+get_binary_stream	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def get_binary_stream(name):$/;"	kind:function	line:264
+get_bottleneck_path	../retrain.py	/^def get_bottleneck_path(image_lists, label_name, index, bottleneck_dir,$/;"	kind:function	line:272
+get_buffer	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def get_buffer(obj, writable=False):$/;"	kind:function	line:88
+get_buffer	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    get_buffer = None$/;"	kind:variable	line:86
+get_choices	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def get_choices(cli, prog_name, args, incomplete):$/;"	kind:function	line:222
+get_command	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_command(self, ctx, cmd_name):$/;"	kind:member	line:1192
+get_command	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_command(self, ctx, cmd_name):$/;"	kind:member	line:1251
+get_command	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_command(self, ctx, cmd_name):$/;"	kind:member	line:1274
+get_completion_script	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def get_completion_script(prog_name, complete_var, shell):$/;"	kind:function	line:75
+get_current_context	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^from .globals import get_current_context$/;"	kind:namespace	line:20
+get_current_context	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .globals import get_current_context$/;"	kind:namespace	line:9
+get_current_context	../.eggs/Click-7.0-py3.7.egg/click/globals.py	/^def get_current_context(silent=False):$/;"	kind:function	line:7
+get_default	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_default(self, ctx):$/;"	kind:member	line:1378
+get_default	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_default(self, ctx):$/;"	kind:member	line:1735
+get_default_prog_name	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def get_default_prog_name(self, cli):$/;"	kind:member	line:148
+get_editor	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def get_editor(self):$/;"	kind:member	line:404
+get_error_hint	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_error_hint(self, ctx):$/;"	kind:member	line:1492
+get_error_hint	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_error_hint(self, ctx):$/;"	kind:member	line:1847
+get_filesystem_encoding	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def get_filesystem_encoding():$/;"	kind:function	line:21
+get_filesystem_encoding	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	kind:namespace	line:6
+get_filesystem_encoding	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+get_help	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help(self):$/;"	kind:member	line:512
+get_help	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help(self, ctx):$/;"	kind:member	line:618
+get_help	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help(self, ctx):$/;"	kind:member	line:874
+get_help_option	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help_option(self, ctx):$/;"	kind:member	line:852
+get_help_option_names	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help_option_names(self, ctx):$/;"	kind:member	line:844
+get_help_record	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help_record(self, ctx):$/;"	kind:member	line:1486
+get_help_record	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help_record(self, ctx):$/;"	kind:member	line:1687
+get_image_path	../retrain.py	/^def get_image_path(image_lists, label_name, index, image_dir, category):$/;"	kind:function	line:239
+get_metavar	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def get_metavar(self, param):$/;"	kind:member	line:148
+get_metavar	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def get_metavar(self, param):$/;"	kind:member	line:215
+get_metavar	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def get_metavar(self, param):$/;"	kind:member	line:41
+get_missing_message	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def get_missing_message(self, param):$/;"	kind:member	line:151
+get_missing_message	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def get_missing_message(self, param):$/;"	kind:member	line:44
+get_or_create_bottleneck	../retrain.py	/^def get_or_create_bottleneck(sess, image_lists, label_name, index, image_dir,$/;"	kind:function	line:382
+get_os_args	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	kind:namespace	line:33
+get_os_args	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^     echo, get_os_args$/;"	kind:namespace	line:11
+get_os_args	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def get_os_args():$/;"	kind:function	line:330
+get_params	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_params(self, ctx):$/;"	kind:member	line:823
+get_random_cached_bottlenecks	../retrain.py	/^def get_random_cached_bottlenecks(sess, image_lists, how_many, category,$/;"	kind:function	line:491
+get_random_distorted_bottlenecks	../retrain.py	/^def get_random_distorted_bottlenecks(sess, image_lists, how_many, category,$/;"	kind:function	line:559
+get_short_help_str	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_short_help_str(self, limit=45):$/;"	kind:member	line:882
+get_streerror	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def get_streerror(e, default=None):$/;"	kind:function	line:458
+get_streerror	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	kind:namespace	line:6
+get_streerror	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+get_terminal_size	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+get_terminal_size	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^        from .termui import get_terminal_size$/;"	kind:namespace	line:203
+get_terminal_size	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^from .termui import get_terminal_size$/;"	kind:namespace	line:2
+get_terminal_size	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def get_terminal_size():$/;"	kind:function	line:185
+get_text_stderr	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_text_stderr(encoding=None, errors=None):$/;"	kind:member	line:249
+get_text_stderr	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_text_stderr(encoding=None, errors=None):$/;"	kind:member	line:442
+get_text_stderr	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^from ._compat import PY2, filename_to_ui, get_text_stderr$/;"	kind:namespace	line:1
+get_text_stdin	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_text_stdin(encoding=None, errors=None):$/;"	kind:member	line:234
+get_text_stdin	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_text_stdin(encoding=None, errors=None):$/;"	kind:member	line:428
+get_text_stdout	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_text_stdout(encoding=None, errors=None):$/;"	kind:member	line:241
+get_text_stdout	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_text_stdout(encoding=None, errors=None):$/;"	kind:member	line:435
+get_text_stream	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	kind:namespace	line:33
+get_text_stream	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def get_text_stream(name, encoding=None, errors='strict'):$/;"	kind:function	line:280
+get_usage	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_usage(self):$/;"	kind:member	line:506
+get_usage	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_usage(self, ctx):$/;"	kind:member	line:615
+get_usage	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_usage(self, ctx):$/;"	kind:member	line:818
+get_usage_pieces	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_usage_pieces(self, ctx):$/;"	kind:member	line:1489
+get_usage_pieces	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_usage_pieces(self, ctx):$/;"	kind:member	line:1844
+get_user_autocompletions	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def get_user_autocompletions(ctx, args, incomplete, cmd_param):$/;"	kind:function	line:172
+get_visible_commands_starting_with	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def get_visible_commands_starting_with(ctx, starts_with):$/;"	kind:function	line:194
+get_winterm_size	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def get_winterm_size():$/;"	kind:function	line:642
+get_winterm_size	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^get_winterm_size = None$/;"	kind:variable	line:567
+get_winterm_size	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	kind:namespace	line:8
+getchar	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+getchar	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def getchar(echo):$/;"	kind:function	line:547
+getchar	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def getchar(echo):$/;"	kind:function	line:614
+getchar	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def getchar(echo=False):$/;"	kind:function	line:549
+getpass	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    import getpass$/;"	kind:namespace	line:42
+getvalue	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def getvalue(self):$/;"	kind:member	line:234
+globals.py	../.eggs/Click-7.0-py3.7.egg/click/globals.py	1;"	kind:file	line:1
+group	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	kind:namespace	line:25
+group	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def group(self, *args, **kwargs):$/;"	kind:member	line:1239
+group	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .decorators import command, group$/;"	kind:namespace	line:1856
+group	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def group(name=None, **attrs):$/;"	kind:function	line:121
+handle_parse_result	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def handle_parse_result(self, ctx, opts, args):$/;"	kind:member	line:1465
+hashlib	../retrain.py	/^import hashlib$/;"	kind:namespace	line:122
+help	../retrain.py	/^                        help='How large a learning rate to use when training.')$/;"	kind:variable	line:1239
+help	../retrain.py	/^                        help='How many images to train on at a time.')$/;"	kind:variable	line:1256
+help	../retrain.py	/^                        help='How many training steps to run before ending.')$/;"	kind:variable	line:1235
+help	../retrain.py	/^                        help='How much logging output should be produced.')$/;"	kind:variable	line:1337
+help	../retrain.py	/^                        help='How often to evaluate the training results.')$/;"	kind:variable	line:1252
+help	../retrain.py	/^                        help='Path to cache bottleneck layer values as files.')$/;"	kind:variable	line:1286
+help	../retrain.py	/^                        help='Path to folders of labeled images.')$/;"	kind:variable	line:1208
+help	../retrain.py	/^                        help='What percentage of images to use as a test set.')$/;"	kind:variable	line:1243
+help	../retrain.py	/^                        help='Where to save checkpoint files.')$/;"	kind:variable	line:1341
+help	../retrain.py	/^                        help='Where to save summary logs for TensorBoard.')$/;"	kind:variable	line:1231
+help	../retrain.py	/^                        help='Where to save the exported graph.')$/;"	kind:variable	line:1332
+help	../retrain.py	/^                        help='Where to save the intermediate graphs.')$/;"	kind:variable	line:1216
+help	../retrain.py	/^                        help='Where to save the trained graph.')$/;"	kind:variable	line:1212
+help	../retrain.py	/^                        help='Where to save the trained graph\\'s labels.')$/;"	kind:variable	line:1227
+help	../retrain.py	/^        help='What percentage of images to use as a validation set.')$/;"	kind:variable	line:1248
+help_option	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	kind:namespace	line:25
+help_option	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def help_option(*param_decls, **attrs):$/;"	kind:function	line:286
+hidden_input	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^        def hidden_input(prompt=None):$/;"	kind:function	line:222
+hidden_prompt_func	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def hidden_prompt_func(prompt):$/;"	kind:function	line:41
+history	../setup.py	/^    history = history_file.read()$/;"	kind:variable	line:12
+html_static_path	../docs/conf.py	/^html_static_path = ['_static']$/;"	kind:variable	line:98
+html_theme	../docs/conf.py	/^html_theme = 'alabaster'$/;"	kind:variable	line:87
+htmlhelp_basename	../docs/conf.py	/^htmlhelp_basename = 'tfdoc'$/;"	kind:variable	line:104
+hub	../retrain.py	/^import tensorflow_hub as hub$/;"	kind:namespace	line:131
+human_readable_name	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def human_readable_name(self):$/;"	kind:member	line:1362
+human_readable_name	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def human_readable_name(self):$/;"	kind:member	line:1814
+ignore_unknown_options	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    ignore_unknown_options = False$/;"	kind:variable	line:602
+include_package_data	../setup.py	/^    include_package_data=True,$/;"	kind:variable	line:45
+indent	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def indent(self):$/;"	kind:member	line:117
+indent_only	../.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^    def indent_only(self, text):$/;"	kind:member	line:31
+indentation	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def indentation(self):$/;"	kind:member	line:226
+inspect	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^import inspect$/;"	kind:namespace	line:2
+inspect	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^import inspect$/;"	kind:namespace	line:2
+inspect	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^import inspect$/;"	kind:namespace	line:4
+install_requires	../setup.py	/^    install_requires=requirements,$/;"	kind:variable	line:42
+int_types	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    int_types = (int, long)$/;"	kind:variable	line:161
+int_types	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    int_types = (int,)$/;"	kind:variable	line:266
+int_types	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	kind:namespace	line:21
+invoke	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def invoke(*args, **kwargs):$/;"	kind:member	line:518
+invoke	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def invoke(self, ctx):$/;"	kind:member	line:1098
+invoke	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def invoke(self, ctx):$/;"	kind:member	line:652
+invoke	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def invoke(self, ctx):$/;"	kind:member	line:950
+invoke	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def invoke(self, cli, args=None, input=None, env=None,$/;"	kind:member	line:280
+invoke_param_callback	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^def invoke_param_callback(callback, ctx, param, value):$/;"	kind:function	line:84
+io	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    import io$/;"	kind:namespace	line:262
+io	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^import io$/;"	kind:namespace	line:2
+io	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import io$/;"	kind:namespace	line:11
+io	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    import io$/;"	kind:namespace	line:21
+ioctl_gwinsz	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    def ioctl_gwinsz(fd):$/;"	kind:function	line:206
+is_ascii_encoding	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def is_ascii_encoding(encoding):$/;"	kind:function	line:37
+is_bytes	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def is_bytes(x):$/;"	kind:member	line:165
+is_bytes	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def is_bytes(x):$/;"	kind:member	line:271
+is_bytes	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+is_composite	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    is_composite = False$/;"	kind:variable	line:24
+is_composite	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    is_composite = True$/;"	kind:variable	line:73
+is_fast	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def is_fast(self):$/;"	kind:member	line:111
+is_incomplete_argument	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def is_incomplete_argument(current_params, cmd_param):$/;"	kind:function	line:152
+is_incomplete_option	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def is_incomplete_option(all_args, cmd_param):$/;"	kind:function	line:130
+isatty	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def isatty(self):$/;"	kind:member	line:84
+isatty	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def isatty(stream):$/;"	kind:function	line:658
+isatty	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	kind:namespace	line:21
+isatty	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def isatty(self):$/;"	kind:member	line:104
+isatty	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def isatty(self):$/;"	kind:member	line:194
+isatty	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	kind:namespace	line:8
+isidentifier	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def isidentifier(x):$/;"	kind:member	line:220
+isidentifier	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    isidentifier = lambda x: x.isidentifier()$/;"	kind:variable	line:268
+isidentifier	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._compat import PY2, isidentifier, iteritems, string_types$/;"	kind:namespace	line:19
+isolated_filesystem	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def isolated_filesystem(self):$/;"	kind:member	line:360
+isolation	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def isolation(self, input=None, env=None, color=False):$/;"	kind:member	line:163
+iter_params_for_processing	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^def iter_params_for_processing(invocation_order, declaration_order):$/;"	kind:function	line:118
+iter_rows	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^def iter_rows(rows, col_count):$/;"	kind:function	line:19
+iteritems	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    iteritems = lambda x: iter(x.items())$/;"	kind:variable	line:269
+iteritems	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    iteritems = lambda x: x.iteritems()$/;"	kind:variable	line:162
+iteritems	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._compat import PY2, isidentifier, iteritems, string_types$/;"	kind:namespace	line:19
+iteritems	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from ._compat import iteritems$/;"	kind:namespace	line:6
+iteritems	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^from ._compat import iteritems, PY2, string_types$/;"	kind:namespace	line:8
+itertools	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^import itertools$/;"	kind:namespace	line:5
+join_options	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .formatting import HelpFormatter, join_options$/;"	kind:namespace	line:15
+join_options	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^def join_options(options):$/;"	kind:function	line:239
+kernel32	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^kernel32 = windll.kernel32$/;"	kind:variable	line:32
+keywords	../setup.py	/^    keywords='tf',$/;"	kind:variable	line:46
+language	../docs/conf.py	/^language = None$/;"	kind:variable	line:68
+latex_documents	../docs/conf.py	/^latex_documents = [$/;"	kind:variable	line:130
+latex_elements	../docs/conf.py	/^latex_elements = {$/;"	kind:variable	line:109
+launch	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+launch	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def launch(url, wait=False, locate=False):$/;"	kind:function	line:518
+layers	../attention.py	/^from tensorflow.keras import datasets, layers, models$/;"	kind:namespace	line:2
+license	../setup.py	/^    license="MIT license",$/;"	kind:variable	line:43
+list_commands	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def list_commands(self, ctx):$/;"	kind:member	line:1198
+list_commands	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def list_commands(self, ctx):$/;"	kind:member	line:1254
+list_commands	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def list_commands(self, ctx):$/;"	kind:member	line:1282
+local	../.eggs/Click-7.0-py3.7.egg/click/globals.py	/^from threading import local$/;"	kind:namespace	line:1
+locale	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        import locale$/;"	kind:namespace	line:592
+locale	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^        import locale$/;"	kind:namespace	line:55
+logging_level_verbosity	../retrain.py	/^def logging_level_verbosity(logging_verbosity):$/;"	kind:function	line:990
+long_description	../setup.py	/^    long_description=readme + '\\n\\n' + history,$/;"	kind:variable	line:44
+lookup_default	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def lookup_default(self, name):$/;"	kind:member	line:480
+loss_object	../test.py	/^loss_object = tf.keras.losses.SparseCategoricalCrossentropy()$/;"	kind:variable	line:39
+main	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def main(self, args=None, prog_name=None, complete_var=None,$/;"	kind:member	line:658
+main	../retrain.py	/^def main(_):$/;"	kind:function	line:1013
+main	../tf/cli.py	/^def main(args=None):$/;"	kind:function	line:9
+main.py	../main.py	1;"	kind:file	line:1
+make_context	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def make_context(self, info_name, args, parent=None, **extra):$/;"	kind:member	line:621
+make_default_short_help	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^     echo, get_os_args$/;"	kind:namespace	line:11
+make_default_short_help	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def make_default_short_help(help, max_length=45):$/;"	kind:function	line:45
+make_env	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def make_env(self, overrides=None):$/;"	kind:member	line:155
+make_formatter	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def make_formatter(self):$/;"	kind:member	line:420
+make_input_stream	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^def make_input_stream(input, charset):$/;"	kind:function	line:54
+make_metavar	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def make_metavar(self):$/;"	kind:member	line:1368
+make_metavar	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def make_metavar(self):$/;"	kind:member	line:1819
+make_parser	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def make_parser(self, ctx):$/;"	kind:member	line:867
+make_pass_decorator	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	kind:namespace	line:25
+make_pass_decorator	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def make_pass_decorator(object_type, ensure=False):$/;"	kind:function	line:31
+make_step	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def make_step(self, n_steps):$/;"	kind:member	line:241
+make_str	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^     echo, get_os_args$/;"	kind:namespace	line:11
+make_str	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def make_str(value):$/;"	kind:function	line:35
+man_pages	../docs/conf.py	/^man_pages = [$/;"	kind:variable	line:141
+master_doc	../docs/conf.py	/^master_doc = 'index'$/;"	kind:variable	line:47
+math	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^import math$/;"	kind:namespace	line:17
+matu.py	../matu.py	1;"	kind:file	line:1
+measure_table	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^def measure_table(rows):$/;"	kind:function	line:11
+meta	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def meta(self):$/;"	kind:member	line:393
+mnist	../test.py	/^mnist = tf.keras.datasets.mnist$/;"	kind:variable	line:8
+model	../test.py	/^model = MyModel()$/;"	kind:variable	line:38
+models	../attention.py	/^from tensorflow.keras import datasets, layers, models$/;"	kind:namespace	line:2
+msvcrt	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        import msvcrt$/;"	kind:namespace	line:192
+msvcrt	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import msvcrt$/;"	kind:namespace	line:541
+msvcrt	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import msvcrt$/;"	kind:namespace	line:17
+name	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def name(self):$/;"	kind:member	line:537
+name	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def name(self):$/;"	kind:member	line:175
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def name(self):$/;"	kind:member	line:581
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'boolean'$/;"	kind:variable	line:345
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'choice'$/;"	kind:variable	line:142
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'datetime'$/;"	kind:variable	line:206
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'filename'$/;"	kind:variable	line:403
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'float range'$/;"	kind:variable	line:313
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'float'$/;"	kind:variable	line:292
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'integer range'$/;"	kind:variable	line:260
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'integer'$/;"	kind:variable	line:240
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'text'$/;"	kind:variable	line:108
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'text'$/;"	kind:variable	line:98
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'uuid'$/;"	kind:variable	line:362
+name	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = None$/;"	kind:variable	line:27
+name	../setup.py	/^    name='tf',$/;"	kind:variable	line:47
+name	../test.py	/^    name='test_accuracy')$/;"	kind:variable	line:48
+name	../test.py	/^    name='train_accuracy')$/;"	kind:variable	line:44
+new_func	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^        def new_func(*args, **kwargs):$/;"	kind:function	line:54
+new_func	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def new_func(*args, **kwargs):$/;"	kind:function	line:16
+new_func	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def new_func(*args, **kwargs):$/;"	kind:function	line:26
+normalize_opt	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^def normalize_opt(opt, ctx):$/;"	kind:function	line:91
+np	../matu.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../retrain.py	/^import numpy as np$/;"	kind:namespace	line:129
+open	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def open(self):$/;"	kind:member	line:105
+open_file	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	kind:namespace	line:33
+open_file	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def open_file(filename, mode='r', encoding=None, errors='strict',$/;"	kind:function	line:297
+open_stream	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def open_stream(filename, mode='r', encoding=None, errors='strict',$/;"	kind:function	line:471
+open_stream	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	kind:namespace	line:21
+open_stream	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	kind:namespace	line:6
+open_stream	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+open_url	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def open_url(url, wait=False, locate=False):$/;"	kind:function	line:472
+open_url	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    from ._termui_impl import open_url$/;"	kind:namespace	line:540
+optimizer	../test.py	/^optimizer = tf.keras.optimizers.Adam()$/;"	kind:variable	line:41
+option	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	kind:namespace	line:25
+option	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def option(*param_decls, **attrs):$/;"	kind:function	line:156
+os	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^import os$/;"	kind:namespace	line:2
+os	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^import os$/;"	kind:namespace	line:3
+os	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^import os$/;"	kind:namespace	line:14
+os	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^import os$/;"	kind:namespace	line:1
+os	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import os$/;"	kind:namespace	line:12
+os	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^import os$/;"	kind:namespace	line:3
+os	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^import os$/;"	kind:namespace	line:1
+os	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import os$/;"	kind:namespace	line:1
+os	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^import os$/;"	kind:namespace	line:1
+os	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^import os$/;"	kind:namespace	line:1
+os	../docs/conf.py	/^import os$/;"	kind:namespace	line:21
+os	../main.py	/^import os$/;"	kind:namespace	line:3
+os	../retrain.py	/^import os.path$/;"	kind:namespace	line:123
+output	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def output(self):$/;"	kind:member	line:92
+packages	../setup.py	/^    packages=find_packages(include=['tf']),$/;"	kind:variable	line:48
+pager	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def pager(generator, color=None):$/;"	kind:function	line:293
+pager	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    from ._termui_impl import pager$/;"	kind:namespace	line:257
+param_type_name	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    param_type_name = 'argument'$/;"	kind:variable	line:1800
+param_type_name	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    param_type_name = 'option'$/;"	kind:variable	line:1538
+param_type_name	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    param_type_name = 'parameter'$/;"	kind:variable	line:1331
+parse_args	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def parse_args(self, ctx, args):$/;"	kind:member	line:1084
+parse_args	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def parse_args(self, ctx, args):$/;"	kind:member	line:644
+parse_args	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def parse_args(self, ctx, args):$/;"	kind:member	line:934
+parse_args	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def parse_args(self, args):$/;"	kind:member	line:259
+parser	../retrain.py	/^    parser = argparse.ArgumentParser()$/;"	kind:variable	line:1204
+parser.py	../.eggs/Click-7.0-py3.7.egg/click/parser.py	1;"	kind:file	line:1
+pass_context	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	kind:namespace	line:25
+pass_context	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def pass_context(f):$/;"	kind:function	line:12
+pass_obj	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	kind:namespace	line:25
+pass_obj	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def pass_obj(f):$/;"	kind:function	line:21
+password_option	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	kind:namespace	line:25
+password_option	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def password_option(*param_decls, **attrs):$/;"	kind:function	line:208
+path	../retrain.py	/^import os.path$/;"	kind:namespace	line:123
+pause	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+pause	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def pause(info='Press any key to continue ...', err=False):$/;"	kind:function	line:580
+pct	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def pct(self):$/;"	kind:member	line:121
+pkg_resources	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^                    import pkg_resources$/;"	kind:namespace	line:259
+pop_context	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .globals import push_context, pop_context$/;"	kind:namespace	line:17
+pop_context	../.eggs/Click-7.0-py3.7.egg/click/globals.py	/^def pop_context():$/;"	kind:function	line:34
+prepare_file_system	../retrain.py	/^def prepare_file_system():$/;"	kind:function	line:935
+print_function	../main.py	/^from __future__ import (absolute_import, division, print_function,$/;"	kind:namespace	line:1
+print_function	../retrain.py	/^from __future__ import absolute_import, division, print_function$/;"	kind:namespace	line:118
+print_function	../test.py	/^from __future__ import (absolute_import, division, print_function,$/;"	kind:namespace	line:1
+process	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def process(self, value, state):$/;"	kind:member	line:148
+process	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def process(self, value, state):$/;"	kind:member	line:171
+process_value	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def process_value(self, ctx, value):$/;"	kind:member	line:1419
+progressbar	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+progressbar	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def progressbar(iterable=None, length=None, label=None, show_eta=True,$/;"	kind:function	line:261
+project	../docs/conf.py	/^project = u'tf'$/;"	kind:variable	line:50
+prompt	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+prompt	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .termui import prompt, confirm, style$/;"	kind:namespace	line:14
+prompt	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def prompt(text, default=None, hide_input=False, confirmation_prompt=False,$/;"	kind:function	line:55
+prompt_for_value	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def prompt_for_value(self, ctx):$/;"	kind:member	line:1747
+prompt_func	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    def prompt_func(text):$/;"	kind:function	line:94
+push_context	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .globals import push_context, pop_context$/;"	kind:namespace	line:17
+push_context	../.eggs/Click-7.0-py3.7.egg/click/globals.py	/^def push_context(ctx):$/;"	kind:function	line:29
+py_object	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	kind:namespace	line:20
+pygments_style	../docs/conf.py	/^pygments_style = 'sphinx'$/;"	kind:variable	line:76
+pythonapi	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    from ctypes import pythonapi$/;"	kind:namespace	line:22
+pythonapi	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    pythonapi = None$/;"	kind:variable	line:26
+random	../retrain.py	/^import random$/;"	kind:namespace	line:124
+range_type	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    range_type = range$/;"	kind:variable	line:267
+range_type	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    range_type = xrange$/;"	kind:variable	line:163
+range_type	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	kind:namespace	line:21
+raw_input	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def raw_input(prompt=''):$/;"	kind:function	line:596
+raw_input	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    raw_input = input$/;"	kind:variable	line:264
+raw_input	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    raw_input = raw_input$/;"	kind:variable	line:159
+raw_input	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	kind:namespace	line:8
+raw_terminal	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def raw_terminal():$/;"	kind:function	line:544
+raw_terminal	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def raw_terminal():$/;"	kind:function	line:594
+raw_terminal	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def raw_terminal():$/;"	kind:function	line:575
+re	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^import re$/;"	kind:namespace	line:3
+re	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^import re$/;"	kind:namespace	line:1
+re	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^import re$/;"	kind:namespace	line:19
+re	../retrain.py	/^import re$/;"	kind:namespace	line:125
+read	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def read(self, n=-1):$/;"	kind:member	line:38
+read1	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def read1(self, size):$/;"	kind:member	line:107
+readable	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def readable(self):$/;"	kind:member	line:118
+readable	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def readable(self):$/;"	kind:member	line:111
+readinto	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def readinto(self, b):$/;"	kind:member	line:114
+readline	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def readline(self, n=-1):$/;"	kind:member	line:41
+readlines	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def readlines(self):$/;"	kind:member	line:44
+readme	../setup.py	/^    readme = readme_file.read()$/;"	kind:variable	line:9
+release	../docs/conf.py	/^release = tf.__version__$/;"	kind:variable	line:61
+render_finish	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def render_finish(self):$/;"	kind:member	line:114
+render_progress	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def render_progress(self):$/;"	kind:member	line:202
+repeat	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from itertools import repeat$/;"	kind:namespace	line:6
+resolve_color_default	../.eggs/Click-7.0-py3.7.egg/click/globals.py	/^def resolve_color_default(color=None):$/;"	kind:function	line:39
+resolve_color_default	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .globals import resolve_color_default$/;"	kind:namespace	line:12
+resolve_color_default	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^from .globals import resolve_color_default$/;"	kind:namespace	line:4
+resolve_command	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def resolve_command(self, ctx, args):$/;"	kind:member	line:1166
+resolve_ctx	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def resolve_ctx(cli, prog_name, args):$/;"	kind:function	line:85
+resolve_envvar_value	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def resolve_envvar_value(self, ctx):$/;"	kind:member	line:1448
+resolve_envvar_value	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def resolve_envvar_value(self, ctx):$/;"	kind:member	line:1766
+resolve_lazy_flag	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def resolve_lazy_flag(self, value):$/;"	kind:member	line:414
+resultcallback	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def resultcallback(self, replace=False):$/;"	kind:member	line:1019
+retrain.py	../retrain.py	1;"	kind:file	line:1
+run_bottleneck_on_image	../retrain.py	/^def run_bottleneck_on_image(sess, image_data, image_data_tensor,$/;"	kind:function	line:321
+run_final_eval	../retrain.py	/^def run_final_eval(train_session, module_spec, class_count, image_lists,$/;"	kind:function	line:844
+safecall	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^from .utils import safecall, LazyFile$/;"	kind:namespace	line:8
+safecall	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def safecall(func):$/;"	kind:function	line:25
+save_graph_to_file	../retrain.py	/^def save_graph_to_file(graph_file_name, module_spec, class_count):$/;"	kind:function	line:923
+scaled_dot_product_attention	../attention.py	/^def scaled_dot_product_attention(q, k, v, mask):$/;"	kind:function	line:5
+scipy	../tf/tf.py	/^import scipy$/;"	kind:namespace	line:3
+scope	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def scope(self, cleanup=True):$/;"	kind:member	line:355
+secho	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+secho	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def secho(message=None, file=None, nl=True, err=False, color=None, **styles):$/;"	kind:function	line:464
+section	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def section(self, name):$/;"	kind:member	line:211
+seekable	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def seekable(self):$/;"	kind:member	line:145
+setUp	../tests/test_tf.py	/^    def setUp(self):$/;"	kind:member	line:17
+set_binary_mode	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def set_binary_mode(f):$/;"	kind:function	line:196
+set_binary_mode	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def set_binary_mode(f):$/;"	kind:function	line:210
+set_binary_mode	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def set_binary_mode(f):$/;"	kind:member	line:188
+setup	../setup.py	/^from setuptools import setup, find_packages$/;"	kind:namespace	line:6
+setup.py	../setup.py	1;"	kind:file	line:1
+setup_requirements	../setup.py	/^setup_requirements = [ ]$/;"	kind:variable	line:16
+setup_requires	../setup.py	/^    setup_requires=setup_requirements,$/;"	kind:variable	line:49
+shlex	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import shlex$/;"	kind:namespace	line:6
+should_distort_images	../retrain.py	/^def should_distort_images(flip_left_right, random_crop, random_scale,$/;"	kind:function	line:612
+should_strip_ansi	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def should_strip_ansi(stream=None, color=None):$/;"	kind:function	line:574
+should_strip_ansi	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^        def should_strip_ansi(stream=None, color=None):$/;"	kind:function	line:236
+should_strip_ansi	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+show	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def show(self, file=None):$/;"	kind:member	line:37
+show	../.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def show(self, file=None):$/;"	kind:member	line:58
+show_help	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def show_help(ctx, param, value):$/;"	kind:function	line:858
+shutil	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^        import shutil$/;"	kind:namespace	line:191
+shutil	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import shutil$/;"	kind:namespace	line:3
+sort_key	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def sort_key(item):$/;"	kind:function	line:123
+source_suffix	../docs/conf.py	/^source_suffix = '.rst'$/;"	kind:variable	line:44
+split	../g.py	/^def split(m):$/;"	kind:function	line:1
+split_arg_string	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .parser import split_arg_string$/;"	kind:namespace	line:6
+split_arg_string	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^def split_arg_string(string):$/;"	kind:function	line:98
+split_envvar_value	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def split_envvar_value(self, rv):$/;"	kind:member	line:57
+split_heads	../attention.py	/^    def split_heads(self, x, batch_size):$/;"	kind:member	line:60
+split_opt	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .parser import OptionParser, split_opt$/;"	kind:namespace	line:16
+split_opt	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^from .parser import split_opt$/;"	kind:namespace	line:3
+split_opt	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^def split_opt(opt):$/;"	kind:function	line:82
+start_of_option	../.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def start_of_option(param_str):$/;"	kind:function	line:122
+stat	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^import stat$/;"	kind:namespace	line:2
+stderr	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def stderr(self):$/;"	kind:member	line:103
+stdout	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def stdout(self):$/;"	kind:member	line:97
+string_types	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    string_types = (str, unicode)$/;"	kind:variable	line:160
+string_types	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    string_types = (str,)$/;"	kind:variable	line:265
+string_types	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._compat import PY2, isidentifier, iteritems, string_types$/;"	kind:namespace	line:19
+string_types	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	kind:namespace	line:8
+string_types	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^from ._compat import iteritems, PY2, string_types$/;"	kind:namespace	line:8
+string_types	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+strip_ansi	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def strip_ansi(value):$/;"	kind:function	line:570
+strip_ansi	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	kind:namespace	line:21
+strip_ansi	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	kind:namespace	line:8
+strip_ansi	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+struct	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^import struct$/;"	kind:namespace	line:3
+style	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+style	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .termui import prompt, confirm, style$/;"	kind:namespace	line:14
+style	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def style(text, fg=None, bg=None, bold=None, dim=None, underline=None,$/;"	kind:function	line:372
+subprocess	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^        import subprocess$/;"	kind:namespace	line:419
+subprocess	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import subprocess$/;"	kind:namespace	line:325
+subprocess	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import subprocess$/;"	kind:namespace	line:473
+subprocess	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^        import subprocess$/;"	kind:namespace	line:64
+sys	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^import sys$/;"	kind:namespace	line:4
+sys	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^import sys$/;"	kind:namespace	line:15
+sys	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^import sys$/;"	kind:namespace	line:2
+sys	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import sys$/;"	kind:namespace	line:13
+sys	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^import sys$/;"	kind:namespace	line:4
+sys	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^import sys$/;"	kind:namespace	line:1
+sys	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^import sys$/;"	kind:namespace	line:2
+sys	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import sys$/;"	kind:namespace	line:2
+sys	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^import sys$/;"	kind:namespace	line:2
+sys	../docs/conf.py	/^import sys$/;"	kind:namespace	line:22
+sys	../retrain.py	/^import sys$/;"	kind:namespace	line:126
+sys	../tf/cli.py	/^import sys$/;"	kind:namespace	line:4
+takes_value	../.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def takes_value(self):$/;"	kind:member	line:145
+tearDown	../tests/test_tf.py	/^    def tearDown(self):$/;"	kind:member	line:20
+temp_mha	../attention.py	/^temp_mha = MultiHeadAttention(d_model=512, num_heads=8)$/;"	kind:variable	line:99
+tempfile	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    import tempfile$/;"	kind:namespace	line:507
+tempfile	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^        import tempfile$/;"	kind:namespace	line:436
+tempfile	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import tempfile$/;"	kind:namespace	line:310
+tempfile	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import tempfile$/;"	kind:namespace	line:372
+tempfile	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import tempfile$/;"	kind:namespace	line:4
+template	../test.py	/^    template = 'Epoch {}, Loss: {}, Accuracy: {}, Test Loss: {}, Test Accuracy: {}'$/;"	kind:variable	line:81
+templates_path	../docs/conf.py	/^templates_path = ['_templates']$/;"	kind:variable	line:38
+term_len	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def term_len(x):$/;"	kind:function	line:654
+term_len	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	kind:namespace	line:21
+term_len	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^from ._compat import term_len$/;"	kind:namespace	line:4
+termios	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import termios$/;"	kind:namespace	line:591
+termios	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^            import termios$/;"	kind:namespace	line:209
+termui.py	../.eggs/Click-7.0-py3.7.egg/click/termui.py	1;"	kind:file	line:1
+test.py	../test.py	1;"	kind:file	line:1
+test_000_something	../tests/test_tf.py	/^    def test_000_something(self):$/;"	kind:member	line:23
+test_accuracy	../test.py	/^test_accuracy = tf.keras.metrics.SparseCategoricalAccuracy($/;"	kind:variable	line:47
+test_command_line_interface	../tests/test_tf.py	/^    def test_command_line_interface(self):$/;"	kind:member	line:26
+test_ds	../test.py	/^test_ds = tf.data.Dataset.from_tensor_slices((x_test, y_test)).batch(32)$/;"	kind:variable	line:19
+test_loss	../test.py	/^test_loss = tf.keras.metrics.Mean(name='test_loss')$/;"	kind:variable	line:46
+test_requirements	../setup.py	/^test_requirements = [ ]$/;"	kind:variable	line:18
+test_step	../test.py	/^def test_step(images, labels):$/;"	kind:function	line:64
+test_suite	../setup.py	/^    test_suite='tests',$/;"	kind:variable	line:50
+test_tf.py	../tests/test_tf.py	1;"	kind:file	line:1
+testing.py	../.eggs/Click-7.0-py3.7.egg/click/testing.py	1;"	kind:file	line:1
+tests_require	../setup.py	/^    tests_require=test_requirements,$/;"	kind:variable	line:51
+texinfo_documents	../docs/conf.py	/^texinfo_documents = [$/;"	kind:variable	line:153
+text_ds	../main.py	/^text_ds = tf.data.TextLineDataset('\/home\/miffyrcee\/Downloads\/002.txt')$/;"	kind:variable	line:8
+text_streams	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^text_streams = {$/;"	kind:variable	line:699
+text_streams	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+text_type	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    text_type = str$/;"	kind:variable	line:263
+text_type	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    text_type = unicode$/;"	kind:variable	line:157
+text_type	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^from ._compat import _NonClosingTextIOWrapper, text_type, PY2$/;"	kind:namespace	line:18
+text_type	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	kind:namespace	line:8
+text_type	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	kind:namespace	line:6
+text_type	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	kind:namespace	line:9
+textwrap	../.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^import textwrap$/;"	kind:namespace	line:1
+tf	../attention.py	/^import tensorflow as tf$/;"	kind:namespace	line:1
+tf	../docs/conf.py	/^import tf$/;"	kind:namespace	line:25
+tf	../main.py	/^import tensorflow as tf$/;"	kind:namespace	line:5
+tf	../matu.py	/^import tensorflow as tf$/;"	kind:namespace	line:2
+tf	../retrain.py	/^import tensorflow as tf$/;"	kind:namespace	line:130
+tf	../test.py	/^import tensorflow as tf$/;"	kind:namespace	line:4
+tf	../tests/test_tf.py	/^from tf import tf$/;"	kind:namespace	line:10
+tf	../tf/tf.py	/^import tensorflow as tf$/;"	kind:namespace	line:4
+tf.py	../tf/tf.py	1;"	kind:file	line:1
+tfds	../main.py	/^import tensorflow_datasets as tfds$/;"	kind:namespace	line:6
+time	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^import time$/;"	kind:namespace	line:16
+time	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import time$/;"	kind:namespace	line:15
+time_per_iteration	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def time_per_iteration(self):$/;"	kind:member	line:127
+todo_include_todos	../docs/conf.py	/^todo_include_todos = False$/;"	kind:variable	line:79
+tokenizer	../main.py	/^tokenizer = tfds.features.text.Tokenizer()$/;"	kind:variable	line:9
+tokens	../main.py	/^    tokens = tokenizer.tokenize(i.numpy().decode('utf-8'))$/;"	kind:variable	line:13
+train_accuracy	../test.py	/^train_accuracy = tf.keras.metrics.SparseCategoricalAccuracy($/;"	kind:variable	line:43
+train_ds	../test.py	/^train_ds = tf.data.Dataset.from_tensor_slices($/;"	kind:variable	line:16
+train_loss	../test.py	/^train_loss = tf.keras.metrics.Mean(name='train_loss')$/;"	kind:variable	line:42
+train_step	../test.py	/^def train_step(images, labels):$/;"	kind:function	line:52
+tty	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import tty$/;"	kind:namespace	line:590
+type	../retrain.py	/^                        type=float,$/;"	kind:variable	line:1237
+type	../retrain.py	/^                        type=int,$/;"	kind:variable	line:1218
+type	../retrain.py	/^                        type=int,$/;"	kind:variable	line:1233
+type	../retrain.py	/^                        type=int,$/;"	kind:variable	line:1241
+type	../retrain.py	/^                        type=int,$/;"	kind:variable	line:1250
+type	../retrain.py	/^                        type=int,$/;"	kind:variable	line:1254
+type	../retrain.py	/^                        type=int,$/;"	kind:variable	line:1258
+type	../retrain.py	/^                        type=int,$/;"	kind:variable	line:1267
+type	../retrain.py	/^                        type=int,$/;"	kind:variable	line:1300
+type	../retrain.py	/^                        type=int,$/;"	kind:variable	line:1307
+type	../retrain.py	/^                        type=int,$/;"	kind:variable	line:1314
+type	../retrain.py	/^                        type=str,$/;"	kind:variable	line:1206
+type	../retrain.py	/^                        type=str,$/;"	kind:variable	line:1210
+type	../retrain.py	/^                        type=str,$/;"	kind:variable	line:1214
+type	../retrain.py	/^                        type=str,$/;"	kind:variable	line:1225
+type	../retrain.py	/^                        type=str,$/;"	kind:variable	line:1229
+type	../retrain.py	/^                        type=str,$/;"	kind:variable	line:1284
+type	../retrain.py	/^                        type=str,$/;"	kind:variable	line:1288
+type	../retrain.py	/^                        type=str,$/;"	kind:variable	line:1330
+type	../retrain.py	/^                        type=str,$/;"	kind:variable	line:1334
+type	../retrain.py	/^                        type=str,$/;"	kind:variable	line:1339
+type	../retrain.py	/^        type=int,$/;"	kind:variable	line:1246
+type	../retrain.py	/^        type=str,$/;"	kind:variable	line:1322
+type_cast_value	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def type_cast_value(self, ctx, value):$/;"	kind:member	line:1398
+types.py	../.eggs/Click-7.0-py3.7.egg/click/types.py	1;"	kind:file	line:1
+unittest	../tests/test_tf.py	/^import unittest$/;"	kind:namespace	line:7
+unstyle	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	kind:namespace	line:38
+unstyle	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def unstyle(text):$/;"	kind:function	line:452
+update	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def update(self, n_steps):$/;"	kind:member	line:263
+update_wrapper	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^from functools import update_wrapper$/;"	kind:namespace	line:7
+update_wrapper	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from functools import update_wrapper$/;"	kind:namespace	line:4
+url	../setup.py	/^    url='https:\/\/github.com\/miffyrcee\/tf',$/;"	kind:variable	line:52
+urllib	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^            import urllib$/;"	kind:namespace	line:477
+urllib	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^            import urllib$/;"	kind:namespace	line:479
+utils.py	../.eggs/Click-7.0-py3.7.egg/click/utils.py	1;"	kind:file	line:1
+uuid	../.eggs/Click-7.0-py3.7.egg/click/types.py	/^        import uuid$/;"	kind:namespace	line:365
+value_from_envvar	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def value_from_envvar(self, ctx):$/;"	kind:member	line:1459
+value_from_envvar	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def value_from_envvar(self, ctx):$/;"	kind:member	line:1775
+value_is_missing	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def value_is_missing(self, value):$/;"	kind:member	line:1430
+variable_summaries	../retrain.py	/^def variable_summaries(var):$/;"	kind:function	line:722
+version	../docs/conf.py	/^version = tf.__version__$/;"	kind:variable	line:59
+version	../setup.py	/^    version='0.1.0',$/;"	kind:variable	line:53
+version_option	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	kind:namespace	line:25
+version_option	../.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def version_option(version=None, *param_decls, **attrs):$/;"	kind:function	line:228
+visible_input	../.eggs/Click-7.0-py3.7.egg/click/testing.py	/^        def visible_input(prompt=None):$/;"	kind:function	line:215
+visible_prompt_func	../.eggs/Click-7.0-py3.7.egg/click/termui.py	/^visible_prompt_func = raw_input$/;"	kind:variable	line:17
+vocabulary_set	../main.py	/^vocabulary_set = set()$/;"	kind:variable	line:10
+warn	../.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^    from warnings import warn$/;"	kind:namespace	line:40
+warn	../.eggs/Click-7.0-py3.7.egg/click/core.py	/^        from warnings import warn$/;"	kind:namespace	line:90
+webbrowser	../.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^            import webbrowser$/;"	kind:namespace	line:525
+windll	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	kind:namespace	line:20
+wrap_text	../.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^from .formatting import HelpFormatter, wrap_text$/;"	kind:namespace	line:46
+wrap_text	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^def wrap_text(text, width=78, initial_indent='', subsequent_indent='',$/;"	kind:function	line:25
+wrapper	../.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def wrapper(*args, **kwargs):$/;"	kind:function	line:27
+writable	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def writable(self):$/;"	kind:member	line:130
+writable	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def writable(self):$/;"	kind:member	line:141
+write	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def write(self, x):$/;"	kind:function	line:65
+write	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def write(self, b):$/;"	kind:member	line:152
+write	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def write(self, text):$/;"	kind:member	line:218
+write	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def write(self, x):$/;"	kind:member	line:178
+write	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write(self, string):$/;"	kind:member	line:113
+write_dl	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write_dl(self, rows, col_max=30, col_spacing=2):$/;"	kind:member	line:173
+write_heading	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write_heading(self, heading):$/;"	kind:member	line:152
+write_paragraph	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write_paragraph(self):$/;"	kind:member	line:156
+write_text	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write_text(self, text):$/;"	kind:member	line:161
+write_usage	../.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write_usage(self, prog, args='', prefix='Usage: '):$/;"	kind:member	line:125
+writelines	../.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def writelines(self, lines):$/;"	kind:function	line:74
+writelines	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def writelines(self, lines):$/;"	kind:member	line:187
+x_test	../test.py	/^x_test = x_test[..., tf.newaxis]$/;"	kind:variable	line:15
+x_train	../test.py	/^x_train = x_train[..., tf.newaxis]$/;"	kind:variable	line:14
+y	../attention.py	/^y = tf.random.uniform((1, 60, 512))  # (batch_size, encoder_sequence, d_model)$/;"	kind:variable	line:100
+zip_safe	../setup.py	/^    zip_safe=False,$/;"	kind:variable	line:54
+zlib	../.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import zlib$/;"	kind:namespace	line:14

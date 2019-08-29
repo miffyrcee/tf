@@ -7,12 +7,14 @@ verify_ssl = true
 
 [packages]
 tensorflow = "==2.0.0b1"
+pillow = "*"
 tensorflow-hub = "*"
+tensorflow-text = "*"
 ipython = "*"
-numpy = "*"
 matplotlib = "*"
 sklearn = "*"
-pillow = "*"
+opencv-python = "*"
+tensorflow-datasets = "*"
 
 [requires]
 python_version = "3.7"
