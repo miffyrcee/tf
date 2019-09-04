@@ -1,57 +1,84 @@
 import os
+from collections.abc import Iterable
 from random import choice
 
 import tensorflow as tf
 import tensorflow_datasets as tfds
 
-BUFFER_SIZE = 100
-BATCH_SIZE = 100
-TAKE_SIZE = 100
-FILE_NAMES = '002.txt'
-# with open(FILE_NAMES, 'r') as f:
-#     with open('003.txt', 'w') as t:
-#         for word in f.read():
-#             t.write(word + ' ')
-
-text_raw_ds = tf.data.TextLineDataset('003.txt')
+BUFFER_SIZE = 10000
+BATCH_SIZE = 64
+TAKE_SIZE = 60
+FILE_NAMES = '/home/miffyrcee/github/py/002.txt'
+text_raw_ds = tf.data.TextLineDataset(FILE_NAMES)
 
 tokenizer = tfds.features.text.Tokenizer()
 
 vocab_list = set()
 for ex in text_raw_ds:
     vocab_list.update(tokenizer.tokenize(ex.numpy()))
+vocab_size = vocab_list.__len__()
 
-vocab_size = len(vocab_list)
 encoder = tfds.features.text.TokenTextEncoder(vocab_list)
-for _ in range(1):
-    text_ds = text_raw_ds.map(lambda x: (x, 1))  #labeler
 
 
-def encode(raw, label):
-    return encoder.encode(raw.numpy()), tf.cast(label, tf.int64)
+def wrapper(line):
+    encoder_list = encoder.encode(line.numpy())
+    return encoder_list[:-1], encoder_list[1:]
 
 
-text_ds = text_ds.map(lambda x, label: tf.py_function(
-    encode, inp=[x, label], Tout=[tf.int64, tf.int64]))
-train_data = text_ds.skip(10).shuffle(10)
-train_data = train_data.padded_batch(BATCH_SIZE, padded_shapes=([-1], []))
-test_data = text_ds.take(TAKE_SIZE)
-test_data = test_data.padded_batch(BATCH_SIZE, padded_shapes=([-1], []))
-vocab_size += 1
-for ex in test_data.take(1):
-    print(ex)
+def split_in_out(line):
+    return tf.py_function(wrapper, inp=[line], Tout=[tf.int64, tf.int64])
 
-model = tf.keras.Sequential()
-model.add(tf.keras.layers.Embedding(vocab_size, 64))
-model.add(tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64)))
 
-for units in [64, 64]:
-    model.add(tf.keras.layers.Dense(units, activation='relu'))
+text_ds = text_raw_ds.shuffle(BUFFER_SIZE).batch(BATCH_SIZE)
 
-# 输出层。第一个参数是标签个数。
-model.add(tf.keras.layers.Dense(3, activation='softmax'))
+text_ds = text_raw_ds.map(split_in_out)
 
-model.compile(optimizer='adam',
-              loss='sparse_categorical_crossentropy',
-              metrics=['accuracy'])
-model.fit(train_data, epochs=3, validation_data=test_data)
+text_ds = text_ds.padded_batch(vocab_size,
+                               padded_shapes=([-1], [-1]),
+                               drop_remainder=True)
+
+
+def build_model(vocab_size, embedding_dim, rnn_units, batch_size):
+    model = tf.keras.Sequential([
+        tf.keras.layers.Embedding(vocab_size,
+                                  embedding_dim,
+                                  batch_input_shape=[batch_size, None]),
+        tf.keras.layers.LSTM(rnn_units,
+                             return_sequences=True,
+                             stateful=True,
+                             recurrent_initializer='glorot_uniform'),
+        tf.keras.layers.Dense(vocab_size)
+    ])
+    return model
+
+
+embedding_dim = 256
+
+# Number of RNN units
+rnn_units = 1024
+
+model = build_model(vocab_size=vocab_size,
+                    embedding_dim=embedding_dim,
+                    rnn_units=rnn_units,
+                    batch_size=BATCH_SIZE)
+
+
+def loss(labels, logits):
+    return tf.keras.losses.sparse_categorical_crossentropy(labels,
+                                                           logits,
+                                                           from_logits=True)
+
+
+model.compile(optimizer='adam', loss=loss)
+
+checkpoint_dir = './training_checkpoints'
+# Name of the checkpoint files
+checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt_{epoch}")
+
+checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
+    filepath=checkpoint_prefix, save_weights_only=True)
+
+EPOCHS = 10
+
+history = model.fit(text_ds, epochs=EPOCHS, callbacks=[checkpoint_callback])
