@@ -24,6 +24,7 @@ examples_per_epoch = len(text) // seq_length
 # Create training examples / targets
 char_dataset = tf.data.Dataset.from_tensor_slices(text_as_int)
 
+print(seq_length + 1)
 sequences = char_dataset.batch(seq_length + 1, drop_remainder=True)
 
 
