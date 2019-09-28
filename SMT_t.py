@@ -5,6 +5,12 @@ import tensorflow_datasets as tfds
 units = 64
 
 
+def att(u, k, v):
+    uk = tf.matmul(u, k, transpose_b=True)
+    att_weights = tf.nn.softmax(uk)
+    return tf.matmul(att_weights, v)
+
+
 class att_block(tf.keras.layers.Layer):
     def __init__(self, d_model, num_heads):
         super().__init__()
@@ -19,15 +25,9 @@ class att_block(tf.keras.layers.Layer):
         xwu = tf.matmul(x, self.wu)
         ywk = tf.matmul(y, self.wk)
         ywv = tf.matmul(y, self.wv)
-        hidden = self.h_ln()
-        att_block = self.ln(self.fc() + hidden)
+        hidden = self.h_ln(att(xwu, ywk, ywk), x)
+        att_block = self.att_ln(self.fc(hidden) + hidden)
         return self.att_block
-
-
-def att(u, k, v):
-    uk = tf.matmul(u, k, transpose_b=True)
-    att_weights = tf.nn.softmax(uk)
-    return tf.matmul(att_weights, v)
 
 
 class encoder(tf.keras.models.Model):
