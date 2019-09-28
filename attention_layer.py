@@ -3,21 +3,6 @@ from tensorflow.keras import datasets, layers, models
 
 
 def scaled_dot_product_attention(q, k, v, mask):
-    """Calculate the attention weights.
-  q, k, v must have matching leading dimensions.
-  k, v must have matching penultimate dimension, i.e.: seq_len_k = seq_len_v.
-  The mask has different shapes depending on its type(padding or look ahead) 
-  but it must be broadcastable for addition.
-  
-  Args:
-    q: query shape == (..., seq_len_q, depth)
-    k: key shape == (..., seq_len_k, depth)
-    v: value shape == (..., seq_len_v, depth_v)
-    mask: Float tensor with shape broadcastable 
-          to (..., seq_len_q, seq_len_k). Defaults to None.
-    
-  Returns:
-    output, attention_weights
   """
 
     matmul_qk = tf.matmul(q, k,
@@ -99,4 +84,4 @@ class MultiHeadAttention(tf.keras.layers.Layer):
 temp_mha = MultiHeadAttention(d_model=512, num_heads=8)
 y = tf.random.uniform((1, 60, 512))  # (batch_size, encoder_sequence, d_model)
 out, attn = temp_mha(y, k=y, q=y, mask=None)
-out.shape, attn.shape
+print(out.shape, attn.shape)

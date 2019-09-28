@@ -12,20 +12,29 @@ class attention(tf.keras.models.Model):
 
     def call(self, query, values):
         hidden_time_axis = tf.expand_dims(query, axis=1)
-        scores = self.v(self.w1(values) + self.w2(hidden_time_axis))
+        scores = self.v(
+            tf.nn.tanh(self.w1(values) + self.w2(hidden_time_axis)))
         weights = tf.nn.softmax(scores, axis=1)
         context_vector = weights * values
         context_vector = tf.reduce_sum(context_vector, axis=1)
-
         return weights, context_vector
 
 
 class encoder():
-    def __init__(self, vocab_size, embedding_dim, units):
+    def __init__(self, vocab_size, embedding_dim, units, batch_size):
         super().__init__()
+        self.batch_size = batch_size
         self.em = tf.keras.layers.Embedding(vocab_size, embedding_dim)
         self.gru = tf.keras.layers.GRU(units)
 
     def call(self, x, hidden):
         x = self.em(x)
-        output, state = self.gru(x, initial_state=hidden)
+        output, state = self.gru(x,
+                                 initial_state=hidden,
+                                 return_sequences=True,
+                                 returns_state=True)
+
+        return output, state
+
+    def initial_state(self):
+        return tf.zeros((self.batch_size, self.units))

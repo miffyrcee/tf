@@ -23,3 +23,51 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# create by https://github.com/iamcco/coc-gitignore (Mon Sep 16 2019 20:18:29 GMT+0800 (China Standard Time))
+# 1C-Bitrix.gitignore:
+# core
+/bitrix/
+
+# uploaded files
+/upload/
+
+# other files
+test.php
+*.zip
+*.gzip
+*.gz
+*.tgz
+*.tar
+*.gz.[0-9]
+*.sql
+*.log
+*.mp3
+*.exe
+*.db
+*.csv
+*.xml
+*.psd
+*.[oa]
+*~
+
+# create by https://github.com/iamcco/coc-gitignore (Mon Sep 16 2019 20:18:53 GMT+0800 (China Standard Time))
+# Vim.gitignore:
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
