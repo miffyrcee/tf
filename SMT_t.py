@@ -36,3 +36,6 @@ class encoder(tf.keras.models.Model):
 
     def call(self, mask):
         return att_block(mask, mask)
+print(
+    tf.keras.layers.Dense(10, activation=tf.nn.relu)(tf.random.uniform(
+        (10, 10))))
