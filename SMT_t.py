@@ -11,8 +11,13 @@ def att(u, k, v):
     return tf.matmul(att_weights, v)
 
 
+def probabilities(x, y, theta, scaled_factor, t):
+    return x / scaled_factor, y / scaled_factor, tf.sin(theta), tf.cos(
+        theta), tf.math.exp(-t)
+
+
 class att_block(tf.keras.layers.Layer):
-    def __init__(self, d_model, num_heads):
+    def __init__(self, d_model):
         super().__init__()
         self.fc = tf.keras.layers.Dense(units)
         self.att_ln = tf.keras.layers.LayerNormalization(epsilon=1e-6)
@@ -30,12 +35,16 @@ class att_block(tf.keras.layers.Layer):
         return self.att_block
 
 
-class encoder(tf.keras.models.Model):
+class encoder_layer(tf.keras.layers.Layer):
     def __init__(self):
         super().__init__()
 
+
+class encoder(tf.keras.models.Model):
+    def __init__(self):
+        super().__init__()
+        self.ln1 = tf.keras.layers.LayerNormalization(epsilon=1e-6)
+        self.ln2 = tf.keras.layers.LayerNormalization(epsilon=1e-6)
+
     def call(self, mask):
         return att_block(mask, mask)
-print(
-    tf.keras.layers.Dense(10, activation=tf.nn.relu)(tf.random.uniform(
-        (10, 10))))
