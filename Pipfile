@@ -15,6 +15,7 @@ matplotlib = "*"
 sklearn = "*"
 opencv-python = "*"
 tensorflow-datasets = "*"
+tensorflow-addons = "*"
 
 [requires]
 python_version = "3.7"
