@@ -6,6 +6,8 @@ import tensorflow as tf
 import tensorflow_addons as tfa
 import tensorflow_datasets as tfds
 
+units = 64
+
 
 class att_block(tf.keras.layers.Layer):
     '''
@@ -32,3 +34,26 @@ class att_block(tf.keras.layers.Layer):
             self.att(self.xwu, self.ywk, self.ywv) + self.x)
         self.att_block = self.ln2(self.d(self.num_heads) + self.num_heads)
         return self.att_block
+
+
+class mdp(tf.keras.layers.Layer):
+    def __init__(self):
+        super().__init__()
+
+
+class encoder(tf.keras.models.Model):
+    '''
+    states
+    actions
+    transitions
+    rewards
+    '''
+    def __init__(self):
+        super().__init__()
+        self.p = tf.random((units, units))
+        self.p = tf.keras.layers.Dense(units)(self.p)
+        self.em = tf.keras.layers.Embedding()
+        self.att_b = att_block()
+
+    def call(self, u, v, k):
+        self.em()
