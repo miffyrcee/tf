@@ -10,4 +10,6 @@ class gru(tf.keras.models.Model):
         self.f = tf.keras.layers.Dense(64)
         self.i = tf.keras.layers.Dense(64)
         self.o = tf.keras.layers.Dense(64)
+
     def call(self):
+        pass

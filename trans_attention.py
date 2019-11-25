@@ -38,4 +38,3 @@ class encoder_layer(tf.keras.layers.Layer):
     def __init__(self):
         super().__init__()
         self.ln = tf.keras.layers.LayerNormalization(epsilon=0.001)
-echo 'hsss'

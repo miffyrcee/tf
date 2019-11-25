@@ -2,6 +2,7 @@ from collections.abc import Iterable
 from random import choices
 
 import gym
+import matplotlib.pyplot as plt
 import numpy as np
 import scipy
 
@@ -20,3 +21,8 @@ for state in range(env.nS - 1):
             b[state] += (pi * reward * p)
 v = np.linalg.solve(a, b)
 print(np.argsort(v))
+x0 = [0, 1, 2]
+x = [0.2, 0.3, 0.5]
+y = np.exp(x) / sum(np.exp(x))
+plt.plot(x0, x)
+plt.plot(x0, y, 'o')
