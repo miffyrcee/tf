@@ -1,9 +1,7 @@
-import itertools
 from itertools import permutations, product
 
 import matplotlib.pyplot as plt
 import numpy as np
-import scipy.special as spatial
 
 p = np.random.uniform(size=(2, 10000))
 p_sorted = np.argsort(p, -1)
