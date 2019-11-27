@@ -52,7 +52,7 @@ def min_dd(loc):
         delta_left = solve(left)
     else:
         delta_left = min_dd(left)
-    if len(left) <= 3:
+    if len(right) <= 3:
         delta_right = solve(right)
     else:
         delta_right = min_dd(right)
