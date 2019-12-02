@@ -1,6 +1,7 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+# url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+url = "https://mirrors.aliyun.com/pypi/simple/"
 verify_ssl = true
 
 [dev-packages]
@@ -10,10 +11,6 @@ tensorflow = "==2.0.0"
 tensorflow-hub = "*"
 tensorflow-datasets = "*"
 tensorflow-addons = "*"
-gym = "*"
-matplotlib = "*"
-pillow = "*"
-ipython = "*"
 tensorflow-probability = "*"
 
 [requires]
