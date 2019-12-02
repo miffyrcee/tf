@@ -64,7 +64,6 @@ def gradidents(w):
     w = np.array(w)
     x = tf.constant(0.)
     with tf.GradientTape() as tg:
-
         tg.watch(x)
         y = tf.ones((3, 3))
         tg.watch(y)
