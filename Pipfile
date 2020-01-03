@@ -12,6 +12,8 @@ tensorflow-hub = "*"
 tensorflow-datasets = "*"
 tensorflow-addons = "*"
 tensorflow-probability = "*"
+scipy = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.7"

@@ -23,7 +23,3 @@ def m_clclator(m):
 
 
 m = np.random.uniform(size=(2, k))
-for _ in range(10):
-    s = np.var(m)
-    m = m_clclator(m)
-    print(s)
