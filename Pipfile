@@ -14,6 +14,8 @@ tensorflow-addons = "*"
 tensorflow-probability = "*"
 scipy = "*"
 matplotlib = "*"
+pysocks = "*"
+sympy = "*"
 
 [requires]
 python_version = "3.7"

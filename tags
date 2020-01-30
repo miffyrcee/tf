@@ -1,0 +1,1426 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.DEFAULT_GOAL	Makefile	/^.DEFAULT_GOAL := help$/;"	m
+AFTER_BAR	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    AFTER_BAR = '\\033[?25h\\n'$/;"	v
+AFTER_BAR	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    AFTER_BAR = '\\n'$/;"	v
+APP_ENGINE	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^APP_ENGINE = ('APPENGINE_RUNTIME' in os.environ and$/;"	v
+Abort	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	i
+Abort	.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	i
+Abort	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class Abort(RuntimeError):$/;"	c
+Abort	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .exceptions import Abort, UsageError$/;"	i
+Argument	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	i
+Argument	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .core import MultiCommand, Option, Argument$/;"	i
+Argument	.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Argument(Parameter):$/;"	c
+Argument	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .core import Command, Group, Argument, Option$/;"	i
+Argument	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^class Argument(object):$/;"	c
+BATCH_SIZE	RNN.py	/^BATCH_SIZE = 64$/;"	v
+BATCH_SIZE	gen_novel.py	/^BATCH_SIZE = 51$/;"	v
+BATCH_SIZE	gen_rnn.py	/^BATCH_SIZE = 64$/;"	v
+BEFORE_BAR	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    BEFORE_BAR = '\\r'$/;"	v
+BEFORE_BAR	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    BEFORE_BAR = '\\r\\033[?25l'$/;"	v
+BOOL	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+BOOL	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .types import convert_type, IntRange, BOOL$/;"	i
+BOOL	.eggs/Click-7.0-py3.7.egg/click/types.py	/^BOOL = BoolParamType()$/;"	v
+BROWSER	Makefile	/^BROWSER := python -c "$$BROWSER_PYSCRIPT"$/;"	m
+BROWSER_PYSCRIPT	Makefile	/^define BROWSER_PYSCRIPT$/;"	m
+BUFFER_SIZE	RNN.py	/^BUFFER_SIZE = 10000$/;"	v
+BUFFER_SIZE	gen_novel.py	/^BUFFER_SIZE = 10000$/;"	v
+BUFFER_SIZE	gen_rnn.py	/^BUFFER_SIZE = 10000$/;"	v
+BUILDDIR	docs/Makefile	/^BUILDDIR      = _build$/;"	m
+BUILDDIR	docs/make.bat	/^set BUILDDIR=_build$/;"	v
+BadArgumentUsage	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	i
+BadArgumentUsage	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class BadArgumentUsage(UsageError):$/;"	c
+BadArgumentUsage	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^     BadArgumentUsage$/;"	i
+BadOptionUsage	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	i
+BadOptionUsage	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class BadOptionUsage(UsageError):$/;"	c
+BadOptionUsage	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^     BadArgumentUsage$/;"	i
+BadParameter	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	i
+BadParameter	.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	i
+BadParameter	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class BadParameter(UsageError):$/;"	c
+BadParameter	.eggs/Click-7.0-py3.7.egg/click/types.py	/^from .exceptions import BadParameter$/;"	i
+BaseCommand	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	i
+BaseCommand	.eggs/Click-7.0-py3.7.egg/click/core.py	/^class BaseCommand(object):$/;"	c
+BoolParamType	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class BoolParamType(ParamType):$/;"	c
+CYGWIN	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^CYGWIN = sys.platform.startswith('cygwin')$/;"	v
+CYGWIN	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	i
+Choice	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+Choice	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .types import Choice$/;"	i
+Choice	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .types import convert_type, Choice, Path$/;"	i
+Choice	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class Choice(ParamType):$/;"	c
+CliRunner	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^class CliRunner(object):$/;"	c
+CliRunner	tests/test_tf.py	/^from click.testing import CliRunner$/;"	i
+ClickException	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	i
+ClickException	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^from .exceptions import ClickException$/;"	i
+ClickException	.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	i
+ClickException	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class ClickException(Exception):$/;"	c
+Command	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	i
+Command	.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Command(BaseCommand):$/;"	c
+Command	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .core import Command, Group, Argument, Option$/;"	i
+CommandCollection	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	i
+CommandCollection	.eggs/Click-7.0-py3.7.egg/click/core.py	/^class CommandCollection(MultiCommand):$/;"	c
+CommandLineToArgvW	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^CommandLineToArgvW = WINFUNCTYPE($/;"	v
+CompositeParamType	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class CompositeParamType(ParamType):$/;"	c
+ConsoleStream	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class ConsoleStream(object):$/;"	c
+Context	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	i
+Context	.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Context(object):$/;"	c
+DEFAULT_COLUMNS	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    DEFAULT_COLUMNS = 79$/;"	v
+DEFAULT_COLUMNS	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^DEFAULT_COLUMNS = 80$/;"	v
+DEFAULT_COLUMNS	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	i
+DEPRECATED_HELP_NOTICE	.eggs/Click-7.0-py3.7.egg/click/core.py	/^DEPRECATED_HELP_NOTICE = ' (DEPRECATED)'$/;"	v
+DEPRECATED_INVOKE_NOTICE	.eggs/Click-7.0-py3.7.egg/click/core.py	/^                           'The command %(name)s is deprecated.'$/;"	v
+DateTime	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+DateTime	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class DateTime(ParamType):$/;"	c
+EOF	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^EOF = b'\\x1a'$/;"	v
+EPOCHS	gen_novel.py	/^EPOCHS = 10$/;"	v
+EPOCHS	gen_rnn.py	/^EPOCHS = 10$/;"	v
+ERROR_NOT_ENOUGH_MEMORY	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^ERROR_NOT_ENOUGH_MEMORY = 8$/;"	v
+ERROR_OPERATION_ABORTED	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^ERROR_OPERATION_ABORTED = 995$/;"	v
+ERROR_SUCCESS	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^ERROR_SUCCESS = 0$/;"	v
+EchoingStdin	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^class EchoingStdin(object):$/;"	c
+Editor	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^class Editor(object):$/;"	c
+Editor	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    from ._termui_impl import Editor$/;"	i
+Exit	.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	i
+Exit	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class Exit(RuntimeError):$/;"	c
+FILE_NAMES	gen_novel.py	/^FILE_NAMES = '\/home\/miffyrcee\/github\/py\/002.txt'$/;"	v
+FLOAT	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+FLOAT	.eggs/Click-7.0-py3.7.egg/click/types.py	/^FLOAT = FloatParamType()$/;"	v
+FORCED_WIDTH	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^FORCED_WIDTH = None$/;"	v
+File	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+File	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class File(ParamType):$/;"	c
+FileError	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	i
+FileError	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class FileError(ClickException):$/;"	c
+FileError	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^            from .exceptions import FileError$/;"	i
+FloatParamType	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class FloatParamType(ParamType):$/;"	c
+FloatRange	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+FloatRange	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class FloatRange(FloatParamType):$/;"	c
+FuncParamType	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class FuncParamType(ParamType):$/;"	c
+GetCommandLineW	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^GetCommandLineW = WINFUNCTYPE(LPWSTR)($/;"	v
+GetLastError	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^GetLastError = kernel32.GetLastError$/;"	v
+GetStdHandle	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^GetStdHandle = kernel32.GetStdHandle$/;"	v
+Group	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	i
+Group	.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Group(MultiCommand):$/;"	c
+Group	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .core import Command, Group, Argument, Option$/;"	i
+HelpFormatter	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^from .formatting import HelpFormatter, wrap_text$/;"	i
+HelpFormatter	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .formatting import HelpFormatter, join_options$/;"	i
+HelpFormatter	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^class HelpFormatter(object):$/;"	c
+INT	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+INT	.eggs/Click-7.0-py3.7.egg/click/types.py	/^INT = IntParamType()$/;"	v
+IntParamType	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class IntParamType(ParamType):$/;"	c
+IntRange	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+IntRange	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .types import convert_type, IntRange, BOOL$/;"	i
+IntRange	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class IntRange(IntParamType):$/;"	c
+Iterable	CliffWalking-v0.py	/^from collections.abc import Iterable$/;"	i
+KeepOpenFile	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^class KeepOpenFile(object):$/;"	c
+LPCWSTR	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^from ctypes.wintypes import LPWSTR, LPCWSTR$/;"	i
+LPWSTR	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^from ctypes.wintypes import LPWSTR, LPCWSTR$/;"	i
+LazyFile	.eggs/Click-7.0-py3.7.egg/click/types.py	/^from .utils import safecall, LazyFile$/;"	i
+LazyFile	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^class LazyFile(object):$/;"	c
+MAX_BYTES_WRITTEN	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^MAX_BYTES_WRITTEN = 32767$/;"	v
+MDP	mdpExamples.py	/^from mdpProblem import MDP$/;"	i
+MDP	mdpProblem.py	/^class MDP(object):$/;"	c
+MissingParameter	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	i
+MissingParameter	.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	i
+MissingParameter	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class MissingParameter(BadParameter):$/;"	c
+MultiCommand	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	i
+MultiCommand	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .core import MultiCommand, Option, Argument$/;"	i
+MultiCommand	.eggs/Click-7.0-py3.7.egg/click/core.py	/^class MultiCommand(Command):$/;"	c
+NoSuchOption	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	i
+NoSuchOption	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class NoSuchOption(UsageError):$/;"	c
+NoSuchOption	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^     BadArgumentUsage$/;"	i
+Option	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	i
+Option	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .core import MultiCommand, Option, Argument$/;"	i
+Option	.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Option(Parameter):$/;"	c
+Option	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .core import Command, Group, Argument, Option$/;"	i
+Option	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^class Option(object):$/;"	c
+OptionParser	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^from .parser import OptionParser$/;"	i
+OptionParser	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .parser import OptionParser, split_opt$/;"	i
+OptionParser	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^class OptionParser(object):$/;"	c
+POINTER	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	i
+PRINT_HELP_PYSCRIPT	Makefile	/^define PRINT_HELP_PYSCRIPT$/;"	m
+PY2	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	i
+PY2	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^from ._compat import PY2$/;"	i
+PY2	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^from ._compat import _NonClosingTextIOWrapper, text_type, PY2$/;"	i
+PY2	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._compat import PY2, isidentifier, iteritems, string_types$/;"	i
+PY2	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^from ._compat import PY2, filename_to_ui, get_text_stderr$/;"	i
+PY2	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^from ._compat import iteritems, PY2, string_types$/;"	i
+PY2	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	i
+PY2	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+PacifyFlushWrapper	.eggs/Click-7.0-py3.7.egg/click/core.py	/^     echo, get_os_args$/;"	i
+PacifyFlushWrapper	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^class PacifyFlushWrapper(object):$/;"	c
+ParamType	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+ParamType	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class ParamType(object):$/;"	c
+Parameter	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     CommandCollection, Parameter, Option, Argument$/;"	i
+Parameter	.eggs/Click-7.0-py3.7.egg/click/core.py	/^class Parameter(object):$/;"	c
+ParsingState	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^class ParsingState(object):$/;"	c
+Path	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+Path	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .types import convert_type, Choice, Path$/;"	i
+Path	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class Path(ParamType):$/;"	c
+ProgressBar	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^class ProgressBar(object):$/;"	c
+ProgressBar	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    from ._termui_impl import ProgressBar$/;"	i
+PyBUF_SIMPLE	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^PyBUF_SIMPLE = 0$/;"	v
+PyBUF_WRITABLE	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^PyBUF_WRITABLE = 1$/;"	v
+PyBuffer_Release	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    PyBuffer_Release = pythonapi.PyBuffer_Release$/;"	v
+PyObject_GetBuffer	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    PyObject_GetBuffer = pythonapi.PyObject_GetBuffer$/;"	v
+Py_buffer	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class Py_buffer(ctypes.Structure):$/;"	c
+ReadConsoleW	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^ReadConsoleW = kernel32.ReadConsoleW$/;"	v
+Result	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^class Result(object):$/;"	c
+SOURCEDIR	docs/Makefile	/^SOURCEDIR     = .$/;"	m
+SOURCEDIR	docs/make.bat	/^set SOURCEDIR=.$/;"	v
+SPHINXBUILD	docs/Makefile	/^SPHINXBUILD   = python -msphinx$/;"	m
+SPHINXBUILD	docs/make.bat	/^	set SPHINXBUILD=python -msphinx$/;"	v
+SPHINXOPTS	docs/Makefile	/^SPHINXOPTS    =$/;"	m
+SPHINXPROJ	docs/Makefile	/^SPHINXPROJ    = tf$/;"	m
+SPHINXPROJ	docs/make.bat	/^set SPHINXPROJ=tf$/;"	v
+STDERR_FILENO	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDERR_FILENO = 2$/;"	v
+STDERR_HANDLE	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDERR_HANDLE = GetStdHandle(-12)$/;"	v
+STDIN_FILENO	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDIN_FILENO = 0$/;"	v
+STDIN_HANDLE	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDIN_HANDLE = GetStdHandle(-10)$/;"	v
+STDOUT_FILENO	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDOUT_FILENO = 1$/;"	v
+STDOUT_HANDLE	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^STDOUT_HANDLE = GetStdHandle(-11)$/;"	v
+STRING	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+STRING	.eggs/Click-7.0-py3.7.egg/click/types.py	/^STRING = StringParamType()$/;"	v
+SUBCOMMANDS_METAVAR	.eggs/Click-7.0-py3.7.egg/click/core.py	/^SUBCOMMANDS_METAVAR = 'COMMAND1 [ARGS]... [COMMAND2 [ARGS]...]...'$/;"	v
+SUBCOMMAND_METAVAR	.eggs/Click-7.0-py3.7.egg/click/core.py	/^SUBCOMMAND_METAVAR = 'COMMAND [ARGS]...'$/;"	v
+StringIO	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    from cStringIO import StringIO$/;"	i
+StringParamType	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class StringParamType(ParamType):$/;"	c
+TAKE_SIZE	gen_novel.py	/^TAKE_SIZE = 30$/;"	v
+TestTf	tests/test_tf.py	/^class TestTf(unittest.TestCase):$/;"	c
+TextWrapper	.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^class TextWrapper(textwrap.TextWrapper):$/;"	c
+TextWrapper	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    from ._textwrap import TextWrapper$/;"	i
+Tuple	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+Tuple	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class Tuple(CompositeParamType):$/;"	c
+UNPROCESSED	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+UNPROCESSED	.eggs/Click-7.0-py3.7.egg/click/types.py	/^UNPROCESSED = UnprocessedParamType()$/;"	v
+UUID	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     DateTime, STRING, INT, FLOAT, BOOL, UUID, UNPROCESSED, FloatRange$/;"	i
+UUID	.eggs/Click-7.0-py3.7.egg/click/types.py	/^UUID = UUIDParameterType()$/;"	v
+UUIDParameterType	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class UUIDParameterType(ParamType):$/;"	c
+UnprocessedParamType	.eggs/Click-7.0-py3.7.egg/click/types.py	/^class UnprocessedParamType(ParamType):$/;"	c
+UsageError	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     MissingParameter$/;"	i
+UsageError	.eggs/Click-7.0-py3.7.egg/click/core.py	/^     MissingParameter, Exit$/;"	i
+UsageError	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^class UsageError(ClickException):$/;"	c
+UsageError	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^     BadArgumentUsage$/;"	i
+UsageError	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .exceptions import Abort, UsageError$/;"	i
+WIN	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^WIN = sys.platform.startswith('win') and not APP_ENGINE$/;"	v
+WIN	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	i
+WIN	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	i
+WIN	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+WINFUNCTYPE	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	i
+WeakKeyDictionary	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^from weakref import WeakKeyDictionary$/;"	i
+WindowsChunkedWriter	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class WindowsChunkedWriter(object):$/;"	c
+WriteConsoleW	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^WriteConsoleW = kernel32.WriteConsoleW$/;"	v
+_AtomicFile	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^class _AtomicFile(object):$/;"	c
+_FixupStream	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^class _FixupStream(object):$/;"	c
+_NonClosingTextIOWrapper	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^class _NonClosingTextIOWrapper(io.TextIOWrapper):$/;"	c
+_NonClosingTextIOWrapper	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^from ._compat import _NonClosingTextIOWrapper, text_type, PY2$/;"	i
+_WindowsConsoleRawIOBase	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class _WindowsConsoleRawIOBase(io.RawIOBase):$/;"	c
+_WindowsConsoleReader	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class _WindowsConsoleReader(_WindowsConsoleRawIOBase):$/;"	c
+_WindowsConsoleWriter	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^class _WindowsConsoleWriter(_WindowsConsoleRawIOBase):$/;"	c
+__all__	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^__all__ = [$/;"	v
+__call__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __call__(self, *args, **kwargs):$/;"	m	class:BaseCommand	file:
+__call__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __call__(self, value, param=None, ctx=None):$/;"	m	class:ParamType	file:
+__call__	rnn.py	/^    def __call__(self, x, b, c):$/;"	m	class:rnn	file:
+__del__	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __del__(self):$/;"	m	class:_NonClosingTextIOWrapper	file:
+__email__	tf/__init__.py	/^__email__ = 'miffyrcee@outlook.com'$/;"	v
+__enter__	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __enter__(self):$/;"	m	class:_AtomicFile	file:
+__enter__	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def __enter__(self):$/;"	m	class:ProgressBar	file:
+__enter__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __enter__(self):$/;"	m	class:Context	file:
+__enter__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __enter__(self):$/;"	m	class:KeepOpenFile	file:
+__enter__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __enter__(self):$/;"	m	class:LazyFile	file:
+__exit__	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	m	class:_AtomicFile	file:
+__exit__	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	m	class:ProgressBar	file:
+__exit__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	m	class:Context	file:
+__exit__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	m	class:KeepOpenFile	file:
+__exit__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	m	class:LazyFile	file:
+__future__	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^    import __future__$/;"	i
+__getattr__	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __getattr__(self, name):$/;"	m	class:_AtomicFile	file:
+__getattr__	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __getattr__(self, name):$/;"	m	class:_FixupStream	file:
+__getattr__	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __getattr__(self, name):$/;"	m	class:ConsoleStream	file:
+__getattr__	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __getattr__(self, name):$/;"	m	class:WindowsChunkedWriter	file:
+__getattr__	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __getattr__(self, x):$/;"	m	class:EchoingStdin	file:
+__getattr__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __getattr__(self, attr):$/;"	m	class:PacifyFlushWrapper	file:
+__getattr__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __getattr__(self, name):$/;"	m	class:KeepOpenFile	file:
+__getattr__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __getattr__(self, name):$/;"	m	class:LazyFile	file:
+__init__	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __init__(self, f, tmp_filename, real_filename):$/;"	m	class:_AtomicFile
+__init__	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __init__(self, stream, encoding, errors,$/;"	m	class:_NonClosingTextIOWrapper
+__init__	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __init__(self, stream, force_readable=False, force_writable=False):$/;"	m	class:_FixupStream
+__init__	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def __init__(self, editor=None, env=None, require_save=True,$/;"	m	class:Editor
+__init__	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def __init__(self, iterable, length=None, fill_char='#', empty_char=' ',$/;"	m	class:ProgressBar
+__init__	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __init__(self, handle):$/;"	m	class:_WindowsConsoleRawIOBase
+__init__	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __init__(self, text_stream, byte_stream):$/;"	m	class:ConsoleStream
+__init__	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __init__(self, wrapped):$/;"	m	class:WindowsChunkedWriter
+__init__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, command, parent=None, info_name=None, obj=None,$/;"	m	class:Context
+__init__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, name, context_settings=None):$/;"	m	class:BaseCommand
+__init__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, name, context_settings=None, callback=None,$/;"	m	class:Command
+__init__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, name=None, commands=None, **attrs):$/;"	m	class:Group
+__init__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, name=None, invoke_without_command=False,$/;"	m	class:MultiCommand
+__init__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, name=None, sources=None, **attrs):$/;"	m	class:CommandCollection
+__init__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, param_decls, required=None, **attrs):$/;"	m	class:Argument
+__init__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, param_decls=None, show_default=False,$/;"	m	class:Option
+__init__	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def __init__(self, param_decls=None, type=None, required=False,$/;"	m	class:Parameter
+__init__	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, code=0):$/;"	m	class:Exit
+__init__	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, filename, hint=None):$/;"	m	class:FileError
+__init__	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, message):$/;"	m	class:ClickException
+__init__	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, message, ctx=None):$/;"	m	class:BadArgumentUsage
+__init__	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, message, ctx=None):$/;"	m	class:UsageError
+__init__	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, message, ctx=None, param=None,$/;"	m	class:BadParameter
+__init__	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, message=None, ctx=None, param=None,$/;"	m	class:MissingParameter
+__init__	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, option_name, message, ctx=None):$/;"	m	class:BadOptionUsage
+__init__	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __init__(self, option_name, message=None, possibilities=None,$/;"	m	class:NoSuchOption
+__init__	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def __init__(self, indent_increment=2, width=None, max_width=None):$/;"	m	class:HelpFormatter
+__init__	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def __init__(self, ctx=None):$/;"	m	class:OptionParser
+__init__	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def __init__(self, dest, nargs=1, obj=None):$/;"	m	class:Argument
+__init__	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def __init__(self, opts, dest, action=None, nargs=1, const=None, obj=None):$/;"	m	class:Option
+__init__	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def __init__(self, rargs):$/;"	m	class:ParsingState
+__init__	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __init__(self, charset=None, env=None, echo_stdin=False,$/;"	m	class:CliRunner
+__init__	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __init__(self, input, output):$/;"	m	class:EchoingStdin
+__init__	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __init__(self, runner, stdout_bytes, stderr_bytes, exit_code,$/;"	m	class:Result
+__init__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, choices, case_sensitive=True):$/;"	m	class:Choice
+__init__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, exists=False, file_okay=True, dir_okay=True,$/;"	m	class:Path
+__init__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, formats=None):$/;"	m	class:DateTime
+__init__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, func):$/;"	m	class:FuncParamType
+__init__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, min=None, max=None, clamp=False):$/;"	m	class:FloatRange
+__init__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, min=None, max=None, clamp=False):$/;"	m	class:IntRange
+__init__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, mode='r', encoding=None, errors='strict', lazy=None,$/;"	m	class:File
+__init__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __init__(self, types):$/;"	m	class:Tuple
+__init__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __init__(self, file):$/;"	m	class:KeepOpenFile
+__init__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __init__(self, filename, mode='r', encoding=None, errors='strict',$/;"	m	class:LazyFile
+__init__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __init__(self, wrapped):$/;"	m	class:PacifyFlushWrapper
+__init__	MountainCar-v0.py	/^    def __init__(self, input_size=2, hidden_size=8, units=16, output_size=3):$/;"	m	class:dqn
+__init__	SMT_t.py	/^    def __init__(self):$/;"	m	class:encoder
+__init__	SMT_t.py	/^    def __init__(self):$/;"	m	class:mdp
+__init__	SMT_t.py	/^    def __init__(self, x, y):$/;"	m	class:att_block
+__init__	Taxi-v3.py	/^    def __init__(self, env):$/;"	m	class:double_q_learning
+__init__	Taxi-v3.py	/^    def __init__(self, env, epsilon=0.05, alpha=0.6, gamma=0.95):$/;"	m	class:q_learning
+__init__	gru.py	/^    def __init__(self):$/;"	m	class:gru
+__init__	mdpProblem.py	/^    def __init__(self, states, actions, trans, reward, discount):$/;"	m	class:MDP
+__init__	mesh_bfs.py	/^    def __init__(self):$/;"	f	function:mesh_ele
+__init__	mesh_bfs.py	/^    def __init__(self):$/;"	m	class:mesh_env
+__init__	mesh_bfs.py	/^    def __init__(self, start, end):$/;"	m	class:mesh_search
+__init__	mesh_bfs.py	/^    def __init__(self, v, p):$/;"	m	class:node
+__init__	rnn.py	/^    def __init__(self, hidden):$/;"	m	class:rnn
+__init__	trans_attention.py	/^    def __init__(self):$/;"	m	class:encoder_layer
+__init__	trans_attention.py	/^    def __init__(self):$/;"	m	class:multi_head_attention
+__init__	translator.py	/^    def __init__(self, units):$/;"	m	class:attention
+__init__	translator.py	/^    def __init__(self, vocab_size, embedding_dim, units, batch_size):$/;"	m	class:encoder
+__iter__	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def __iter__(self):$/;"	m	class:ProgressBar	file:
+__iter__	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __iter__(self):$/;"	m	class:EchoingStdin	file:
+__iter__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __iter__(self):$/;"	m	class:KeepOpenFile	file:
+__iter__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __iter__(self):$/;"	m	class:LazyFile	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def __repr__(self):$/;"	m	class:_AtomicFile	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def __repr__(self):$/;"	m	class:ConsoleStream	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __repr__(self):$/;"	m	class:EchoingStdin	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def __repr__(self):$/;"	m	class:Result	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	m	class:BoolParamType	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	m	class:Choice	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	m	class:DateTime	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	m	class:FloatParamType	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	m	class:FloatRange	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	m	class:IntParamType	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	m	class:IntRange	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	m	class:StringParamType	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	m	class:UUIDParameterType	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def __repr__(self):$/;"	m	class:UnprocessedParamType	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __repr__(self):$/;"	m	class:KeepOpenFile	file:
+__repr__	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def __repr__(self):$/;"	m	class:LazyFile	file:
+__str__	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^        def __str__(self):$/;"	f	function:ClickException.__str__	file:
+__str__	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def __str__(self):$/;"	m	class:ClickException	file:
+__version__	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^__version__ = '7.0'$/;"	v
+__version__	tf/__init__.py	/^__version__ = '0.1.0'$/;"	v
+_all	mesh_bfs.py	/^    def _all(self, ele):$/;"	m	class:mesh_search
+_ansi_colors	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^_ansi_colors = {$/;"	v
+_ansi_re	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^_ansi_re = re.compile(r'\\033\\[((?:\\d|;)*)([a-zA-Z])')$/;"	v
+_ansi_reset_all	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^_ansi_reset_all = '\\033[0m'$/;"	v
+_bashcomplete	.eggs/Click-7.0-py3.7.egg/click/core.py	/^def _bashcomplete(cmd, prog_name, complete_var=None):$/;"	f
+_build_prompt	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def _build_prompt(text, suffix, show_default=False, default=None, show_choices=True, type=None):$/;"	f
+_can_replace	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _can_replace = True$/;"	v
+_can_replace	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _can_replace = not WIN$/;"	v
+_check_for_unicode_literals	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^def _check_for_unicode_literals():$/;"	f
+_check_for_unicode_literals	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._unicodefun import _check_for_unicode_literals, _verify_python3_env$/;"	i
+_check_for_unicode_literals	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from ._unicodefun import _check_for_unicode_literals$/;"	i
+_check_multicommand	.eggs/Click-7.0-py3.7.egg/click/core.py	/^def _check_multicommand(base_command, cmd_name, cmd, register=False):$/;"	f
+_convert	.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def _convert(value, level):$/;"	f	function:Parameter.type_cast_value
+_default_text_stderr	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^_default_text_stderr = _make_cached_stream_func($/;"	v
+_default_text_stderr	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+_default_text_stdin	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^_default_text_stdin = _make_cached_stream_func($/;"	v
+_default_text_stdout	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^_default_text_stdout = _make_cached_stream_func($/;"	v
+_default_text_stdout	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	i
+_default_text_stdout	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+_echo	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def _echo(self, rv):$/;"	m	class:EchoingStdin
+_error_opt_args	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^def _error_opt_args(nargs, opt):$/;"	f
+_fetch	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _fetch(c):$/;"	f	function:_unpack_args
+_fields_	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    _fields_ = [$/;"	v	class:Py_buffer
+_find_binary_reader	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _find_binary_reader(stream):$/;"	m	class:_FixupStream
+_find_binary_reader	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    from ._compat import _find_binary_reader$/;"	i
+_find_binary_writer	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _find_binary_writer(stream):$/;"	m	class:_FixupStream
+_find_binary_writer	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    from ._compat import _find_binary_writer$/;"	i
+_find_unicode_literals_frame	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^def _find_unicode_literals_frame():$/;"	f
+_flush_par	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def _flush_par():$/;"	f	function:wrap_text
+_force_correct_text_reader	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _force_correct_text_reader(text_reader, encoding, errors,$/;"	m	class:_FixupStream
+_force_correct_text_writer	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _force_correct_text_writer(text_writer, encoding, errors,$/;"	m	class:_FixupStream
+_get_argv_encoding	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _get_argv_encoding():$/;"	f
+_get_argv_encoding	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	i
+_get_error_message	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def _get_error_message(errno):$/;"	m	class:_WindowsConsoleWriter
+_get_text_stderr	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^def _get_text_stderr(buffer_stream):$/;"	f
+_get_text_stdin	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^def _get_text_stdin(buffer_stream):$/;"	f
+_get_text_stdout	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^def _get_text_stdout(buffer_stream):$/;"	f
+_get_windows_argv	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def _get_windows_argv():$/;"	f
+_get_windows_argv	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^         _hash_py_argv, _initial_argv_hash$/;"	i
+_get_windows_console_stream	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _get_windows_console_stream = lambda *x: None$/;"	v
+_get_windows_console_stream	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    from ._winconsole import _get_windows_console_stream, _wrap_std_stream$/;"	i
+_get_windows_console_stream	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^def _get_windows_console_stream(f, encoding, errors):$/;"	f
+_getchar	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^_getchar = None$/;"	v
+_getchar	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^        def _getchar(echo):$/;"	f	function:CliRunner.isolation
+_handle_long_word	.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^    def _handle_long_word(self, reversed_chunks, cur_line, cur_len, width):$/;"	m	class:TextWrapper
+_hash_py_argv	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def _hash_py_argv():$/;"	f
+_hash_py_argv	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^         _hash_py_argv, _initial_argv_hash$/;"	i
+_identifier_re	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _identifier_re = re.compile(r'^[a-zA-Z_][a-zA-Z0-9_]*$')$/;"	v	class:_FixupStream
+_initial_argv_hash	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    _initial_argv_hash = _hash_py_argv()$/;"	v
+_initial_argv_hash	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^         _hash_py_argv, _initial_argv_hash$/;"	i
+_invalid_ident_char_re	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^_invalid_ident_char_re = re.compile(r'[^a-zA-Z0-9_]')$/;"	v
+_is_binary_reader	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _is_binary_reader(stream, default=False):$/;"	m	class:_FixupStream
+_is_binary_writer	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _is_binary_writer(stream, default=False):$/;"	m	class:_FixupStream
+_is_compatible_text_stream	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _is_compatible_text_stream(stream, encoding, errors):$/;"	m	class:_FixupStream
+_join_param_hints	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^def _join_param_hints(param_hint):$/;"	f
+_length_hint	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def _length_hint(obj):$/;"	f
+_local	.eggs/Click-7.0-py3.7.egg/click/globals.py	/^_local = local()$/;"	v
+_make_cached_stream_func	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def _make_cached_stream_func(src_func, wrapper_func):$/;"	f
+_make_command	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def _make_command(f, name, attrs, cls):$/;"	f
+_make_text_stream	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def _make_text_stream(stream, encoding, errors,$/;"	f
+_match_long_opt	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _match_long_opt(self, opt, explicit_value, state):$/;"	m	class:OptionParser
+_match_short_opt	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _match_short_opt(self, arg, state):$/;"	m	class:OptionParser
+_maybe_show_deprecated_notice	.eggs/Click-7.0-py3.7.egg/click/core.py	/^def _maybe_show_deprecated_notice(cmd):$/;"	f
+_missing	.eggs/Click-7.0-py3.7.egg/click/core.py	/^_missing = object()$/;"	v
+_nullpager	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def _nullpager(stream, generator, color):$/;"	f
+_param_memo	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def _param_memo(f, param):$/;"	f
+_parse_decls	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def _parse_decls(self, decls, expose_value):$/;"	m	class:Argument
+_parse_decls	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def _parse_decls(self, decls, expose_value):$/;"	m	class:Option
+_pipepager	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def _pipepager(generator, cmd, color):$/;"	f
+_posixify	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def _posixify(name):$/;"	f
+_process_args_for_args	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _process_args_for_args(self, state):$/;"	m	class:OptionParser
+_process_args_for_options	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _process_args_for_options(self, state):$/;"	m	class:OptionParser
+_process_opts	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def _process_opts(self, arg, state):$/;"	m	class:OptionParser
+_process_result	.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def _process_result(value):$/;"	f	function:MultiCommand.invoke
+_replace	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _replace = os.rename$/;"	v
+_replace	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _replace = os.replace$/;"	v
+_safe_write	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^            def _safe_write(s):$/;"	f	function:._get_argv_encoding.auto_wrap_for_ansi
+_stream_factories	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^_stream_factories = {$/;"	v
+_stream_is_misconfigured	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def _stream_is_misconfigured(stream):$/;"	m	class:_FixupStream
+_tempfilepager	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def _tempfilepager(generator, cmd, color):$/;"	f
+_translate_ch_to_exc	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def _translate_ch_to_exc(ch):$/;"	f
+_try_to_convert_date	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def _try_to_convert_date(self, value, format):$/;"	m	class:DateTime
+_unpack_args	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^def _unpack_args(args, nargs_spec):$/;"	f
+_unquote_file	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def _unquote_file(url):$/;"	f	function:open_url
+_verify_python3_env	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^def _verify_python3_env():$/;"	f
+_verify_python3_env	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._unicodefun import _check_for_unicode_literals, _verify_python3_env$/;"	i
+_wrap_std_stream	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    _wrap_std_stream = lambda *x: None$/;"	v
+_wrap_std_stream	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    from ._winconsole import _get_windows_console_stream, _wrap_std_stream$/;"	i
+_wrap_std_stream	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^def _wrap_std_stream(name):$/;"	f
+_wrapped_std_streams	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^_wrapped_std_streams = set()$/;"	v
+_write_opts	.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def _write_opts(opts):$/;"	f	function:Option.get_help_record
+a	svm.py	/^a = np.eye(2) * 2$/;"	v
+abc	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^    from collections import abc$/;"	i
+abc	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^    import collections as abc$/;"	i
+abort	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def abort(self):$/;"	m	class:Context
+action_selector	MountainCar-v0.py	/^def action_selector(states, episode=0.05):$/;"	f
+action_selector	Taxi-v3.py	/^    def action_selector(self, state):$/;"	m	class:q_learning
+actions	mdp_t.py	/^actions = np.array([[-1, 0], [0, -1], [0, 1], [1, 0]])  #(left,down,up,right)$/;"	v
+add_argument	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def add_argument(self, dest, nargs=1, obj=None):$/;"	m	class:OptionParser
+add_command	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def add_command(self, cmd, name=None):$/;"	m	class:Group
+add_option	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def add_option(self, opts, dest, action=None, nargs=1, const=None,$/;"	m	class:OptionParser
+add_source	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def add_source(self, multi_cmd):$/;"	m	class:CommandCollection
+add_subcommand_completions	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def add_subcommand_completions(ctx, incomplete, completions_out):$/;"	f
+add_to_parser	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def add_to_parser(self, parser, ctx):$/;"	m	class:Argument
+add_to_parser	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def add_to_parser(self, parser, ctx):$/;"	m	class:Option
+add_to_parser	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def add_to_parser(self, parser, ctx):$/;"	m	class:Parameter
+agent	MountainCar-v0.py	/^agent = dqn()$/;"	v
+allow_extra_args	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    allow_extra_args = False$/;"	v	class:BaseCommand
+allow_extra_args	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    allow_extra_args = True$/;"	v	class:MultiCommand
+allow_interspersed_args	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    allow_interspersed_args = False$/;"	v	class:MultiCommand
+allow_interspersed_args	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    allow_interspersed_args = True$/;"	v	class:BaseCommand
+argument	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	i
+argument	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def argument(*param_decls, **attrs):$/;"	f
+arity	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def arity(self):$/;"	m	class:CompositeParamType
+arity	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def arity(self):$/;"	m	class:Tuple
+att_block	SMT_t.py	/^class att_block(tf.keras.layers.Layer):$/;"	c
+attention	translator.py	/^class attention(tf.keras.models.Model):$/;"	c
+augment_usage_errors	.eggs/Click-7.0-py3.7.egg/click/core.py	/^def augment_usage_errors(ctx, param=None):$/;"	f
+author	docs/conf.py	/^author = u"tf"$/;"	v
+author	setup.py	/^    author="tf",$/;"	v
+author_email	setup.py	/^    author_email='miffyrcee@outlook.com',$/;"	v
+auto_wrap_for_ansi	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def auto_wrap_for_ansi(stream, color=None):$/;"	f	function:._get_argv_encoding
+auto_wrap_for_ansi	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^auto_wrap_for_ansi = None$/;"	v
+auto_wrap_for_ansi	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+bashcomplete	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def bashcomplete(cli, prog_name, complete_var, complete_instr):$/;"	f
+bashcomplete	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    from ._bashcomplete import bashcomplete$/;"	i
+batch	.eggs/Click-7.0-py3.7.egg/click/core.py	/^def batch(iterable, batch_size):$/;"	f
+batch_size	gen_novel.py	/^                    batch_size=BATCH_SIZE)$/;"	v
+batch_size	gen_rnn.py	/^                    batch_size=BATCH_SIZE)$/;"	v
+binary_streams	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^binary_streams = {$/;"	v
+binary_streams	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+build_model	MountainCar-v0.py	/^    def build_model(self):$/;"	m	class:dqn
+build_model	gen_novel.py	/^def build_model(vocab_size, embedding_dim, rnn_units, batch_size):$/;"	f
+build_model	gen_rnn.py	/^def build_model(vocab_size, embedding_dim, rnn_units, batch_size):$/;"	f
+byref	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	i
+bytes	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    bytes = str$/;"	v	class:_FixupStream
+c	tf/tf.py	/^c = (scipy.sum(map(lambda x: pow(x, 2), scipy.fft(range(10)))))$/;"	v
+c_char	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	i
+c_char_p	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	i
+c_int	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	i
+c_ssize_p	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^c_ssize_p = POINTER(c_ssize_t)$/;"	v
+c_ssize_t	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	i
+c_ulong	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	i
+c_void_p	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	i
+call	MountainCar-v0.py	/^    def call(self, x):$/;"	m	class:dqn
+call	SMT_t.py	/^    def call(self, u, v, k):$/;"	m	class:att_block
+call	SMT_t.py	/^    def call(self, u, v, k):$/;"	m	class:encoder
+call	gru.py	/^    def call(self):$/;"	m	class:gru
+call	translator.py	/^    def call(self, query, values):$/;"	m	class:attention
+call	translator.py	/^    def call(self, x, hidden):$/;"	m	class:encoder
+call_on_close	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def call_on_close(self, f):$/;"	m	class:Context
+callback	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^        def callback(ctx, param, value):$/;"	f	function:confirmation_option.decorator
+callback	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^        def callback(ctx, param, value):$/;"	f	function:help_option.decorator
+callback	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^        def callback(ctx, param, value):$/;"	f	function:version_option.decorator
+char2idx	RNN.py	/^char2idx = {u: i for i, u in enumerate(vocab)}$/;"	v
+char2idx	gen_rnn.py	/^char2idx = {u: i for i, u in enumerate(vocab)}$/;"	v
+char_dataset	RNN.py	/^char_dataset = tf.data.Dataset.from_tensor_slices(text_as_int)$/;"	v
+char_dataset	gen_rnn.py	/^char_dataset = tf.data.Dataset.from_tensor_slices(text_as_int)$/;"	v
+check_point	star.py	/^def check_point(po, star_pos, stack):$/;"	f
+checkpoint_callback	gen_novel.py	/^checkpoint_callback = tf.keras.callbacks.ModelCheckpoint($/;"	v
+checkpoint_callback	gen_rnn.py	/^checkpoint_callback = tf.keras.callbacks.ModelCheckpoint($/;"	v
+checkpoint_dir	gen_novel.py	/^checkpoint_dir = '.\/training_checkpoints'$/;"	v
+checkpoint_dir	gen_rnn.py	/^checkpoint_dir = '.\/training_checkpoints'$/;"	v
+checkpoint_prefix	gen_novel.py	/^checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt_{epoch}")$/;"	v
+checkpoint_prefix	gen_rnn.py	/^checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt_{epoch}")$/;"	v
+choice	FrozenLake-v0.py	/^from numpy.random import choice$/;"	i
+choices	CliffWalking-v0.py	/^from random import choices$/;"	i
+choices	kmp_match.py	/^from random import choices$/;"	i
+choices	mdp_t.py	/^from random import choices, shuffle$/;"	i
+choices	mesh_bfs.py	/^from random import choices$/;"	i
+classifiers	setup.py	/^    classifiers=[$/;"	v
+clear	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+clear	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def clear():$/;"	f
+cli	tests/test_tf.py	/^from tf import cli$/;"	i
+click	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^click = sys.modules[__name__.rsplit('.', 1)[0]]$/;"	v
+click	tf/cli.py	/^import click$/;"	i
+clickpkg	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^clickpkg = sys.modules[__name__.rsplit('.', 1)[0]]$/;"	v
+close	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def close(self, delete=False):$/;"	m	class:_AtomicFile
+close	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def close(self):$/;"	m	class:Context
+close	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def close(self):$/;"	m	class:LazyFile
+close_intelligently	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def close_intelligently(self):$/;"	m	class:LazyFile
+codecs	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^import codecs$/;"	i
+codecs	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^import codecs$/;"	i
+coerce_path_result	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def coerce_path_result(self, rv):$/;"	m	class:Path
+collect_usage_pieces	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def collect_usage_pieces(self, ctx):$/;"	m	class:Command
+collect_usage_pieces	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def collect_usage_pieces(self, ctx):$/;"	m	class:MultiCommand
+colorama	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        import colorama$/;"	i
+colorama	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^colorama = None$/;"	v
+command	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	i
+command	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def command(self, *args, **kwargs):$/;"	m	class:Group
+command	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .decorators import command, group$/;"	i
+command	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def command(name=None, cls=None, **attrs):$/;"	f
+command_path	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def command_path(self):$/;"	m	class:Context
+confirm	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+confirm	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .termui import prompt, confirm, style$/;"	i
+confirm	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def confirm(text, default=False, abort=False, prompt_suffix=': ',$/;"	f
+confirmation_option	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	i
+confirmation_option	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def confirmation_option(*param_decls, **attrs):$/;"	f
+consume_value	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def consume_value(self, ctx, opts):$/;"	m	class:Parameter
+contextlib	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^import contextlib$/;"	i
+contextlib	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import contextlib$/;"	i
+contextmanager	.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^from contextlib import contextmanager$/;"	i
+contextmanager	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from contextlib import contextmanager$/;"	i
+contextmanager	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^from contextlib import contextmanager$/;"	i
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:BoolParamType
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:Choice
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:DateTime
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:File
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:FloatParamType
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:FloatRange
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:FuncParamType
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:IntParamType
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:IntRange
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:ParamType
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:Path
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:StringParamType
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:Tuple
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:UUIDParameterType
+convert	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def convert(self, value, param, ctx):$/;"	m	class:UnprocessedParamType
+convert_type	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .types import convert_type, IntRange, BOOL$/;"	i
+convert_type	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .types import convert_type, Choice, Path$/;"	i
+convert_type	.eggs/Click-7.0-py3.7.egg/click/types.py	/^def convert_type(ty, default=None):$/;"	f
+copy	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^import copy$/;"	i
+copyright	docs/conf.py	/^copyright = u"2019, tf"$/;"	v
+create_look_ahead_mask	trans_attention.py	/^def create_look_ahead_mask(size):$/;"	f
+ctypes	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import ctypes$/;"	i
+dataset	RNN.py	/^dataset = dataset.shuffle(BUFFER_SIZE).batch(BATCH_SIZE, drop_remainder=True)$/;"	v
+dataset	RNN.py	/^dataset = sequences.map(split_input_target)$/;"	v
+dataset	gen_rnn.py	/^dataset = dataset.shuffle(BUFFER_SIZE).batch(BATCH_SIZE, drop_remainder=True)$/;"	v
+dataset	gen_rnn.py	/^dataset = sequences.map(split_input_target)$/;"	v
+datasets	attention_layer.py	/^from tensorflow.keras import datasets, layers, models$/;"	i
+datetime	.eggs/Click-7.0-py3.7.egg/click/types.py	/^from datetime import datetime$/;"	i
+de_loc	Taxi-v3.py	/^def de_loc(loc):$/;"	f
+decorator	.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def decorator(f):$/;"	f	function:Group.command
+decorator	.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def decorator(f):$/;"	f	function:Group.group
+decorator	.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def decorator(f):$/;"	f	function:MultiCommand.resultcallback
+decorator	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	f	function:argument
+decorator	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	f	function:command
+decorator	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	f	function:confirmation_option
+decorator	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	f	function:help_option
+decorator	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	f	function:make_pass_decorator
+decorator	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	f	function:option
+decorator	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	f	function:password_option
+decorator	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def decorator(f):$/;"	f	function:version_option
+dedent	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def dedent(self):$/;"	m	class:HelpFormatter
+defaultdict	mesh_bfs.py	/^from collections import defaultdict, deque$/;"	i
+deque	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^from collections import deque$/;"	i
+deque	mesh_bfs.py	/^from collections import defaultdict, deque$/;"	i
+description	setup.py	/^    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",$/;"	v
+dims	bayers_workflow.py	/^dims = 10$/;"	v
+dims	prob.py	/^dims = 10$/;"	v
+disable_unicode_literals_warning	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^disable_unicode_literals_warning = False$/;"	v
+discount	mdpExamples.py	/^               discount=0.8)$/;"	v
+discount	mdpExamples.py	/^    discount=0.9)$/;"	v
+distance	mdp_t.py	/^distance = 1$/;"	v
+do_complete	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def do_complete(cli, prog_name, include_descriptions):$/;"	f
+do_sampling	bayes.py	/^def do_sampling():$/;"	f
+double_q_learning	Taxi-v3.py	/^class double_q_learning(q_learning):$/;"	c
+dqn	MountainCar-v0.py	/^class dqn(tf.keras.Model):$/;"	c
+dtype	bayers_workflow.py	/^dtype = np.float32$/;"	v
+dtype	bayes.py	/^                             dtype=np.float32)  # treatment effects$/;"	v
+dtype	prob.py	/^dtype = np.float32$/;"	v
+echo	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	i
+echo	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .utils import echo$/;"	i
+echo	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^from .utils import echo$/;"	i
+echo	.eggs/Click-7.0-py3.7.egg/click/core.py	/^     echo, get_os_args$/;"	i
+echo	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .utils import echo$/;"	i
+echo	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^from .utils import echo$/;"	i
+echo	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .utils import echo$/;"	i
+echo	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def echo(message=None, file=None, nl=True, err=False, color=None):$/;"	f
+echo_native_types	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^echo_native_types = string_types + (bytes, bytearray)$/;"	v
+echo_via_pager	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+echo_via_pager	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def echo_via_pager(text_or_generator, color=None):$/;"	f
+edit	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+edit	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def edit(self, text):$/;"	m	class:Editor
+edit	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def edit(text=None, editor=None, env=None, require_save=True,$/;"	f
+edit_file	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def edit_file(self, filename):$/;"	m	class:Editor
+em1	gru.py	/^em1 = tf.keras.layers.Embedding(100, 64)(tf.range(100))$/;"	v
+embedding_dim	gen_novel.py	/^                    embedding_dim=embedding_dim,$/;"	v
+embedding_dim	gen_novel.py	/^embedding_dim = 256$/;"	v
+embedding_dim	gen_rnn.py	/^                    embedding_dim=embedding_dim,$/;"	v
+embedding_dim	gen_rnn.py	/^embedding_dim = 256$/;"	v
+encoder	SMT_t.py	/^class encoder(tf.keras.models.Model):$/;"	c
+encoder	gen_novel.py	/^encoder = tfds.features.text.TokenTextEncoder(vocab_list)$/;"	v
+encoder	translator.py	/^class encoder():$/;"	c
+encoder_layer	trans_attention.py	/^class encoder_layer(tf.keras.layers.Layer):$/;"	c
+end	docs/make.bat	/^:end$/;"	l
+ensure_object	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def ensure_object(self, object_type):$/;"	m	class:Context
+entry_points	setup.py	/^    entry_points={$/;"	v
+env	Blackjack-v0.py	/^env = gym.make('Blackjack-v0')$/;"	v
+env	CliffWalking-v0.py	/^env = gym.make('CliffWalking-v0')$/;"	v
+env	FrozenLake-v0.py	/^env = gym.make('FrozenLake-v0')$/;"	v
+env	MountainCar-v0.py	/^env = gym.make('MountainCar-v0')$/;"	v
+env	mdp_3.py	/^env = gym.make("CliffWalking-v0")$/;"	v
+env	mesh_bfs.py	/^    env = gym.make('CliffWalking-v0')$/;"	v	class:mesh_env
+envvar_list_splitter	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    envvar_list_splitter = None$/;"	v	class:ParamType
+envvar_list_splitter	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    envvar_list_splitter = os.path.pathsep$/;"	v	class:File
+envvar_list_splitter	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    envvar_list_splitter = os.path.pathsep$/;"	v	class:Path
+errno	.eggs/Click-7.0-py3.7.egg/click/core.py	/^import errno$/;"	i
+errno	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^            import errno$/;"	i
+eta	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def eta(self):$/;"	m	class:ProgressBar
+example_batch_loss	gen_rnn.py	/^example_batch_loss = loss(target_example_batch, example_batch_predictions)$/;"	v
+example_batch_predictions	gen_rnn.py	/^    example_batch_predictions = model(input_example_batch)$/;"	v
+examples_per_epoch	RNN.py	/^examples_per_epoch = len(text) \/\/ seq_length$/;"	v
+examples_per_epoch	gen_rnn.py	/^examples_per_epoch = len(text) \/\/ seq_length$/;"	v
+exclude_patterns	docs/conf.py	/^exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']$/;"	v
+exit	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def exit(self, code=0):$/;"	m	class:Context
+exit_code	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    exit_code = 1$/;"	v	class:ClickException
+exit_code	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    exit_code = 2$/;"	v	class:UsageError
+extensions	docs/conf.py	/^extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode']$/;"	v
+extra_indent	.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^    def extra_indent(self, indent):$/;"	m	class:TextWrapper
+f	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^        from ._termui_impl import getchar as f$/;"	i
+f	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    from ._termui_impl import raw_terminal as f$/;"	i
+factor	closest_pair.py	/^def factor(loc):  # -> tuple$/;"	f
+fail	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def fail(self, message):$/;"	m	class:Context
+fail	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def fail(self, message, param=None, ctx=None):$/;"	m	class:ParamType
+fast_exit	.eggs/Click-7.0-py3.7.egg/click/core.py	/^def fast_exit(code):$/;"	f
+fcntl	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        import fcntl$/;"	i
+fcntl	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^            import fcntl$/;"	i
+filename_to_ui	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def filename_to_ui(value):$/;"	m	class:_FixupStream
+filename_to_ui	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^from ._compat import PY2, filename_to_ui, get_text_stderr$/;"	i
+filename_to_ui	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	i
+filename_to_ui	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+find_object	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def find_object(self, object_type):$/;"	m	class:Context
+find_packages	setup.py	/^from setuptools import setup, find_packages$/;"	i
+find_root	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def find_root(self):$/;"	m	class:Context
+finish	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def finish(self):$/;"	m	class:ProgressBar
+flush	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def flush(self):$/;"	m	class:PacifyFlushWrapper
+format_bar	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def format_bar(self):$/;"	m	class:ProgressBar
+format_commands	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_commands(self, ctx, formatter):$/;"	m	class:MultiCommand
+format_epilog	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_epilog(self, ctx, formatter):$/;"	m	class:Command
+format_eta	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def format_eta(self):$/;"	m	class:ProgressBar
+format_filename	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	i
+format_filename	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def format_filename(filename, shorten=False):$/;"	f
+format_help	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_help(self, ctx, formatter):$/;"	m	class:Command
+format_help_text	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_help_text(self, ctx, formatter):$/;"	m	class:Command
+format_message	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def format_message(self):$/;"	m	class:BadParameter
+format_message	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def format_message(self):$/;"	m	class:ClickException
+format_message	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def format_message(self):$/;"	m	class:FileError
+format_message	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def format_message(self):$/;"	m	class:MissingParameter
+format_message	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def format_message(self):$/;"	m	class:NoSuchOption
+format_options	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_options(self, ctx, formatter):$/;"	m	class:Command
+format_options	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_options(self, ctx, formatter):$/;"	m	class:MultiCommand
+format_pct	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def format_pct(self):$/;"	m	class:ProgressBar
+format_pos	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def format_pos(self):$/;"	m	class:ProgressBar
+format_progress_line	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def format_progress_line(self):$/;"	m	class:ProgressBar
+format_usage	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def format_usage(self, ctx, formatter):$/;"	m	class:Command
+forward	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def forward(*args, **kwargs):$/;"	m	class:Context
+full_process_value	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def full_process_value(self, ctx, value):$/;"	m	class:Option
+full_process_value	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def full_process_value(self, ctx, value):$/;"	m	class:Parameter
+func	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def func():$/;"	f	function:_make_cached_stream_func
+function	.eggs/Click-7.0-py3.7.egg/click/core.py	/^            def function(__value, *args, **kwargs):$/;"	f	function:MultiCommand.resultcallback.decorator
+functools	rnn.py	/^import functools$/;"	i
+gamma	CliffWalking-v0.py	/^gamma = 0.1$/;"	v
+gamma	mdp_t.py	/^gamma = 0.2$/;"	v
+gamma	mdp_t.py	/^gamma = gamma**distance$/;"	v
+generator	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def generator(self):$/;"	m	class:ProgressBar
+get_app_dir	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	i
+get_app_dir	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def get_app_dir(app_name, roaming=True, force_posix=False):$/;"	f
+get_best_encoding	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def get_best_encoding(stream):$/;"	f
+get_best_encoding	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	i
+get_binary_stderr	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_binary_stderr():$/;"	m	class:_FixupStream
+get_binary_stdin	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_binary_stdin():$/;"	m	class:_FixupStream
+get_binary_stdout	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_binary_stdout():$/;"	m	class:_FixupStream
+get_binary_stream	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	i
+get_binary_stream	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def get_binary_stream(name):$/;"	f
+get_buffer	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def get_buffer(obj, writable=False):$/;"	f
+get_buffer	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    get_buffer = None$/;"	v
+get_choices	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def get_choices(cli, prog_name, args, incomplete):$/;"	f
+get_command	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_command(self, ctx, cmd_name):$/;"	m	class:CommandCollection
+get_command	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_command(self, ctx, cmd_name):$/;"	m	class:Group
+get_command	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_command(self, ctx, cmd_name):$/;"	m	class:MultiCommand
+get_completion_script	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def get_completion_script(prog_name, complete_var, shell):$/;"	f
+get_current_context	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^from .globals import get_current_context$/;"	i
+get_current_context	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from .globals import get_current_context$/;"	i
+get_current_context	.eggs/Click-7.0-py3.7.egg/click/globals.py	/^def get_current_context(silent=False):$/;"	f
+get_default	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_default(self, ctx):$/;"	m	class:Option
+get_default	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_default(self, ctx):$/;"	m	class:Parameter
+get_default_prog_name	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def get_default_prog_name(self, cli):$/;"	m	class:CliRunner
+get_editor	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def get_editor(self):$/;"	m	class:Editor
+get_error_hint	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_error_hint(self, ctx):$/;"	m	class:Argument
+get_error_hint	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_error_hint(self, ctx):$/;"	m	class:Parameter
+get_filesystem_encoding	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def get_filesystem_encoding():$/;"	f
+get_filesystem_encoding	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	i
+get_filesystem_encoding	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+get_help	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help(self):$/;"	m	class:Context
+get_help	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help(self, ctx):$/;"	m	class:BaseCommand
+get_help	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help(self, ctx):$/;"	m	class:Command
+get_help_option	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help_option(self, ctx):$/;"	m	class:Command
+get_help_option_names	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help_option_names(self, ctx):$/;"	m	class:Command
+get_help_record	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help_record(self, ctx):$/;"	m	class:Option
+get_help_record	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_help_record(self, ctx):$/;"	m	class:Parameter
+get_metavar	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def get_metavar(self, param):$/;"	m	class:Choice
+get_metavar	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def get_metavar(self, param):$/;"	m	class:DateTime
+get_metavar	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def get_metavar(self, param):$/;"	m	class:ParamType
+get_missing_message	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def get_missing_message(self, param):$/;"	m	class:Choice
+get_missing_message	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def get_missing_message(self, param):$/;"	m	class:ParamType
+get_os_args	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	i
+get_os_args	.eggs/Click-7.0-py3.7.egg/click/core.py	/^     echo, get_os_args$/;"	i
+get_os_args	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def get_os_args():$/;"	f
+get_params	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_params(self, ctx):$/;"	m	class:Command
+get_short_help_str	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_short_help_str(self, limit=45):$/;"	m	class:Command
+get_streerror	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def get_streerror(e, default=None):$/;"	f
+get_streerror	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	i
+get_streerror	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+get_terminal_size	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+get_terminal_size	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^        from .termui import get_terminal_size$/;"	i
+get_terminal_size	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^from .termui import get_terminal_size$/;"	i
+get_terminal_size	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def get_terminal_size():$/;"	f
+get_text_stderr	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_text_stderr(encoding=None, errors=None):$/;"	m	class:_FixupStream
+get_text_stderr	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^from ._compat import PY2, filename_to_ui, get_text_stderr$/;"	i
+get_text_stdin	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_text_stdin(encoding=None, errors=None):$/;"	m	class:_FixupStream
+get_text_stdout	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def get_text_stdout(encoding=None, errors=None):$/;"	m	class:_FixupStream
+get_text_stream	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	i
+get_text_stream	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def get_text_stream(name, encoding=None, errors='strict'):$/;"	f
+get_usage	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_usage(self):$/;"	m	class:Context
+get_usage	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_usage(self, ctx):$/;"	m	class:BaseCommand
+get_usage	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_usage(self, ctx):$/;"	m	class:Command
+get_usage_pieces	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_usage_pieces(self, ctx):$/;"	m	class:Argument
+get_usage_pieces	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def get_usage_pieces(self, ctx):$/;"	m	class:Parameter
+get_user_autocompletions	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def get_user_autocompletions(ctx, args, incomplete, cmd_param):$/;"	f
+get_visible_commands_starting_with	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def get_visible_commands_starting_with(ctx, starts_with):$/;"	f
+get_winterm_size	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def get_winterm_size():$/;"	f	function:._get_argv_encoding
+get_winterm_size	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^get_winterm_size = None$/;"	v
+get_winterm_size	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	i
+getchar	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+getchar	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def getchar(echo):$/;"	f	function:_translate_ch_to_exc
+getchar	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def getchar(echo=False):$/;"	f
+getpass	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    import getpass$/;"	i
+getvalue	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def getvalue(self):$/;"	m	class:HelpFormatter
+grad	svm.py	/^    grad = tape.gradient(y, [x])$/;"	v
+gradidents	MountainCar-v0.py	/^def gradidents(w):$/;"	f
+graph	star.py	/^graph = [{a, c, e, f, g}, {a, b, x, m, l}, {a, v, w, t, r}, {d, c, b, v, u},$/;"	v
+greed_policy	mesh_bfs.py	/^    def greed_policy(self):$/;"	m	class:mesh_search
+greed_search	mesh_bfs.py	/^    def greed_search(self, start, end):$/;"	m	class:mesh_search
+group	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	i
+group	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def group(self, *args, **kwargs):$/;"	m	class:Group
+group	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .decorators import command, group$/;"	i
+group	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def group(name=None, **attrs):$/;"	f
+gru	gru.py	/^class gru(tf.keras.models.Model):$/;"	c
+gym	Blackjack-v0.py	/^import gym$/;"	i
+gym	CliffWalking-v0.py	/^import gym$/;"	i
+gym	FrozenLake-v0.py	/^import gym$/;"	i
+gym	MountainCar-v0.py	/^import gym$/;"	i
+gym	Taxi-v3.py	/^import gym$/;"	i
+gym	mdp_3.py	/^import gym$/;"	i
+gym	mdp_t.py	/^import gym$/;"	i
+gym	mesh_bfs.py	/^import gym$/;"	i
+handle_parse_result	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def handle_parse_result(self, ctx, opts, args):$/;"	m	class:Parameter
+healthy2	mdpExamples.py	/^healthy2 = MDP(['Healthy', 'Sick'], ['Relax', 'Party'],$/;"	v
+heapq	FrozenLake-v0.py	/^import heapq$/;"	i
+help	docs/make.bat	/^:help$/;"	l
+help_option	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	i
+help_option	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def help_option(*param_decls, **attrs):$/;"	f
+hessian	svm.py	/^hessian = tape.gradient(grad[0], [x])$/;"	v
+hidden_input	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^        def hidden_input(prompt=None):$/;"	f	function:CliRunner.isolation
+hidden_prompt_func	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def hidden_prompt_func(prompt):$/;"	f
+history	gen_novel.py	/^history = model.fit(text_ds, epochs=EPOCHS, callbacks=[checkpoint_callback])$/;"	v
+history	setup.py	/^    history = history_file.read()$/;"	v
+html_static_path	docs/conf.py	/^html_static_path = ['_static']$/;"	v
+html_theme	docs/conf.py	/^html_theme = 'alabaster'$/;"	v
+htmlhelp_basename	docs/conf.py	/^htmlhelp_basename = 'tfdoc'$/;"	v
+human_readable_name	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def human_readable_name(self):$/;"	m	class:Argument
+human_readable_name	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def human_readable_name(self):$/;"	m	class:Parameter
+idx2char	RNN.py	/^idx2char = np.array(vocab)$/;"	v
+idx2char	gen_rnn.py	/^idx2char = np.array(vocab)$/;"	v
+ignore_unknown_options	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    ignore_unknown_options = False$/;"	v	class:BaseCommand
+img_raw	svm.py	/^img_raw = tf.io.read_file('\/home\/miffyrcee\/Pictures\/shilpasraomagicpixo1_dewdrops1.jpg')$/;"	v
+include_package_data	setup.py	/^    include_package_data=True,$/;"	v
+indent	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def indent(self):$/;"	m	class:HelpFormatter
+indent_only	.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^    def indent_only(self, text):$/;"	m	class:TextWrapper
+indentation	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def indentation(self):$/;"	m	class:HelpFormatter
+initial_state	translator.py	/^    def initial_state(self):$/;"	m	class:encoder
+inspect	.eggs/Click-7.0-py3.7.egg/click/core.py	/^import inspect$/;"	i
+inspect	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^import inspect$/;"	i
+inspect	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^import inspect$/;"	i
+install_requires	setup.py	/^    install_requires=requirements,$/;"	v
+int_types	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    int_types = (int, long)$/;"	v	class:_FixupStream
+int_types	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    int_types = (int,)$/;"	v	class:_FixupStream
+int_types	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	i
+invoke	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def invoke(*args, **kwargs):$/;"	m	class:Context
+invoke	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def invoke(self, ctx):$/;"	m	class:BaseCommand
+invoke	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def invoke(self, ctx):$/;"	m	class:Command
+invoke	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def invoke(self, ctx):$/;"	m	class:MultiCommand
+invoke	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def invoke(self, cli, args=None, input=None, env=None,$/;"	m	class:CliRunner
+invoke_param_callback	.eggs/Click-7.0-py3.7.egg/click/core.py	/^def invoke_param_callback(callback, ctx, param, value):$/;"	f
+io	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    import io$/;"	i
+io	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^import io$/;"	i
+io	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import io$/;"	i
+io	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    import io$/;"	i
+ioctl_gwinsz	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    def ioctl_gwinsz(fd):$/;"	f	function:get_terminal_size
+is_ascii_encoding	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def is_ascii_encoding(encoding):$/;"	f
+is_bytes	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def is_bytes(x):$/;"	m	class:_FixupStream
+is_bytes	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+is_composite	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    is_composite = False$/;"	v	class:ParamType
+is_composite	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    is_composite = True$/;"	v	class:CompositeParamType
+is_fast	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def is_fast(self):$/;"	m	class:ProgressBar
+is_incomplete_argument	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def is_incomplete_argument(current_params, cmd_param):$/;"	f
+is_incomplete_option	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def is_incomplete_option(all_args, cmd_param):$/;"	f
+isatty	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def isatty(self):$/;"	m	class:_NonClosingTextIOWrapper
+isatty	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def isatty(stream):$/;"	f
+isatty	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	i
+isatty	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def isatty(self):$/;"	m	class:ConsoleStream
+isatty	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def isatty(self):$/;"	m	class:_WindowsConsoleRawIOBase
+isatty	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	i
+isidentifier	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def isidentifier(x):$/;"	m	class:_FixupStream
+isidentifier	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    isidentifier = lambda x: x.isidentifier()$/;"	v	class:_FixupStream
+isidentifier	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._compat import PY2, isidentifier, iteritems, string_types$/;"	i
+isolated_filesystem	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def isolated_filesystem(self):$/;"	m	class:CliRunner
+isolation	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def isolation(self, input=None, env=None, color=False):$/;"	m	class:CliRunner
+iter_params_for_processing	.eggs/Click-7.0-py3.7.egg/click/core.py	/^def iter_params_for_processing(invocation_order, declaration_order):$/;"	f
+iter_rows	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^def iter_rows(rows, col_count):$/;"	f
+iteritems	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    iteritems = lambda x: iter(x.items())$/;"	v	class:_FixupStream
+iteritems	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    iteritems = lambda x: x.iteritems()$/;"	v	class:_FixupStream
+iteritems	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._compat import PY2, isidentifier, iteritems, string_types$/;"	i
+iteritems	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from ._compat import iteritems$/;"	i
+iteritems	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^from ._compat import iteritems, PY2, string_types$/;"	i
+itertools	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^import itertools$/;"	i
+itertools	Blackjack-v0.py	/^import itertools$/;"	i
+join_options	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .formatting import HelpFormatter, join_options$/;"	i
+join_options	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^def join_options(options):$/;"	f
+k	k-means.py	/^k = 3$/;"	v
+kernel32	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^kernel32 = windll.kernel32$/;"	v
+keywords	setup.py	/^    keywords='tf',$/;"	v
+language	docs/conf.py	/^language = None$/;"	v
+latex_documents	docs/conf.py	/^latex_documents = [$/;"	v
+latex_elements	docs/conf.py	/^latex_elements = {$/;"	v
+launch	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+launch	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def launch(url, wait=False, locate=False):$/;"	f
+layers	attention_layer.py	/^from tensorflow.keras import datasets, layers, models$/;"	i
+learn	Taxi-v3.py	/^    def learn(self, state, action, next_state, reward, done):$/;"	m	class:double_q_learning
+learn	Taxi-v3.py	/^    def learn(self, state, action, next_state, reward, done):$/;"	m	class:q_learning
+license	setup.py	/^    license="MIT license",$/;"	v
+list_commands	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def list_commands(self, ctx):$/;"	m	class:CommandCollection
+list_commands	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def list_commands(self, ctx):$/;"	m	class:Group
+list_commands	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def list_commands(self, ctx):$/;"	m	class:MultiCommand
+loc	Taxi-v3.py	/^def loc(state):$/;"	f
+loc	bayes.py	/^                loc=(avg_effect[..., tf.newaxis] + tf.exp(avg_stddev[$/;"	v
+local	.eggs/Click-7.0-py3.7.egg/click/globals.py	/^from threading import local$/;"	i
+locale	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        import locale$/;"	i
+locale	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^        import locale$/;"	i
+log_sigma	bayers_workflow.py	/^log_sigma = tf.Variable(name='log_sigma', initial_value=np.array(0, dtype))$/;"	v
+log_sigma	prob.py	/^log_sigma = tf.Variable(name='log_sigma', initial_value=np.array(0, dtype))$/;"	v
+long_description	setup.py	/^    long_description=readme + '\\n\\n' + history,$/;"	v
+lookup_default	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def lookup_default(self, name):$/;"	m	class:Context
+loss	MountainCar-v0.py	/^    def loss(self):$/;"	m	class:dqn
+loss	gen_novel.py	/^def loss(labels, logits):$/;"	f
+loss	gen_rnn.py	/^def loss(labels, logits):$/;"	f
+loss_	bayers_workflow.py	/^loss_ = np.zeros([num_iters], dtype)$/;"	v
+loss_	prob.py	/^loss_ = np.zeros([num_iters], dtype)$/;"	v
+m	k-means.py	/^m = np.random.uniform(size=(2, k))$/;"	v
+m_clclator	k-means.py	/^def m_clclator(m):$/;"	f
+main	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def main(self, args=None, prog_name=None, complete_var=None,$/;"	m	class:BaseCommand
+main	Taxi-v3.py	/^def main():$/;"	f
+main	closest_pair.py	/^def main():$/;"	f
+main	star.py	/^def main():$/;"	f
+main	tf/cli.py	/^def main(args=None):$/;"	f
+make_context	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def make_context(self, info_name, args, parent=None, **extra):$/;"	m	class:BaseCommand
+make_default_short_help	.eggs/Click-7.0-py3.7.egg/click/core.py	/^     echo, get_os_args$/;"	i
+make_default_short_help	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def make_default_short_help(help, max_length=45):$/;"	f
+make_env	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def make_env(self, overrides=None):$/;"	m	class:CliRunner
+make_formatter	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def make_formatter(self):$/;"	m	class:Context
+make_input_stream	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^def make_input_stream(input, charset):$/;"	f
+make_metavar	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def make_metavar(self):$/;"	m	class:Argument
+make_metavar	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def make_metavar(self):$/;"	m	class:Parameter
+make_parser	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def make_parser(self, ctx):$/;"	m	class:Command
+make_pass_decorator	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	i
+make_pass_decorator	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def make_pass_decorator(object_type, ensure=False):$/;"	f
+make_response_likelihood	bayers_workflow.py	/^def make_response_likelihood(w, x):$/;"	f
+make_response_likelihood	prob.py	/^def make_response_likelihood(w, x):$/;"	f
+make_step	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def make_step(self, n_steps):$/;"	m	class:ProgressBar
+make_str	.eggs/Click-7.0-py3.7.egg/click/core.py	/^     echo, get_os_args$/;"	i
+make_str	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def make_str(value):$/;"	f
+make_training_data	bayers_workflow.py	/^def make_training_data(num_samples, dims, sigma):$/;"	f
+make_training_data	prob.py	/^def make_training_data(num_samples, dims, sigma):$/;"	f
+make_training_data	r.py	/^def make_training_data(num_samples, dims, sigma):$/;"	f
+make_weights_prior	bayers_workflow.py	/^def make_weights_prior(dims, log_sigma):$/;"	f
+make_weights_prior	prob.py	/^def make_weights_prior(dims, log_sigma):$/;"	f
+man_pages	docs/conf.py	/^man_pages = [$/;"	v
+master_doc	docs/conf.py	/^master_doc = 'index'$/;"	v
+math	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^import math$/;"	i
+math	Taxi-v3.py	/^import math$/;"	i
+matplotlib	Blackjack-v0.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	CliffWalking-v0.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	SMT_t.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	Taxi-v3.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	bayers_workflow.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	closest_pair.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	k-means.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	mdp_t.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	prime_number.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	prob.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	rnn.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	trans_attention.py	/^import matplotlib.pyplot as plt$/;"	i
+mcem_iter	bayers_workflow.py	/^def mcem_iter(weights_chain_start, step_size):$/;"	f
+mcem_iter	prob.py	/^def mcem_iter(weights_chain_start, step_size):$/;"	f
+mcmc_map	mdp_t.py	/^mcmc_map = np.arange(16.).reshape(4, 4)$/;"	v
+mdp	SMT_t.py	/^class mdp(tf.keras.layers.Layer):$/;"	c
+mdpt	mdpExamples.py	/^mdpt = MDP($/;"	v
+measure_table	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^def measure_table(rows):$/;"	f
+merge	closest_pair.py	/^def merge(left, right, mid, d):$/;"	f
+mesh_ele	mesh_bfs.py	/^def mesh_ele(object):$/;"	f
+mesh_env	mesh_bfs.py	/^class mesh_env(object):$/;"	c
+mesh_search	mesh_bfs.py	/^class mesh_search(object):$/;"	c
+meta	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def meta(self):$/;"	m	class:Context
+min_dd	closest_pair.py	/^def min_dd(loc):$/;"	f
+model	bayes.py	/^model = tfd.JointDistributionSequential([$/;"	v
+model	gen_novel.py	/^model = build_model(vocab_size=vocab_size + 1,$/;"	v
+model	gen_rnn.py	/^model = build_model(vocab_size=len(vocab),$/;"	v
+model	rnn.py	/^def model():$/;"	f
+models	attention_layer.py	/^from tensorflow.keras import datasets, layers, models$/;"	i
+msvcrt	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        import msvcrt$/;"	i
+msvcrt	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import msvcrt$/;"	i
+msvcrt	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import msvcrt$/;"	i
+multi_head_attention	trans_attention.py	/^class multi_head_attention(tf.keras.layers.Layer):$/;"	c
+n	prime_number.py	/^n = 1000$/;"	v
+name	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def name(self):$/;"	m	class:_AtomicFile
+name	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def name(self):$/;"	m	class:ConsoleStream
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def name(self):$/;"	m	class:Tuple
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'boolean'$/;"	v	class:BoolParamType
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'choice'$/;"	v	class:Choice
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'datetime'$/;"	v	class:DateTime
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'filename'$/;"	v	class:File
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'float range'$/;"	v	class:FloatRange
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'float'$/;"	v	class:FloatParamType
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'integer range'$/;"	v	class:IntRange
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'integer'$/;"	v	class:IntParamType
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'text'$/;"	v	class:StringParamType
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'text'$/;"	v	class:UnprocessedParamType
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = 'uuid'$/;"	v	class:UUIDParameterType
+name	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    name = None$/;"	v	class:ParamType
+name	bayes.py	/^                   name="school_effects_standard"),  # `theta_prime` $/;"	v
+name	bayes.py	/^            name="treatment_effects",  # `y` above$/;"	v
+name	setup.py	/^    name='tf',$/;"	v
+new_func	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^        def new_func(*args, **kwargs):$/;"	f	function:make_pass_decorator.decorator
+new_func	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def new_func(*args, **kwargs):$/;"	f	function:pass_context
+new_func	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^    def new_func(*args, **kwargs):$/;"	f	function:pass_obj
+node	mesh_bfs.py	/^class node(object):$/;"	c
+normalize_opt	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^def normalize_opt(opt, ctx):$/;"	f
+np	Blackjack-v0.py	/^import numpy as np$/;"	i
+np	CliffWalking-v0.py	/^import numpy as np$/;"	i
+np	FrozenLake-v0.py	/^import numpy as np$/;"	i
+np	MountainCar-v0.py	/^import numpy as np$/;"	i
+np	RNN.py	/^import numpy as np$/;"	i
+np	SMT_t.py	/^import numpy as np$/;"	i
+np	Taxi-v3.py	/^import numpy as np$/;"	i
+np	bayers_workflow.py	/^import numpy as np$/;"	i
+np	bayes.py	/^import numpy as np$/;"	i
+np	closest_pair.py	/^import numpy as np$/;"	i
+np	gen_rnn.py	/^import numpy as np$/;"	i
+np	gru.py	/^import numpy as np$/;"	i
+np	k-means.py	/^import numpy as np$/;"	i
+np	kdtree.py	/^import numpy as np$/;"	i
+np	kmp_match.py	/^import numpy as np$/;"	i
+np	mdp_3.py	/^import numpy as np$/;"	i
+np	mdp_t.py	/^import numpy as np$/;"	i
+np	mesh_bfs.py	/^import numpy as np$/;"	i
+np	prime_number.py	/^import numpy as np$/;"	i
+np	prob.py	/^import numpy as np$/;"	i
+np	r.py	/^import numpy as np$/;"	i
+np	rnn.py	/^import numpy as np$/;"	i
+np	svm.py	/^import numpy as np$/;"	i
+np	trans_attention.py	/^import numpy as np$/;"	i
+np	translator.py	/^import numpy as np$/;"	i
+num_burnin_steps	bayes.py	/^num_burnin_steps = 3000$/;"	v
+num_iters	bayers_workflow.py	/^num_iters = int(40)$/;"	v
+num_iters	prob.py	/^num_iters = int(40)$/;"	v
+num_results	bayes.py	/^num_results = 5000$/;"	v
+num_samples	bayers_workflow.py	/^num_samples = 500$/;"	v
+num_samples	gen_rnn.py	/^                                        num_samples=1)$/;"	v
+num_samples	prob.py	/^num_samples = 500$/;"	v
+num_schools	bayes.py	/^num_schools = 8  # number of schools$/;"	v
+open	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def open(self):$/;"	m	class:LazyFile
+open_file	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     format_filename, get_app_dir, get_os_args$/;"	i
+open_file	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def open_file(filename, mode='r', encoding=None, errors='strict',$/;"	f
+open_stream	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def open_stream(filename, mode='r', encoding=None, errors='strict',$/;"	f
+open_stream	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	i
+open_stream	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	i
+open_stream	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+open_url	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def open_url(url, wait=False, locate=False):$/;"	f
+open_url	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    from ._termui_impl import open_url$/;"	i
+optimizer	bayers_workflow.py	/^optimizer = tf.optimizers.SGD(learning_rate=0.01)$/;"	v
+optimizer	prob.py	/^optimizer = tf.optimizers.SGD(learning_rate=0.01)$/;"	v
+option	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	i
+option	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def option(*param_decls, **attrs):$/;"	f
+os	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^import os$/;"	i
+os	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^import os$/;"	i
+os	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^import os$/;"	i
+os	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^import os$/;"	i
+os	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import os$/;"	i
+os	.eggs/Click-7.0-py3.7.egg/click/core.py	/^import os$/;"	i
+os	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^import os$/;"	i
+os	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import os$/;"	i
+os	.eggs/Click-7.0-py3.7.egg/click/types.py	/^import os$/;"	i
+os	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^import os$/;"	i
+os	RNN.py	/^import os$/;"	i
+os	SMT_t.py	/^import os$/;"	i
+os	docs/conf.py	/^import os$/;"	i
+os	gen_novel.py	/^import os$/;"	i
+os	gen_rnn.py	/^import os$/;"	i
+output	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def output(self):$/;"	m	class:Result
+p	closest_pair.py	/^p = np.random.uniform(size=(2, 10000))$/;"	v
+p	k-means.py	/^p = np.hstack((p0, p1))$/;"	v
+p	kmp_match.py	/^p = [0, 1, 0, 1, 0, 2, 0]$/;"	v
+p	kmp_match.py	/^p = np.array(p)$/;"	v
+p	svm.py	/^p = np.array([[1, 2], [3, 4]])$/;"	v
+p0	k-means.py	/^p0 = np.random.uniform(high=0.5, size=(2, 10050))$/;"	v
+p1	k-means.py	/^p1 = np.random.uniform(low=0.5, size=(2, 10050))$/;"	v
+p_sorted	closest_pair.py	/^p_sorted = np.argsort(p, -1)$/;"	v
+p_x	closest_pair.py	/^p_x = p_sorted[0]$/;"	v
+p_y	closest_pair.py	/^p_y = p_sorted[1]$/;"	v
+packages	setup.py	/^    packages=find_packages(include=['tf']),$/;"	v
+pager	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^def pager(generator, color=None):$/;"	f
+pager	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    from ._termui_impl import pager$/;"	i
+param_type_name	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    param_type_name = 'argument'$/;"	v	class:Argument
+param_type_name	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    param_type_name = 'option'$/;"	v	class:Option
+param_type_name	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    param_type_name = 'parameter'$/;"	v	class:Parameter
+parse_args	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def parse_args(self, ctx, args):$/;"	m	class:BaseCommand
+parse_args	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def parse_args(self, ctx, args):$/;"	m	class:Command
+parse_args	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def parse_args(self, ctx, args):$/;"	m	class:MultiCommand
+parse_args	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def parse_args(self, args):$/;"	m	class:OptionParser
+pass_context	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	i
+pass_context	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def pass_context(f):$/;"	f
+pass_obj	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	i
+pass_obj	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def pass_obj(f):$/;"	f
+password_option	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	i
+password_option	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def password_option(*param_decls, **attrs):$/;"	f
+path_to_file	gen_rnn.py	/^path_to_file = tf.keras.utils.get_file($/;"	v
+pause	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+pause	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def pause(info='Press any key to continue ...', err=False):$/;"	f
+pct	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def pct(self):$/;"	m	class:ProgressBar
+permutations	closest_pair.py	/^from itertools import permutations, product$/;"	i
+phi	kmp_match.py	/^phi = []  #final func$/;"	v
+pi	CliffWalking-v0.py	/^        pi = policy[state][action]$/;"	v
+pkg_resources	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^                    import pkg_resources$/;"	i
+play_one	MountainCar-v0.py	/^def play_one():$/;"	f
+play_one	Taxi-v3.py	/^def play_one(env, agent):$/;"	f
+plt	Blackjack-v0.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	CliffWalking-v0.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	SMT_t.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	Taxi-v3.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	bayers_workflow.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	closest_pair.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	k-means.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	mdp_t.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	prime_number.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	prob.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	rnn.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	trans_attention.py	/^import matplotlib.pyplot as plt$/;"	i
+png	svm.py	/^png = tf.io.decode_jpeg(img_raw)$/;"	v
+point	kdtree.py	/^point = np.random.uniform(size=(4, 2))$/;"	v
+point_wise_feed_forward_network	trans_attention.py	/^def point_wise_feed_forward_network(d_model, dff):$/;"	f
+policy	Blackjack-v0.py	/^policy = np.random.uniform(size=(env.action_space.n))$/;"	v
+policy	Blackjack-v0.py	/^policy = np.zeros((22, 11, 2, 2))$/;"	v
+policy	Blackjack-v0.py	/^policy = policy \/ np.sum(policy)$/;"	v
+policy	CliffWalking-v0.py	/^policy = np.random.uniform(size=(env.nS, env.nA))$/;"	v
+policy	CliffWalking-v0.py	/^policy = policy \/ np.sum(policy, axis=1)[:, np.newaxis]$/;"	v
+policy	mdpProblem.py	/^    def policy(self, v):$/;"	m	class:MDP
+pop_context	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .globals import push_context, pop_context$/;"	i
+pop_context	.eggs/Click-7.0-py3.7.egg/click/globals.py	/^def pop_context():$/;"	f
+process	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def process(self, value, state):$/;"	m	class:Argument
+process	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def process(self, value, state):$/;"	m	class:Option
+process_value	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def process_value(self, ctx, value):$/;"	m	class:Parameter
+product	closest_pair.py	/^from itertools import permutations, product$/;"	i
+product	mdpProblem.py	/^def product(l1, l2):$/;"	f
+product	mdp_t.py	/^from itertools import product$/;"	i
+progressbar	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+progressbar	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def progressbar(iterable=None, length=None, label=None, show_eta=True,$/;"	f
+project	docs/conf.py	/^project = u'tf'$/;"	v
+prompt	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+prompt	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .termui import prompt, confirm, style$/;"	i
+prompt	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def prompt(text, default=None, hide_input=False, confirmation_prompt=False,$/;"	f
+prompt_for_value	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def prompt_for_value(self, ctx):$/;"	m	class:Option
+prompt_func	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^    def prompt_func(text):$/;"	f	function:prompt
+pure_mdp	mesh_bfs.py	/^    def pure_mdp(self, gamma):$/;"	m	class:mesh_search
+push_context	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .globals import push_context, pop_context$/;"	i
+push_context	.eggs/Click-7.0-py3.7.egg/click/globals.py	/^def push_context(ctx):$/;"	f
+py_object	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	i
+pygments_style	docs/conf.py	/^pygments_style = 'sphinx'$/;"	v
+pythonapi	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    from ctypes import pythonapi$/;"	i
+pythonapi	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    pythonapi = None$/;"	v
+q	FrozenLake-v0.py	/^q = (q_update(v, random_policy, gamma=1.))$/;"	v
+q	mdpProblem.py	/^    def q(self, v):$/;"	m	class:MDP
+q_learning	Taxi-v3.py	/^class q_learning(object):$/;"	c
+q_update	FrozenLake-v0.py	/^def q_update(v, policy, gamma):$/;"	f
+r	prime_number.py	/^r = 1$/;"	v
+random	Blackjack-v0.py	/^from random import random$/;"	i
+random	trans_attention.py	/^import random$/;"	i
+random_policy	FrozenLake-v0.py	/^random_policy = np.random.uniform(size=(env.nS, env.nA))$/;"	v
+random_policy	FrozenLake-v0.py	/^random_policy = random_policy \/ np.sum(random_policy, axis=1)[:, np.newaxis]$/;"	v
+range_type	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    range_type = range$/;"	v	class:_FixupStream
+range_type	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    range_type = xrange$/;"	v	class:_FixupStream
+range_type	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	i
+raw_input	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def raw_input(prompt=''):$/;"	f	function:._get_argv_encoding
+raw_input	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    raw_input = input$/;"	v	class:_FixupStream
+raw_input	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    raw_input = raw_input$/;"	v	class:_FixupStream
+raw_input	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	i
+raw_terminal	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def raw_terminal():$/;"	f	function:_translate_ch_to_exc
+raw_terminal	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def raw_terminal():$/;"	f
+re	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^import re$/;"	i
+re	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^import re$/;"	i
+re	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^import re$/;"	i
+read	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def read(self, n=-1):$/;"	m	class:EchoingStdin
+read1	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def read1(self, size):$/;"	m	class:_FixupStream
+readable	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def readable(self):$/;"	m	class:_FixupStream
+readable	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def readable(self):$/;"	m	class:_WindowsConsoleReader
+readinto	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def readinto(self, b):$/;"	m	class:_WindowsConsoleReader
+readline	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def readline(self, n=-1):$/;"	m	class:EchoingStdin
+readlines	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def readlines(self):$/;"	m	class:EchoingStdin
+readme	setup.py	/^    readme = readme_file.read()$/;"	v
+reinterpreted_batch_ndims	bayes.py	/^            reinterpreted_batch_ndims=1))$/;"	v
+reinterpreted_batch_ndims	bayes.py	/^        reinterpreted_batch_ndims=1),$/;"	v
+release	docs/conf.py	/^release = tf.__version__$/;"	v
+render_finish	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def render_finish(self):$/;"	m	class:ProgressBar
+render_progress	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def render_progress(self):$/;"	m	class:ProgressBar
+repeat	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from itertools import repeat$/;"	i
+resolve_color_default	.eggs/Click-7.0-py3.7.egg/click/globals.py	/^def resolve_color_default(color=None):$/;"	f
+resolve_color_default	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^from .globals import resolve_color_default$/;"	i
+resolve_color_default	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^from .globals import resolve_color_default$/;"	i
+resolve_command	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def resolve_command(self, ctx, args):$/;"	m	class:MultiCommand
+resolve_ctx	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def resolve_ctx(cli, prog_name, args):$/;"	f
+resolve_envvar_value	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def resolve_envvar_value(self, ctx):$/;"	m	class:Option
+resolve_envvar_value	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def resolve_envvar_value(self, ctx):$/;"	m	class:Parameter
+resolve_lazy_flag	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def resolve_lazy_flag(self, value):$/;"	m	class:File
+resultcallback	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def resultcallback(self, replace=False):$/;"	m	class:MultiCommand
+reward2	mdpExamples.py	/^reward2 = ((7, 10), (0, 2))$/;"	v
+rewards	mdp_t.py	/^rewards = np.random.uniform((3, 4, 4))$/;"	v
+rewardt	mdpExamples.py	/^rewardt = ($/;"	v
+rnn	rnn.py	/^class rnn():$/;"	c
+rnn_units	gen_novel.py	/^                    rnn_units=rnn_units,$/;"	v
+rnn_units	gen_novel.py	/^rnn_units = 1024$/;"	v
+rnn_units	gen_rnn.py	/^                    rnn_units=rnn_units,$/;"	v
+rnn_units	gen_rnn.py	/^rnn_units = 1024$/;"	v
+safecall	.eggs/Click-7.0-py3.7.egg/click/types.py	/^from .utils import safecall, LazyFile$/;"	i
+safecall	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^def safecall(func):$/;"	f
+sampled_indices	gen_rnn.py	/^sampled_indices = tf.random.categorical(example_batch_predictions[0],$/;"	v
+sampled_indices	gen_rnn.py	/^sampled_indices = tf.squeeze(sampled_indices, axis=-1).numpy()$/;"	v
+scale	bayes.py	/^                   scale=tf.ones(num_schools),$/;"	v
+scale	bayes.py	/^                scale=treatment_stddevs),$/;"	v
+scaled_dot_attention	trans_attention.py	/^def scaled_dot_attention(q, k, v, mask):$/;"	f
+scaled_dot_product_attention	attention_layer.py	/^def scaled_dot_product_attention(q, k, v, mask):$/;"	f
+scipy	CliffWalking-v0.py	/^import scipy$/;"	i
+scipy	kdtree.py	/^import scipy.spatial as spatial$/;"	i
+scipy	tf/tf.py	/^import scipy$/;"	i
+scope	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def scope(self, cleanup=True):$/;"	m	class:Context
+secho	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+secho	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def secho(message=None, file=None, nl=True, err=False, color=None, **styles):$/;"	f
+section	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def section(self, name):$/;"	m	class:HelpFormatter
+seekable	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def seekable(self):$/;"	m	class:_FixupStream
+seq_length	RNN.py	/^seq_length = 100$/;"	v
+seq_length	gen_rnn.py	/^seq_length = 100$/;"	v
+sequences	RNN.py	/^sequences = char_dataset.batch(seq_length + 1, drop_remainder=True)$/;"	v
+sequences	gen_rnn.py	/^sequences = char_dataset.batch(seq_length + 1, drop_remainder=True)$/;"	v
+setUp	tests/test_tf.py	/^    def setUp(self):$/;"	m	class:TestTf
+set_binary_mode	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def set_binary_mode(f):$/;"	f	function:_FixupStream.set_binary_mode
+set_binary_mode	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def set_binary_mode(f):$/;"	m	class:_FixupStream
+setup	setup.py	/^from setuptools import setup, find_packages$/;"	i
+setup_requirements	setup.py	/^setup_requirements = [ ]$/;"	v
+setup_requires	setup.py	/^    setup_requires=setup_requirements,$/;"	v
+shlex	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import shlex$/;"	i
+should_strip_ansi	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def should_strip_ansi(stream=None, color=None):$/;"	f
+should_strip_ansi	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^        def should_strip_ansi(stream=None, color=None):$/;"	f	function:CliRunner.isolation
+should_strip_ansi	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+show	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def show(self, file=None):$/;"	m	class:ClickException
+show	.eggs/Click-7.0-py3.7.egg/click/exceptions.py	/^    def show(self, file=None):$/;"	m	class:UsageError
+show_help	.eggs/Click-7.0-py3.7.egg/click/core.py	/^        def show_help(ctx, param, value):$/;"	f	function:Command.get_help_option
+shuffle	mdp_t.py	/^from random import choices, shuffle$/;"	i
+shutil	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^        import shutil$/;"	i
+shutil	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import shutil$/;"	i
+sigma	kmp_match.py	/^sigma = np.zeros((8, 3))$/;"	v
+sleep	k-means.py	/^from time import sleep$/;"	i
+solve	closest_pair.py	/^def solve(loc):$/;"	f
+sort_key	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def sort_key(item):$/;"	f	function:iter_params_for_processing
+source_suffix	docs/conf.py	/^source_suffix = '.rst'$/;"	v
+spatial	kdtree.py	/^import scipy.spatial as spatial$/;"	i
+split_arg_string	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^from .parser import split_arg_string$/;"	i
+split_arg_string	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^def split_arg_string(string):$/;"	f
+split_envvar_value	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    def split_envvar_value(self, rv):$/;"	m	class:ParamType
+split_in_out	gen_novel.py	/^def split_in_out(line):$/;"	f
+split_input_target	RNN.py	/^def split_input_target(chunk):$/;"	f
+split_input_target	gen_rnn.py	/^def split_input_target(chunk):$/;"	f
+split_opt	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .parser import OptionParser, split_opt$/;"	i
+split_opt	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^from .parser import split_opt$/;"	i
+split_opt	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^def split_opt(opt):$/;"	f
+start_of_option	.eggs/Click-7.0-py3.7.egg/click/_bashcomplete.py	/^def start_of_option(param_str):$/;"	f
+stat	.eggs/Click-7.0-py3.7.egg/click/types.py	/^import stat$/;"	i
+states	mesh_bfs.py	/^    def states(self):$/;"	m	class:mesh_env
+stderr	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def stderr(self):$/;"	m	class:Result
+stdout	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^    def stdout(self):$/;"	m	class:Result
+step_size_	bayers_workflow.py	/^step_size_ = 0.03$/;"	v
+step_size_	prob.py	/^step_size_ = 0.03$/;"	v
+stree	kdtree.py	/^stree = spatial.KDTree(point)$/;"	v
+string	star.py	/^import string$/;"	i
+string_types	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    string_types = (str, unicode)$/;"	v	class:_FixupStream
+string_types	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    string_types = (str,)$/;"	v	class:_FixupStream
+string_types	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from ._compat import PY2, isidentifier, iteritems, string_types$/;"	i
+string_types	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	i
+string_types	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^from ._compat import iteritems, PY2, string_types$/;"	i
+string_types	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+strip_ansi	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def strip_ansi(value):$/;"	f
+strip_ansi	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	i
+strip_ansi	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	i
+strip_ansi	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+struct	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^import struct$/;"	i
+style	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+style	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from .termui import prompt, confirm, style$/;"	i
+style	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def style(text, fg=None, bg=None, bold=None, dim=None, underline=None,$/;"	f
+subprocess	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^        import subprocess$/;"	i
+subprocess	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import subprocess$/;"	i
+subprocess	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^        import subprocess$/;"	i
+sys	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^import sys$/;"	i
+sys	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^import sys$/;"	i
+sys	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^import sys$/;"	i
+sys	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import sys$/;"	i
+sys	.eggs/Click-7.0-py3.7.egg/click/core.py	/^import sys$/;"	i
+sys	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^import sys$/;"	i
+sys	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^import sys$/;"	i
+sys	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import sys$/;"	i
+sys	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^import sys$/;"	i
+sys	docs/conf.py	/^import sys$/;"	i
+sys	mdp_t.py	/^import sys$/;"	i
+sys	tf/cli.py	/^import sys$/;"	i
+t	kmp_match.py	/^    t = int(sigma[t][j])$/;"	v
+t	kmp_match.py	/^t = 0$/;"	v
+takes_value	.eggs/Click-7.0-py3.7.egg/click/parser.py	/^    def takes_value(self):$/;"	m	class:Option
+target_log_prob_fn	bayes.py	/^def target_log_prob_fn(avg_effect, avg_stddev, school_effects_standard):$/;"	f
+tearDown	tests/test_tf.py	/^    def tearDown(self):$/;"	m	class:TestTf
+tempfile	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    import tempfile$/;"	i
+tempfile	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^        import tempfile$/;"	i
+tempfile	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import tempfile$/;"	i
+tempfile	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^import tempfile$/;"	i
+templates_path	docs/conf.py	/^templates_path = ['_templates']$/;"	v
+tensorflow_probability	bayers_workflow.py	/^import tensorflow_probability.python as tfp$/;"	i
+tensorflow_probability	bayes.py	/^import tensorflow_probability.python as tfp$/;"	i
+tensorflow_probability	rnn.py	/^import tensorflow_probability.python as tfp$/;"	i
+tensorflow_probability	svm.py	/^import tensorflow_probability.python as tfp$/;"	i
+term_len	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^def term_len(x):$/;"	f
+term_len	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^     CYGWIN$/;"	i
+term_len	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^from ._compat import term_len$/;"	i
+termios	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import termios$/;"	i
+termios	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^            import termios$/;"	i
+test	kdtree.py	/^test = np.random.uniform(size=(10, 2))$/;"	v
+test	kmp_match.py	/^test = choices(range(3), k=10000)$/;"	v
+test_000_something	tests/test_tf.py	/^    def test_000_something(self):$/;"	m	class:TestTf
+test_command_line_interface	tests/test_tf.py	/^    def test_command_line_interface(self):$/;"	m	class:TestTf
+test_requirements	setup.py	/^test_requirements = [ ]$/;"	v
+test_suite	setup.py	/^    test_suite='tests',$/;"	v
+tests_require	setup.py	/^    tests_require=test_requirements,$/;"	v
+texinfo_documents	docs/conf.py	/^texinfo_documents = [$/;"	v
+text	RNN.py	/^text = open("002.txt", 'rb').read().decode(encoding='utf-8')$/;"	v
+text	gen_rnn.py	/^text = open(path_to_file, 'rb').read().decode(encoding='utf-8')$/;"	v
+text_as_int	RNN.py	/^text_as_int = np.array([char2idx[c] for c in text])$/;"	v
+text_as_int	gen_rnn.py	/^text_as_int = np.array([char2idx[c] for c in text])$/;"	v
+text_ds	gen_novel.py	/^text_ds = text_ds.map(split_in_out)$/;"	v
+text_ds	gen_novel.py	/^text_ds = text_ds.padded_batch(BATCH_SIZE,$/;"	v
+text_ds	gen_novel.py	/^text_ds = text_raw_ds$/;"	v
+text_raw_ds	gen_novel.py	/^text_raw_ds = tf.data.TextLineDataset(FILE_NAMES)$/;"	v
+text_streams	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^text_streams = {$/;"	v
+text_streams	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+text_type	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    text_type = str$/;"	v	class:_FixupStream
+text_type	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    text_type = unicode$/;"	v	class:_FixupStream
+text_type	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^from ._compat import _NonClosingTextIOWrapper, text_type, PY2$/;"	i
+text_type	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^     isatty, strip_ansi, get_winterm_size, DEFAULT_COLUMNS, WIN$/;"	i
+text_type	.eggs/Click-7.0-py3.7.egg/click/types.py	/^    get_filesystem_encoding, get_streerror, _get_argv_encoding, PY2$/;"	i
+text_type	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    _default_text_stdout, _default_text_stderr, is_bytes, WIN$/;"	i
+textwrap	.eggs/Click-7.0-py3.7.egg/click/_textwrap.py	/^import textwrap$/;"	i
+tf	MountainCar-v0.py	/^import tensorflow as tf$/;"	i
+tf	RNN.py	/^import tensorflow as tf$/;"	i
+tf	SMT_t.py	/^import tensorflow as tf$/;"	i
+tf	attention_layer.py	/^import tensorflow as tf$/;"	i
+tf	bayers_workflow.py	/^import tensorflow as tf$/;"	i
+tf	bayes.py	/^import tensorflow as tf$/;"	i
+tf	docs/conf.py	/^import tf$/;"	i
+tf	gen_novel.py	/^import tensorflow as tf$/;"	i
+tf	gen_rnn.py	/^import tensorflow as tf$/;"	i
+tf	gru.py	/^import tensorflow as tf$/;"	i
+tf	mdpProblem.py	/^import tensorflow as tf$/;"	i
+tf	mdp_t.py	/^import tensorflow as tf$/;"	i
+tf	mesh_bfs.py	/^import tensorflow as tf$/;"	i
+tf	prob.py	/^import tensorflow as tf$/;"	i
+tf	rnn.py	/^import tensorflow as tf$/;"	i
+tf	svm.py	/^import tensorflow as tf$/;"	i
+tf	tests/test_tf.py	/^from tf import tf$/;"	i
+tf	tf/tf.py	/^import tensorflow as tf$/;"	i
+tf	trans_attention.py	/^import tensorflow as tf$/;"	i
+tf	translator.py	/^import tensorflow as tf$/;"	i
+tfa	SMT_t.py	/^import tensorflow_addons as tfa$/;"	i
+tfd	bayers_workflow.py	/^tfd = tfp.distributions$/;"	v
+tfd	bayes.py	/^tfd = tfp.distributions$/;"	v
+tfd	prob.py	/^tfd = tfp.distributions$/;"	v
+tfd	rnn.py	/^tfd = tfp.distributions$/;"	v
+tfds	RNN.py	/^import tensorflow_datasets as tfds$/;"	i
+tfds	SMT_t.py	/^import tensorflow_datasets as tfds$/;"	i
+tfds	gen_novel.py	/^import tensorflow_datasets as tfds$/;"	i
+tfds	trans_attention.py	/^import tensorflow_datasets as tfds$/;"	i
+tfds	translator.py	/^import tensorflow_datasets as tfds$/;"	i
+tfh	mdp_t.py	/^import tensorflow_hub as tfh$/;"	i
+tfp	bayers_workflow.py	/^import tensorflow_probability.python as tfp$/;"	i
+tfp	bayes.py	/^import tensorflow_probability.python as tfp$/;"	i
+tfp	mdp_t.py	/^import tensorflow_probability as tfp$/;"	i
+tfp	prob.py	/^import tensorflow_probability as tfp$/;"	i
+tfp	rnn.py	/^import tensorflow_probability.python as tfp$/;"	i
+tfp	svm.py	/^import tensorflow_probability.python as tfp$/;"	i
+theat	prime_number.py	/^theat = 0.5$/;"	v
+time	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^import time$/;"	i
+time	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import time$/;"	i
+time	RNN.py	/^import time$/;"	i
+time	gen_rnn.py	/^import time$/;"	i
+time_per_iteration	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def time_per_iteration(self):$/;"	m	class:ProgressBar
+todo_include_todos	docs/conf.py	/^todo_include_todos = False$/;"	v
+tokenizer	gen_novel.py	/^tokenizer = tfds.features.text.Tokenizer()$/;"	v
+trace	mdpExamples.py	/^def trace(mdp, numiter):$/;"	f
+trace_fn	bayers_workflow.py	/^        def trace_fn(_, pkr):$/;"	f	function:mcem_iter
+trace_fn	prob.py	/^        def trace_fn(_, pkr):$/;"	f	function:mcem_iter
+trans2	mdpExamples.py	/^trans2 = ($/;"	v
+transt	mdpExamples.py	/^transt = ($/;"	v
+treatment_effects	bayes.py	/^treatment_effects = np.array([28, 8, -3, 7, -1, 1, 18, 12],$/;"	v
+treatment_stddevs	bayes.py	/^treatment_stddevs = np.array([15, 10, 16, 11, 9, 11, 10, 18], dtype=np.float32)$/;"	v
+tty	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    import tty$/;"	i
+type_cast_value	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def type_cast_value(self, ctx, value):$/;"	m	class:Parameter
+units	SMT_t.py	/^units = 64$/;"	v
+unittest	tests/test_tf.py	/^import unittest$/;"	i
+unnormalized_posterior_log_prob	bayers_workflow.py	/^        def unnormalized_posterior_log_prob(w):$/;"	f	function:mcem_iter
+unnormalized_posterior_log_prob	prob.py	/^        def unnormalized_posterior_log_prob(w):$/;"	f	function:mcem_iter
+unstyle	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     pause$/;"	i
+unstyle	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^def unstyle(text):$/;"	f
+update	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^    def update(self, n_steps):$/;"	m	class:ProgressBar
+update	rnn.py	/^    def update(self):$/;"	m	class:rnn
+update_wrapper	.eggs/Click-7.0-py3.7.egg/click/core.py	/^from functools import update_wrapper$/;"	i
+update_wrapper	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^from functools import update_wrapper$/;"	i
+url	setup.py	/^    url='https:\/\/github.com\/miffyrcee\/tf',$/;"	v
+urllib	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^            import urllib$/;"	i
+uuid	.eggs/Click-7.0-py3.7.egg/click/types.py	/^        import uuid$/;"	i
+v	CliffWalking-v0.py	/^v = np.linalg.solve(a, b)$/;"	v
+v	FrozenLake-v0.py	/^v = v_update(random_policy, gamma=1.)$/;"	v
+v_update	Blackjack-v0.py	/^def v_update():$/;"	f
+v_update	FrozenLake-v0.py	/^def v_update(policy, gamma):$/;"	f
+value_from_envvar	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def value_from_envvar(self, ctx):$/;"	m	class:Option
+value_from_envvar	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def value_from_envvar(self, ctx):$/;"	m	class:Parameter
+value_is_missing	.eggs/Click-7.0-py3.7.egg/click/core.py	/^    def value_is_missing(self, value):$/;"	m	class:Parameter
+value_iter	mesh_bfs.py	/^    def value_iter(self):$/;"	m	class:mesh_search
+version	docs/conf.py	/^version = tf.__version__$/;"	v
+version	setup.py	/^    version='0.1.0',$/;"	v
+version_option	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^     password_option, version_option, help_option$/;"	i
+version_option	.eggs/Click-7.0-py3.7.egg/click/decorators.py	/^def version_option(version=None, *param_decls, **attrs):$/;"	f
+vi	mdpProblem.py	/^    def vi(self, v0, n):$/;"	m	class:MDP
+vi1	mdpProblem.py	/^    def vi1(self, v):$/;"	m	class:MDP
+visible_input	.eggs/Click-7.0-py3.7.egg/click/testing.py	/^        def visible_input(prompt=None):$/;"	f	function:CliRunner.isolation
+visible_prompt_func	.eggs/Click-7.0-py3.7.egg/click/termui.py	/^visible_prompt_func = raw_input$/;"	v
+vocab	RNN.py	/^vocab = sorted(set(text))$/;"	v
+vocab	gen_rnn.py	/^vocab = sorted(set(text))$/;"	v
+vocab_list	gen_novel.py	/^vocab_list = set()$/;"	v
+vocab_size	gen_novel.py	/^vocab_size = vocab_list.__len__()$/;"	v
+vocab_size	gen_rnn.py	/^vocab_size = len(vocab)$/;"	v
+walk_random	mdp_t.py	/^def walk_random(path, current_state_num, depth=0):$/;"	f
+warn	.eggs/Click-7.0-py3.7.egg/click/_unicodefun.py	/^    from warnings import warn$/;"	i
+warn	.eggs/Click-7.0-py3.7.egg/click/core.py	/^        from warnings import warn$/;"	i
+webbrowser	.eggs/Click-7.0-py3.7.egg/click/_termui_impl.py	/^            import webbrowser$/;"	i
+weights_	bayers_workflow.py	/^weights_ = np.zeros([num_iters + 1, dims], dtype)$/;"	v
+weights_	prob.py	/^weights_ = np.zeros([num_iters + 1, dims], dtype)$/;"	v
+weights_prior_estimated_scale_	bayers_workflow.py	/^weights_prior_estimated_scale_ = np.zeros(num_iters, dtype)$/;"	v
+weights_prior_estimated_scale_	prob.py	/^weights_prior_estimated_scale_ = np.zeros(num_iters, dtype)$/;"	v
+weights_prior_true_scale	bayers_workflow.py	/^weights_prior_true_scale = np.array(0.3, dtype)$/;"	v
+weights_prior_true_scale	prob.py	/^weights_prior_true_scale = np.array(0.3, dtype)$/;"	v
+windll	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^     c_void_p, py_object, c_ssize_t, c_ulong, windll, WINFUNCTYPE$/;"	i
+wrap_text	.eggs/Click-7.0-py3.7.egg/click/__init__.py	/^from .formatting import HelpFormatter, wrap_text$/;"	i
+wrap_text	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^def wrap_text(text, width=78, initial_indent='', subsequent_indent='',$/;"	f
+wrapper	.eggs/Click-7.0-py3.7.egg/click/utils.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:safecall
+wrapper	gen_novel.py	/^def wrapper(line):$/;"	f
+writable	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^    def writable(self):$/;"	m	class:_FixupStream
+writable	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def writable(self):$/;"	m	class:_WindowsConsoleWriter
+write	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def write(self, x):$/;"	f	function:_NonClosingTextIOWrapper.__init__
+write	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def write(self, b):$/;"	m	class:_WindowsConsoleWriter
+write	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def write(self, text):$/;"	m	class:WindowsChunkedWriter
+write	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def write(self, x):$/;"	m	class:ConsoleStream
+write	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write(self, string):$/;"	m	class:HelpFormatter
+write_dl	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write_dl(self, rows, col_max=30, col_spacing=2):$/;"	m	class:HelpFormatter
+write_heading	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write_heading(self, heading):$/;"	m	class:HelpFormatter
+write_paragraph	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write_paragraph(self):$/;"	m	class:HelpFormatter
+write_text	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write_text(self, text):$/;"	m	class:HelpFormatter
+write_usage	.eggs/Click-7.0-py3.7.egg/click/formatting.py	/^    def write_usage(self, prog, args='', prefix='Usage: '):$/;"	m	class:HelpFormatter
+writelines	.eggs/Click-7.0-py3.7.egg/click/_compat.py	/^        def writelines(self, lines):$/;"	f	function:_NonClosingTextIOWrapper.__init__
+writelines	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^    def writelines(self, lines):$/;"	m	class:ConsoleStream
+x	CliffWalking-v0.py	/^x = [0.2, 0.3, 0.5]$/;"	v
+x	prime_number.py	/^    x = r * np.cos(theat * i) * i$/;"	v
+x	rnn.py	/^x = tf.linspace(-2., 2., 1000)$/;"	v
+x	svm.py	/^x = tf.linspace(-1., 1, num=1000)$/;"	v
+x0	CliffWalking-v0.py	/^x0 = [0, 1, 2]$/;"	v
+y	CliffWalking-v0.py	/^y = np.exp(x) \/ sum(np.exp(x))$/;"	v
+y	prime_number.py	/^    y = r * np.sin(theat * i) * i$/;"	v
+y	rnn.py	/^y = tfd.Cauchy(1, 0.5).prob(x)$/;"	v
+y	svm.py	/^    y = x**3 - 2 * x**2 + 2$/;"	v
+zip_safe	setup.py	/^    zip_safe=False,$/;"	v
+zlib	.eggs/Click-7.0-py3.7.egg/click/_winconsole.py	/^import zlib$/;"	i

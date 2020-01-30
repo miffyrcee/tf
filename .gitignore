@@ -1,73 +1,126 @@
-# create by https://github.com/iamcco/coc-gitignore (Tue Sep 10 2019 19:58:20 GMT+0800 (China Standard Time))
-# Jigsaw.gitignore:
-# Jigsaw Static Site Generator
+# create by https://github.com/iamcco/coc-gitignore (Thu Jan 30 2020 12:13:44 GMT+0800 (China Standard Time))
+# Python.gitignore:
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Ignore build folder
-/build_local/
-/build_staging/
-/build_production/
+# C extensions
+*.so
 
-# Ignore node dependencies resolved by npm/yarn
-/node_modules/
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Ignore php dependecies resolved by composer
-/vendor/
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
-# Optionally ignore lock files
-# composer.lock
-# yarn.lock
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Logs
-logs
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
 
-# create by https://github.com/iamcco/coc-gitignore (Mon Sep 16 2019 20:18:29 GMT+0800 (China Standard Time))
-# 1C-Bitrix.gitignore:
-# core
-/bitrix/
+# Flask stuff:
+instance/
+.webassets-cache
 
-# uploaded files
-/upload/
+# Scrapy stuff:
+.scrapy
 
-# other files
-test.php
-*.zip
-*.gzip
-*.gz
-*.tgz
-*.tar
-*.gz.[0-9]
-*.sql
-*.log
-*.mp3
-*.exe
-*.db
-*.csv
-*.xml
-*.psd
-*.[oa]
-*~
+# Sphinx documentation
+docs/_build/
 
-# create by https://github.com/iamcco/coc-gitignore (Mon Sep 16 2019 20:18:53 GMT+0800 (China Standard Time))
-# Vim.gitignore:
-# Swap
-[._]*.s[a-v][a-z]
-[._]*.sw[a-p]
-[._]s[a-rt-v][a-z]
-[._]ss[a-gi-z]
-[._]sw[a-p]
+# PyBuilder
+target/
 
-# Session
-Session.vim
-Sessionx.vim
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Temporary
-.netrwhist
-*~
-# Auto-generated tag files
-tags
-# Persistent undo
-[._]*.un~
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/

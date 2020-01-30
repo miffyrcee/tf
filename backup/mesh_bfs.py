@@ -39,6 +39,7 @@ class mesh_search(object):
                     if self.mcmc_map[x][y] != -np.inf and visited[n].d == -1:
                         visited[n] = node(n, f=ele.f + 1, p=ele, d=0)
                         heap.append(visited[n])
+                        heap
             ele.d = 1
 
     def pure_mdp(self, gamma):
