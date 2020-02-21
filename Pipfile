@@ -11,11 +11,12 @@ tensorflow = "==2.0.0"
 tensorflow-hub = "*"
 tensorflow-datasets = "*"
 tensorflow-addons = "*"
-tensorflow-probability = "*"
 scipy = "*"
 matplotlib = "*"
 pysocks = "*"
 sympy = "*"
+pillow = "*"
+tensorflow-probability = "==0.8"
 
 [requires]
 python_version = "3.7"
